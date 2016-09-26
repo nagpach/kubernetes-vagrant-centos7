@@ -1,0 +1,9 @@
+total 1497804
+drwxr-xr-x 2 nag nag       4096 Sep 25 20:31 docker
+-rw-rw-r-- 1 nag nag   28845850 Sep 25 20:30 docker.tar.gz
+-rw-rw-r-- 1 nag nag   10305565 Sep 25 20:30 etcd.tar.gz
+drwxrwxr-x 3 nag nag       4096 Sep 25 20:30 etcd-v3.0.10-linux-amd64
+drwxrwxr-x 2 nag nag       4096 Sep 25 20:30 flannel-0.6.2
+-rw-rw-r-- 1 nag nag    4724781 Sep 25 20:30 flannel.tar.gz
+drwxr-xr-x 9 nag nag       4096 Sep 25 20:31 kubernetes
+-rw-rw-r-- 1 nag nag 1489843499 Sep 25 20:30 kubernetes.tar.gz

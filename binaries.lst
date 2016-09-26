@@ -1,0 +1,4 @@
+total 55208
+-rwxr-xr-x 1 nag nag 56521832 Sep 25 20:34 kubectl
+drwxrwxr-x 3 nag nag     4096 Sep 25 20:34 master
+drwxrwxr-x 3 nag nag     4096 Sep 25 20:34 node
