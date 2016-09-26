@@ -50,7 +50,7 @@ Vagrant.configure(2) do |config|
     /vagrant/node/scripts/proxy.sh ${master_ip} ${node_ip}
  
 
-    for SERVICES in kube-proxy kubelet docker flanneld; do
+    for SERVICES in kube-proxy kubelet docker flannel; do
       sudo systemctl restart $SERVICES
       sudo systemctl enable $SERVICES
       sudo systemctl status $SERVICES

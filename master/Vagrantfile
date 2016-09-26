@@ -5,7 +5,7 @@
 #
 Vagrant.configure(2) do |config|
 
-  config.vm.synced_folder "/home/nag/working/dev/vagrant/kubernetes-cluster-137/binaries", "/kube/binaries"
+  config.vm.synced_folder "../binaries", "/kube/binaries"
   config.vm.box = "centos/7"
 
   config.vm.network "private_network", ip: "192.168.20.2"
