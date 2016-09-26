@@ -1,0 +1,59 @@
+
+Vagrant.configure(2) do |config|
+  config.vm.synced_folder "../binaries", "/kube/binaries"
+  config.vm.box = "centos/7"
+
+  config.vm.network "private_network", ip: "192.168.20.3"
+
+  config.vm.hostname = "kube-node1"
+
+  config.vm.provider "virtualbox" do |vb|
+
+     vb.memory = "1500"
+
+  end
+
+  config.vm.provision "shell", inline: <<-SHELL
+    #sudo yum -y update
+    sudo systemctl stop firewalld
+    sudo systemctl disable firewalld
+    sudo yum -y install ntp
+    sudo systemctl start ntpd
+    sudo systemctl enable ntpd
+
+    $config=`cat << EOF > /etc/hosts
+    192.168.20.2   kube-master
+    192.168.20.3   kube-node1
+    192.168.20.4   kube-node2
+    EOF`
+   
+
+    mkdir /opt/kubernetes
+    mkdir /opt/kubernetes/bin
+    mkdir /opt/kubernetes/cfg
+    cp /kube/binaries/node/bin/* /opt/kubernetes/bin
+    cp /vagrant/node/bin/* /opt/kubernetes/bin
+    cp /opt/kubernetes/bin/docker* /usr/bin
+
+    MASTER="192.168.20.2"
+    KUBE_TEMP=""
+    ETCD_SERVERS="http://192.168.20.2:2379"
+    FLANNEL_NET="172.16.0.0/16"
+    DOCKER_OPTS=""
+    master_ip="192.168.20.2"
+    node="192.168.20.3"
+    node_ip="192.168.20.3"
+
+    /vagrant/node/scripts/flannel.sh ${ETCD_SERVERS} ${FLANNEL_NET}
+    /vagrant/node/scripts/docker.sh ${DOCKER_OPTS}
+    /vagrant/node/scripts/kubelet.sh ${master_ip} ${node_ip}
+    /vagrant/node/scripts/proxy.sh ${master_ip} ${node_ip}
+ 
+
+    for SERVICES in kube-proxy kubelet docker flanneld; do
+      sudo systemctl restart $SERVICES
+      sudo systemctl enable $SERVICES
+      sudo systemctl status $SERVICES
+    done
+  SHELL
+end

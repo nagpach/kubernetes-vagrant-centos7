@@ -1,0 +1,55 @@
+#
+# kubernetes Master File
+# Author: Bibin Wilson
+# Email: bibinwilson@gmail.com
+#
+Vagrant.configure(2) do |config|
+
+  config.vm.synced_folder "/home/nag/working/dev/vagrant/kubernetes-cluster-137/binaries", "/kube/binaries"
+  config.vm.box = "centos/7"
+
+  config.vm.network "private_network", ip: "192.168.20.2"
+
+  config.vm.hostname = "kube-master"
+
+  config.vm.provider "virtualbox" do |vb|
+
+    vb.memory = "2000"
+
+  end
+
+  config.vm.provision "shell", inline: <<-SHELL
+    sudo yum -y update
+    sudo systemctl stop firewalld
+    sudo systemctl disable firewalld
+    sudo yum -y install ntp
+    sudo systemctl start ntpd
+    sudo systemctl enable ntpd
+
+    $config=`cat << EOF >> /etc/hosts
+    192.168.20.2   kube-master
+    192.168.20.3   kube-node1
+    192.168.20.4   kube-node2
+    EOF`
+
+    #yum -y install etcd kubernetes
+    mkdir /opt/kubernetes
+    mkdir /opt/kubernetes/bin
+    mkdir /opt/kubernetes/cfg
+    cp /kube/binaries/master/bin/* /opt/kubernetes/bin 
+    /vagrant/scripts/etcd.sh
+    /vagrant/scripts/apiserver.sh "192.168.20.2" "http://192.168.20.2:2379" "10.10.10.0/24" "" 
+    /vagrant/scripts/controller-manager.sh "192.168.20.2" 
+    /vagrant/scripts/scheduler.sh "192.168.20.2" 
+    
+
+    for SERVICES in etcd kube-apiserver kube-controller-manager kube-scheduler; do
+      sudo systemctl restart $SERVICES
+      sudo systemctl enable $SERVICES
+      sudo systemctl status $SERVICES
+    done
+
+    /opt/kubernetes/bin/etcdctl mk /coreos.com/network/config '{"Network":"172.17.0.0/16"}'
+
+  SHELL
+end
