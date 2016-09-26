@@ -21,7 +21,7 @@ DOCKER_DOWNLOAD_URL=\
 "https://get.docker.com/builds/Linux/x86_64/docker-${DOCKER_VERSION}.tgz"
 
 FLANNEL_DOWNLOAD_URL=\
-"https://github.com/coreos/flannel/releases/download/v${FLANNEL_VERSION}/flannel-${FLANNEL_VERSION}-linux-amd64.tar.gz"
+"https://github.com/coreos/flannel/releases/download/v${FLANNEL_VERSION}/flannel-v${FLANNEL_VERSION}-linux-amd64.tar.gz"
 
 ETCD_DOWNLOAD_URL=\
 "https://github.com/coreos/etcd/releases/download/v${ETCD_VERSION}/etcd-v${ETCD_VERSION}-linux-amd64.tar.gz"
@@ -59,10 +59,10 @@ function unpack-releases() {
 
   # flannel
   if [[ -f ${RELEASES_DIR}/flannel.tar.gz ]] ; then
-    mkdir -p ${RELEASES_DIR}/flannel-${FLANNEL_VERSION}
-    tar xzf ${RELEASES_DIR}/flannel.tar.gz -C ${RELEASES_DIR}/flannel-${FLANNEL_VERSION}
-    cp ${RELEASES_DIR}/flannel-${FLANNEL_VERSION}/flanneld ${BINARY_DIR}/master/bin
-    cp ${RELEASES_DIR}/flannel-${FLANNEL_VERSION}/flanneld ${BINARY_DIR}/node/bin
+    mkdir -p ${RELEASES_DIR}/flannel-v${FLANNEL_VERSION}
+    tar xzf ${RELEASES_DIR}/flannel.tar.gz -C ${RELEASES_DIR}/flannel-v${FLANNEL_VERSION}
+    cp ${RELEASES_DIR}/flannel-v${FLANNEL_VERSION}/flanneld ${BINARY_DIR}/master/bin
+    cp ${RELEASES_DIR}/flannel-v${FLANNEL_VERSION}/flanneld ${BINARY_DIR}/node/bin
   fi
 
   # ectd

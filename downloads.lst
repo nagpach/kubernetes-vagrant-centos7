@@ -1,9 +1,3461 @@
-total 1497804
-drwxr-xr-x 2 nag nag       4096 Sep 25 20:31 docker
--rw-rw-r-- 1 nag nag   28845850 Sep 25 20:30 docker.tar.gz
--rw-rw-r-- 1 nag nag   10305565 Sep 25 20:30 etcd.tar.gz
-drwxrwxr-x 3 nag nag       4096 Sep 25 20:30 etcd-v3.0.10-linux-amd64
-drwxrwxr-x 2 nag nag       4096 Sep 25 20:30 flannel-0.6.2
--rw-rw-r-- 1 nag nag    4724781 Sep 25 20:30 flannel.tar.gz
-drwxr-xr-x 9 nag nag       4096 Sep 25 20:31 kubernetes
--rw-rw-r-- 1 nag nag 1489843499 Sep 25 20:30 kubernetes.tar.gz
+downloads:
+total 1497812
+drwxrwxr-x  6 nag nag       4096 Sep 25 22:00 .
+drwxrwxr-x 10 nag nag       4096 Sep 25 22:00 ..
+drwxr-xr-x  2 nag nag       4096 Aug 18 13:58 docker
+-rw-rw-r--  1 nag nag   28845850 Sep 25 22:00 docker.tar.gz
+-rw-rw-r--  1 nag nag   10305565 Sep 25 21:56 etcd.tar.gz
+drwxrwxr-x  3 nag nag       4096 Sep 23 14:05 etcd-v3.0.10-linux-amd64
+-rw-rw-r--  1 nag nag    4724781 Sep 25 21:56 flannel.tar.gz
+drwxrwxr-x  2 nag nag       4096 Sep 25 22:00 flannel-v0.6.2
+drwxr-xr-x  9 nag nag       4096 Sep 12 19:25 kubernetes
+-rw-rw-r--  1 nag nag 1489843499 Sep 25 21:59 kubernetes.tar.gz
+
+downloads/docker:
+total 95904
+drwxr-xr-x 2 nag nag     4096 Aug 18 13:58 .
+drwxrwxr-x 6 nag nag     4096 Sep 25 22:00 ..
+-rwxr-xr-x 1 nag nag 15675272 Aug 18 13:58 docker
+-rwxr-xr-x 1 nag nag 11240808 Aug 18 13:58 docker-containerd
+-rwxr-xr-x 1 nag nag 10535848 Aug 18 13:58 docker-containerd-ctr
+-rwxr-xr-x 1 nag nag  3721616 Aug 18 13:58 docker-containerd-shim
+-rwxr-xr-x 1 nag nag 45410064 Aug 18 13:58 dockerd
+-rwxr-xr-x 1 nag nag  2879456 Aug 18 13:58 docker-proxy
+-rwxr-xr-x 1 nag nag  8724000 Aug 18 13:58 docker-runc
+
+downloads/etcd-v3.0.10-linux-amd64:
+total 37760
+drwxrwxr-x  3 nag nag     4096 Sep 23 14:05 .
+drwxrwxr-x  6 nag nag     4096 Sep 25 22:00 ..
+drwxrwxr-x 11 nag nag     4096 Sep 23 14:05 Documentation
+-rwxrwxr-x  1 nag nag 20169568 Sep 23 14:05 etcd
+-rwxrwxr-x  1 nag nag 18431680 Sep 23 14:05 etcdctl
+-rw-rw-r--  1 nag nag    29370 Sep 23 14:05 README-etcdctl.md
+-rw-rw-r--  1 nag nag     5628 Sep 23 14:05 README.md
+-rw-rw-r--  1 nag nag     7935 Sep 23 14:05 READMEv2-etcdctl.md
+
+downloads/etcd-v3.0.10-linux-amd64/Documentation:
+total 108
+drwxrwxr-x 11 nag nag  4096 Sep 23 14:05 .
+drwxrwxr-x  3 nag nag  4096 Sep 23 14:05 ..
+drwxrwxr-x  2 nag nag  4096 Sep 23 14:05 benchmarks
+-rw-rw-r--  1 nag nag  1300 Sep 23 14:05 branch_management.md
+-rw-rw-r--  1 nag nag 13385 Sep 23 14:05 demo.md
+drwxrwxr-x  3 nag nag  4096 Sep 23 14:05 dev-guide
+drwxrwxr-x  2 nag nag  4096 Sep 23 14:05 dev-internal
+-rw-rw-r--  1 nag nag  1739 Sep 23 14:05 dl_build.md
+-rw-rw-r--  1 nag nag  2706 Sep 23 14:05 docs.md
+drwxrwxr-x  2 nag nag  4096 Sep 23 14:05 learning
+-rw-rw-r--  1 nag nag  7464 Sep 23 14:05 libraries-and-tools.md
+-rw-rw-r--  1 nag nag 10087 Sep 23 14:05 metrics.md
+drwxrwxr-x  2 nag nag  4096 Sep 23 14:05 op-guide
+drwxrwxr-x  2 nag nag  4096 Sep 23 14:05 platforms
+-rw-rw-r--  1 nag nag  3170 Sep 23 14:05 production-users.md
+-rw-rw-r--  1 nag nag  2313 Sep 23 14:05 reporting_bugs.md
+drwxrwxr-x  2 nag nag  4096 Sep 23 14:05 rfc
+-rw-rw-r--  1 nag nag  4431 Sep 23 14:05 tuning.md
+drwxrwxr-x  2 nag nag  4096 Sep 23 14:05 upgrades
+drwxrwxr-x  6 nag nag  4096 Sep 23 14:05 v2
+
+downloads/etcd-v3.0.10-linux-amd64/Documentation/benchmarks:
+total 44
+drwxrwxr-x  2 nag nag 4096 Sep 23 14:05 .
+drwxrwxr-x 11 nag nag 4096 Sep 23 14:05 ..
+-rw-rw-r--  1 nag nag 2684 Sep 23 14:05 etcd-2-1-0-alpha-benchmarks.md
+-rw-rw-r--  1 nag nag 3239 Sep 23 14:05 etcd-2-2-0-benchmarks.md
+-rw-rw-r--  1 nag nag 3798 Sep 23 14:05 etcd-2-2-0-rc-benchmarks.md
+-rw-rw-r--  1 nag nag 1568 Sep 23 14:05 etcd-2-2-0-rc-memory-benchmarks.md
+-rw-rw-r--  1 nag nag 1318 Sep 23 14:05 etcd-3-demo-benchmarks.md
+-rw-rw-r--  1 nag nag 3853 Sep 23 14:05 etcd-3-watch-memory-benchmark.md
+-rw-rw-r--  1 nag nag 4868 Sep 23 14:05 etcd-storage-memory-benchmark.md
+-rw-rw-r--  1 nag nag  435 Sep 23 14:05 README.md
+
+downloads/etcd-v3.0.10-linux-amd64/Documentation/dev-guide:
+total 64
+drwxrwxr-x  3 nag nag  4096 Sep 23 14:05 .
+drwxrwxr-x 11 nag nag  4096 Sep 23 14:05 ..
+-rw-rw-r--  1 nag nag  1453 Sep 23 14:05 api_grpc_gateway.md
+-rw-rw-r--  1 nag nag 32467 Sep 23 14:05 api_reference_v3.md
+drwxrwxr-x  3 nag nag  4096 Sep 23 14:05 apispec
+-rw-rw-r--  1 nag nag   700 Sep 23 14:05 experimental_apis.md
+-rw-rw-r--  1 nag nag  6884 Sep 23 14:05 interacting_v3.md
+-rw-rw-r--  1 nag nag  2734 Sep 23 14:05 local_cluster.md
+
+downloads/etcd-v3.0.10-linux-amd64/Documentation/dev-guide/apispec:
+total 12
+drwxrwxr-x 3 nag nag 4096 Sep 23 14:05 .
+drwxrwxr-x 3 nag nag 4096 Sep 23 14:05 ..
+drwxrwxr-x 2 nag nag 4096 Sep 23 14:05 swagger
+
+downloads/etcd-v3.0.10-linux-amd64/Documentation/dev-guide/apispec/swagger:
+total 72
+drwxrwxr-x 2 nag nag  4096 Sep 23 14:05 .
+drwxrwxr-x 3 nag nag  4096 Sep 23 14:05 ..
+-rw-rw-r-- 1 nag nag 62051 Sep 23 14:05 rpc.swagger.json
+
+downloads/etcd-v3.0.10-linux-amd64/Documentation/dev-internal:
+total 28
+drwxrwxr-x  2 nag nag 4096 Sep 23 14:05 .
+drwxrwxr-x 11 nag nag 4096 Sep 23 14:05 ..
+-rw-rw-r--  1 nag nag 5545 Sep 23 14:05 discovery_protocol.md
+-rw-rw-r--  1 nag nag 1275 Sep 23 14:05 logging.md
+-rw-rw-r--  1 nag nag 4613 Sep 23 14:05 release.md
+
+downloads/etcd-v3.0.10-linux-amd64/Documentation/learning:
+total 28
+drwxrwxr-x  2 nag nag 4096 Sep 23 14:05 .
+drwxrwxr-x 11 nag nag 4096 Sep 23 14:05 ..
+-rw-rw-r--  1 nag nag 5233 Sep 23 14:05 api_guarantees.md
+-rw-rw-r--  1 nag nag 2355 Sep 23 14:05 api.md
+-rw-rw-r--  1 nag nag 3439 Sep 23 14:05 data_model.md
+-rw-rw-r--  1 nag nag  886 Sep 23 14:05 glossary.md
+
+downloads/etcd-v3.0.10-linux-amd64/Documentation/op-guide:
+total 120
+drwxrwxr-x  2 nag nag  4096 Sep 23 14:05 .
+drwxrwxr-x 11 nag nag  4096 Sep 23 14:05 ..
+-rw-rw-r--  1 nag nag 22803 Sep 23 14:05 clustering.md
+-rw-rw-r--  1 nag nag 11677 Sep 23 14:05 configuration.md
+-rw-rw-r--  1 nag nag  2484 Sep 23 14:05 container.md
+-rw-rw-r--  1 nag nag  4091 Sep 23 14:05 failures.md
+-rw-rw-r--  1 nag nag  5941 Sep 23 14:05 maintenance.md
+-rw-rw-r--  1 nag nag  5829 Sep 23 14:05 performance.md
+-rw-rw-r--  1 nag nag  3822 Sep 23 14:05 recovery.md
+-rw-rw-r--  1 nag nag 10648 Sep 23 14:05 runtime-configuration.md
+-rw-rw-r--  1 nag nag  5062 Sep 23 14:05 runtime-reconf-design.md
+-rw-rw-r--  1 nag nag 10264 Sep 23 14:05 security.md
+-rw-rw-r--  1 nag nag   542 Sep 23 14:05 supported-platform.md
+-rw-rw-r--  1 nag nag  4409 Sep 23 14:05 v2-migration.md
+-rw-rw-r--  1 nag nag   408 Sep 23 14:05 versioning.md
+
+downloads/etcd-v3.0.10-linux-amd64/Documentation/platforms:
+total 12
+drwxrwxr-x  2 nag nag 4096 Sep 23 14:05 .
+drwxrwxr-x 11 nag nag 4096 Sep 23 14:05 ..
+-rw-rw-r--  1 nag nag 2775 Sep 23 14:05 freebsd.md
+
+downloads/etcd-v3.0.10-linux-amd64/Documentation/rfc:
+total 16
+drwxrwxr-x  2 nag nag 4096 Sep 23 14:05 .
+drwxrwxr-x 11 nag nag 4096 Sep 23 14:05 ..
+-rw-rw-r--  1 nag nag 5332 Sep 23 14:05 v3api.md
+
+downloads/etcd-v3.0.10-linux-amd64/Documentation/upgrades:
+total 16
+drwxrwxr-x  2 nag nag 4096 Sep 23 14:05 .
+drwxrwxr-x 11 nag nag 4096 Sep 23 14:05 ..
+-rw-rw-r--  1 nag nag 5843 Sep 23 14:05 upgrade_3_0.md
+
+downloads/etcd-v3.0.10-linux-amd64/Documentation/v2:
+total 312
+drwxrwxr-x  6 nag nag  4096 Sep 23 14:05 .
+drwxrwxr-x 11 nag nag  4096 Sep 23 14:05 ..
+-rw-rw-r--  1 nag nag  1157 Sep 23 14:05 04_to_2_snapshot_migration.md
+-rw-rw-r--  1 nag nag 14157 Sep 23 14:05 admin_guide.md
+-rw-rw-r--  1 nag nag 28978 Sep 23 14:05 api.md
+-rw-rw-r--  1 nag nag  8716 Sep 23 14:05 api_v3.md
+-rw-rw-r--  1 nag nag 13056 Sep 23 14:05 auth_api.md
+-rw-rw-r--  1 nag nag  5173 Sep 23 14:05 authentication.md
+-rw-rw-r--  1 nag nag  4267 Sep 23 14:05 backward_compatibility.md
+drwxrwxr-x  2 nag nag  4096 Sep 23 14:05 benchmarks
+-rw-rw-r--  1 nag nag  1295 Sep 23 14:05 branch_management.md
+-rw-rw-r--  1 nag nag 20541 Sep 23 14:05 clustering.md
+-rw-rw-r--  1 nag nag 11656 Sep 23 14:05 configuration.md
+drwxrwxr-x  2 nag nag  4096 Sep 23 14:05 dev
+-rw-rw-r--  1 nag nag  5570 Sep 23 14:05 discovery_protocol.md
+-rw-rw-r--  1 nag nag  3597 Sep 23 14:05 docker_guide.md
+-rw-rw-r--  1 nag nag  1938 Sep 23 14:05 errorcode.md
+-rw-rw-r--  1 nag nag  4075 Sep 23 14:05 faq.md
+-rw-rw-r--  1 nag nag   886 Sep 23 14:05 glossary.md
+-rw-rw-r--  1 nag nag  2202 Sep 23 14:05 implementation-faq.md
+-rw-rw-r--  1 nag nag  2511 Sep 23 14:05 internal-protocol-versioning.md
+-rw-rw-r--  1 nag nag  6899 Sep 23 14:05 libraries-and-tools.md
+-rw-rw-r--  1 nag nag  3299 Sep 23 14:05 members_api.md
+-rw-rw-r--  1 nag nag 10057 Sep 23 14:05 metrics.md
+-rw-rw-r--  1 nag nag   549 Sep 23 14:05 other_apis.md
+drwxrwxr-x  2 nag nag  4096 Sep 23 14:05 platforms
+-rw-rw-r--  1 nag nag  2692 Sep 23 14:05 production-users.md
+-rw-rw-r--  1 nag nag  8537 Sep 23 14:05 proxy.md
+-rw-rw-r--  1 nag nag  6866 Sep 23 14:05 README.md
+-rw-rw-r--  1 nag nag  2289 Sep 23 14:05 reporting_bugs.md
+drwxrwxr-x  2 nag nag  4096 Sep 23 14:05 rfc
+-rw-rw-r--  1 nag nag 10600 Sep 23 14:05 runtime-configuration.md
+-rw-rw-r--  1 nag nag  5207 Sep 23 14:05 runtime-reconf-design.md
+-rw-rw-r--  1 nag nag  9305 Sep 23 14:05 security.md
+-rw-rw-r--  1 nag nag  4463 Sep 23 14:05 tuning.md
+-rw-rw-r--  1 nag nag  5018 Sep 23 14:05 upgrade_2_1.md
+-rw-rw-r--  1 nag nag  6133 Sep 23 14:05 upgrade_2_2.md
+-rw-rw-r--  1 nag nag  5985 Sep 23 14:05 upgrade_2_3.md
+
+downloads/etcd-v3.0.10-linux-amd64/Documentation/v2/benchmarks:
+total 44
+drwxrwxr-x 2 nag nag 4096 Sep 23 14:05 .
+drwxrwxr-x 6 nag nag 4096 Sep 23 14:05 ..
+-rw-rw-r-- 1 nag nag 2684 Sep 23 14:05 etcd-2-1-0-alpha-benchmarks.md
+-rw-rw-r-- 1 nag nag 3239 Sep 23 14:05 etcd-2-2-0-benchmarks.md
+-rw-rw-r-- 1 nag nag 3798 Sep 23 14:05 etcd-2-2-0-rc-benchmarks.md
+-rw-rw-r-- 1 nag nag 1568 Sep 23 14:05 etcd-2-2-0-rc-memory-benchmarks.md
+-rw-rw-r-- 1 nag nag 1318 Sep 23 14:05 etcd-3-demo-benchmarks.md
+-rw-rw-r-- 1 nag nag 3853 Sep 23 14:05 etcd-3-watch-memory-benchmark.md
+-rw-rw-r-- 1 nag nag 4868 Sep 23 14:05 etcd-storage-memory-benchmark.md
+-rw-rw-r-- 1 nag nag  435 Sep 23 14:05 README.md
+
+downloads/etcd-v3.0.10-linux-amd64/Documentation/v2/dev:
+total 16
+drwxrwxr-x 2 nag nag 4096 Sep 23 14:05 .
+drwxrwxr-x 6 nag nag 4096 Sep 23 14:05 ..
+-rw-rw-r-- 1 nag nag 4457 Sep 23 14:05 release.md
+
+downloads/etcd-v3.0.10-linux-amd64/Documentation/v2/platforms:
+total 12
+drwxrwxr-x 2 nag nag 4096 Sep 23 14:05 .
+drwxrwxr-x 6 nag nag 4096 Sep 23 14:05 ..
+-rw-rw-r-- 1 nag nag 2775 Sep 23 14:05 freebsd.md
+
+downloads/etcd-v3.0.10-linux-amd64/Documentation/v2/rfc:
+total 16
+drwxrwxr-x 2 nag nag 4096 Sep 23 14:05 .
+drwxrwxr-x 6 nag nag 4096 Sep 23 14:05 ..
+-rw-rw-r-- 1 nag nag 5338 Sep 23 14:05 v3api.md
+
+downloads/flannel-v0.6.2:
+total 21124
+drwxrwxr-x 2 nag nag     4096 Sep 25 22:00 .
+drwxrwxr-x 6 nag nag     4096 Sep 25 22:00 ..
+-rwxr-xr-x 1 nag nag 21599400 Sep 22 19:21 flanneld
+-rwxrwxr-x 1 nag nag     2139 Aug 31 19:04 mk-docker-opts.sh
+-rw-rw-r-- 1 nag nag    12955 Sep 22 19:16 README.md
+
+downloads/kubernetes:
+total 3512
+drwxr-xr-x  9 nag nag    4096 Sep 12 19:25 .
+drwxrwxr-x  6 nag nag    4096 Sep 25 22:00 ..
+drwxr-xr-x 23 nag nag    4096 Sep 12 19:24 cluster
+drwxr-xr-x 12 nag nag    4096 Sep 12 19:25 docs
+drwxr-xr-x 45 nag nag    4096 Sep 12 19:25 examples
+drwxr-xr-x  4 nag nag    4096 Sep 12 19:25 federation
+-rw-r--r--  1 nag nag 3533536 Sep 12 19:25 LICENSES
+drwxr-xr-x  5 nag nag    4096 Sep 12 19:24 platforms
+-rw-r--r--  1 nag nag    8117 Sep 12 19:25 README.md
+drwxr-xr-x  3 nag nag    4096 Sep 25 22:00 server
+drwxr-xr-x  3 nag nag    4096 Sep 12 19:25 third_party
+-rw-r--r--  1 nag nag   11422 Sep 12 19:25 Vagrantfile
+-rw-r--r--  1 nag nag       7 Sep 12 19:25 version
+
+downloads/kubernetes/cluster:
+total 208
+drwxr-xr-x 23 nag nag  4096 Sep 12 19:24 .
+drwxr-xr-x  9 nag nag  4096 Sep 12 19:25 ..
+drwxr-xr-x 14 nag nag  4096 Sep 12 19:24 addons
+drwxr-xr-x  6 nag nag  4096 Sep 12 19:24 aws
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:24 azure
+drwxr-xr-x  4 nag nag  4096 Sep 12 19:24 centos
+-rwxr-xr-x  1 nag nag 31100 Sep 12 19:24 common.sh
+drwxr-xr-x  6 nag nag  4096 Sep 12 19:24 gce
+-rwxr-xr-x  1 nag nag  4614 Sep 12 19:24 get-kube-local.sh
+-rwxr-xr-x  1 nag nag  4391 Sep 12 19:24 get-kube.sh
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:24 gke
+drwxr-xr-x  9 nag nag  4096 Sep 12 19:24 images
+drwxr-xr-x  5 nag nag  4096 Sep 12 19:24 juju
+-rwxr-xr-x  1 nag nag  3791 Sep 12 19:24 kubectl.sh
+-rwxr-xr-x  1 nag nag   985 Sep 12 19:24 kube-down.sh
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:24 kubemark
+-rwxr-xr-x  1 nag nag  2476 Sep 12 19:24 kube-push.sh
+-rwxr-xr-x  1 nag nag  2436 Sep 12 19:24 kube-up.sh
+-rw-r--r--  1 nag nag  2133 Sep 12 19:24 kube-util.sh
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:24 lib
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:24 libvirt-coreos
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:24 local
+-rwxr-xr-x  1 nag nag  5140 Sep 12 19:24 log-dump.sh
+drwxr-xr-x  3 nag nag  4096 Sep 12 19:24 mesos
+drwxr-xr-x  3 nag nag  4096 Sep 12 19:24 openstack-heat
+-rw-r--r--  1 nag nag   507 Sep 12 19:24 options.md
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:24 ovirt
+-rw-r--r--  1 nag nag    68 Sep 12 19:24 OWNERS
+drwxr-xr-x  3 nag nag  4096 Sep 12 19:24 photon-controller
+drwxr-xr-x  3 nag nag  4096 Sep 12 19:24 rackspace
+-rw-r--r--  1 nag nag   913 Sep 12 19:24 README.md
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:24 skeleton
+-rwxr-xr-x  1 nag nag  1046 Sep 12 19:24 test-e2e.sh
+-rwxr-xr-x  1 nag nag  1038 Sep 12 19:24 test-network.sh
+-rwxr-xr-x  1 nag nag  1095 Sep 12 19:24 test-smoke.sh
+drwxr-xr-x  6 nag nag  4096 Sep 12 19:24 ubuntu
+-rwxr-xr-x  1 nag nag  4099 Sep 12 19:24 update-storage-objects.sh
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:24 vagrant
+-rwxr-xr-x  1 nag nag  5663 Sep 12 19:24 validate-cluster.sh
+drwxr-xr-x  3 nag nag  4096 Sep 12 19:24 vsphere
+
+downloads/kubernetes/cluster/addons:
+total 60
+drwxr-xr-x 14 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 23 nag nag 4096 Sep 12 19:24 ..
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:24 addon-manager
+drwxr-xr-x  3 nag nag 4096 Sep 12 19:24 cluster-loadbalancing
+drwxr-xr-x  6 nag nag 4096 Sep 12 19:24 cluster-monitoring
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:24 dashboard
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:24 etcd-empty-dir-cleanup
+drwxr-xr-x  5 nag nag 4096 Sep 12 19:24 fluentd-elasticsearch
+drwxr-xr-x  3 nag nag 4096 Sep 12 19:24 fluentd-gcp
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:24 gci
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:24 node-problem-detector
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:24 podsecuritypolicies
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:24 python-image
+-rw-r--r--  1 nag nag 3678 Sep 12 19:24 README.md
+drwxr-xr-x  6 nag nag 4096 Sep 12 19:24 registry
+
+downloads/kubernetes/cluster/addons/addon-manager:
+total 48
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:24 .
+drwxr-xr-x 14 nag nag  4096 Sep 12 19:24 ..
+-rw-r--r--  1 nag nag  1040 Sep 12 19:24 Dockerfile
+-rwxr-xr-x  1 nag nag  3981 Sep 12 19:24 kube-addons.sh
+-rwxr-xr-x  1 nag nag 17945 Sep 12 19:24 kube-addon-update.sh
+-rw-r--r--  1 nag nag  2694 Sep 12 19:24 Makefile
+-rw-r--r--  1 nag nag    61 Sep 12 19:24 namespace.yaml
+-rw-r--r--  1 nag nag  1340 Sep 12 19:24 README.md
+
+downloads/kubernetes/cluster/addons/cluster-loadbalancing:
+total 16
+drwxr-xr-x  3 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 14 nag nag 4096 Sep 12 19:24 ..
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:24 glbc
+-rw-r--r--  1 nag nag  182 Sep 12 19:24 MAINTAINERS.md
+
+downloads/kubernetes/cluster/addons/cluster-loadbalancing/glbc:
+total 24
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r-- 1 nag nag 1077 Sep 12 19:24 default-svc-controller.yaml
+-rw-r--r-- 1 nag nag  530 Sep 12 19:24 default-svc.yaml
+-rw-r--r-- 1 nag nag 5884 Sep 12 19:24 README.md
+
+downloads/kubernetes/cluster/addons/cluster-monitoring:
+total 28
+drwxr-xr-x  6 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 14 nag nag 4096 Sep 12 19:24 ..
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:24 google
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:24 googleinfluxdb
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:24 influxdb
+-rw-r--r--  1 nag nag  532 Sep 12 19:24 README.md
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:24 standalone
+
+downloads/kubernetes/cluster/addons/cluster-monitoring/google:
+total 20
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 6 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r-- 1 nag nag 4534 Sep 12 19:24 heapster-controller.yaml
+-rw-r--r-- 1 nag nag  260 Sep 12 19:24 heapster-service.yaml
+
+downloads/kubernetes/cluster/addons/cluster-monitoring/googleinfluxdb:
+total 16
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 6 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r-- 1 nag nag 4623 Sep 12 19:24 heapster-controller-combined.yaml
+
+downloads/kubernetes/cluster/addons/cluster-monitoring/influxdb:
+total 32
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 6 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r-- 1 nag nag  431 Sep 12 19:24 grafana-service.yaml
+-rw-r--r-- 1 nag nag 4279 Sep 12 19:24 heapster-controller.yaml
+-rw-r--r-- 1 nag nag  258 Sep 12 19:24 heapster-service.yaml
+-rw-r--r-- 1 nag nag 2423 Sep 12 19:24 influxdb-grafana-controller.yaml
+-rw-r--r-- 1 nag nag  351 Sep 12 19:24 influxdb-service.yaml
+
+downloads/kubernetes/cluster/addons/cluster-monitoring/standalone:
+total 16
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 6 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r-- 1 nag nag 2543 Sep 12 19:24 heapster-controller.yaml
+-rw-r--r-- 1 nag nag  260 Sep 12 19:24 heapster-service.yaml
+
+downloads/kubernetes/cluster/addons/dashboard:
+total 24
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 14 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r--  1 nag nag 1108 Sep 12 19:24 dashboard-controller.yaml
+-rw-r--r--  1 nag nag  388 Sep 12 19:24 dashboard-service.yaml
+-rw-r--r--  1 nag nag  242 Sep 12 19:24 MAINTAINERS.md
+-rw-r--r--  1 nag nag  415 Sep 12 19:24 README.md
+
+downloads/kubernetes/cluster/addons/etcd-empty-dir-cleanup:
+total 12
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 14 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r--  1 nag nag  296 Sep 12 19:24 etcd-empty-dir-cleanup.yaml
+
+downloads/kubernetes/cluster/addons/fluentd-elasticsearch:
+total 36
+drwxr-xr-x  5 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 14 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r--  1 nag nag 1077 Sep 12 19:24 es-controller.yaml
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:24 es-image
+-rw-r--r--  1 nag nag  335 Sep 12 19:24 es-service.yaml
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:24 fluentd-es-image
+-rw-r--r--  1 nag nag  893 Sep 12 19:24 kibana-controller.yaml
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:24 kibana-image
+-rw-r--r--  1 nag nag  307 Sep 12 19:24 kibana-service.yaml
+
+downloads/kubernetes/cluster/addons/fluentd-elasticsearch/es-image:
+total 32
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 5 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r-- 1 nag nag 1465 Sep 12 19:24 Dockerfile
+-rw-r--r-- 1 nag nag 2495 Sep 12 19:24 elasticsearch_logging_discovery.go
+-rw-r--r-- 1 nag nag  246 Sep 12 19:24 elasticsearch.yml
+-rwxr-xr-x 1 nag nag 1059 Sep 12 19:24 Makefile
+-rwxr-xr-x 1 nag nag  900 Sep 12 19:24 run.sh
+-rw-r--r-- 1 nag nag  435 Sep 12 19:24 template-k8s-logstash.json
+
+downloads/kubernetes/cluster/addons/fluentd-elasticsearch/fluentd-es-image:
+total 32
+drwxr-xr-x 2 nag nag  4096 Sep 12 19:24 .
+drwxr-xr-x 5 nag nag  4096 Sep 12 19:24 ..
+-rw-r--r-- 1 nag nag  2170 Sep 12 19:24 Dockerfile
+-rw-r--r-- 1 nag nag   823 Sep 12 19:24 Makefile
+-rw-r--r-- 1 nag nag   724 Sep 12 19:24 README.md
+-rw-r--r-- 1 nag nag 10230 Sep 12 19:24 td-agent.conf
+
+downloads/kubernetes/cluster/addons/fluentd-elasticsearch/kibana-image:
+total 20
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 5 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r-- 1 nag nag 1125 Sep 12 19:24 Dockerfile
+-rwxr-xr-x 1 nag nag  770 Sep 12 19:24 Makefile
+-rwxr-xr-x 1 nag nag  795 Sep 12 19:24 run.sh
+
+downloads/kubernetes/cluster/addons/fluentd-gcp:
+total 12
+drwxr-xr-x  3 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 14 nag nag 4096 Sep 12 19:24 ..
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:24 fluentd-gcp-image
+
+downloads/kubernetes/cluster/addons/fluentd-gcp/fluentd-gcp-image:
+total 44
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r-- 1 nag nag 2294 Sep 12 19:24 Dockerfile
+-rw-r--r-- 1 nag nag 9074 Sep 12 19:24 google-fluentd.conf
+-rw-r--r-- 1 nag nag 9435 Sep 12 19:24 google-fluentd-journal.conf
+-rw-r--r-- 1 nag nag 1740 Sep 12 19:24 Makefile
+-rw-r--r-- 1 nag nag  640 Sep 12 19:24 README.md
+
+downloads/kubernetes/cluster/addons/gci:
+total 16
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 14 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r--  1 nag nag 1664 Sep 12 19:24 fluentd-gcp.yaml
+-rw-r--r--  1 nag nag  351 Sep 12 19:24 README.md
+
+downloads/kubernetes/cluster/addons/node-problem-detector:
+total 20
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 14 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r--  1 nag nag  183 Sep 12 19:24 MAINTAINERS.md
+-rw-r--r--  1 nag nag  911 Sep 12 19:24 node-problem-detector.yaml
+-rw-r--r--  1 nag nag  323 Sep 12 19:24 README.md
+
+downloads/kubernetes/cluster/addons/podsecuritypolicies:
+total 12
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 14 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r--  1 nag nag  741 Sep 12 19:24 privileged.yaml
+
+downloads/kubernetes/cluster/addons/python-image:
+total 20
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 14 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r--  1 nag nag  653 Sep 12 19:24 Dockerfile
+-rw-r--r--  1 nag nag  776 Sep 12 19:24 Makefile
+-rw-r--r--  1 nag nag  289 Sep 12 19:24 README.md
+
+downloads/kubernetes/cluster/addons/registry:
+total 48
+drwxr-xr-x  6 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 14 nag nag 4096 Sep 12 19:24 ..
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:24 auth
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:24 gcs
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:24 images
+-rw-r--r--  1 nag nag 7950 Sep 12 19:24 README.md
+-rw-r--r--  1 nag nag  282 Sep 12 19:24 registry-pvc.yaml.in
+-rw-r--r--  1 nag nag  418 Sep 12 19:24 registry-pv.yaml.in
+-rw-r--r--  1 nag nag 1174 Sep 12 19:24 registry-rc.yaml
+-rw-r--r--  1 nag nag  310 Sep 12 19:24 registry-svc.yaml
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:24 tls
+
+downloads/kubernetes/cluster/addons/registry/auth:
+total 16
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 6 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r-- 1 nag nag 3017 Sep 12 19:24 README.md
+-rw-r--r-- 1 nag nag 1410 Sep 12 19:24 registry-auth-rc.yaml
+
+downloads/kubernetes/cluster/addons/registry/gcs:
+total 16
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 6 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r-- 1 nag nag 2440 Sep 12 19:24 README.md
+-rw-r--r-- 1 nag nag 1249 Sep 12 19:24 registry-gcs-rc.yaml
+
+downloads/kubernetes/cluster/addons/registry/images:
+total 28
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 6 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r-- 1 nag nag  904 Sep 12 19:24 Dockerfile
+-rw-r--r-- 1 nag nag  789 Sep 12 19:24 Makefile
+-rw-r--r-- 1 nag nag  296 Sep 12 19:24 proxy.conf.in
+-rw-r--r-- 1 nag nag  258 Sep 12 19:24 proxy.conf.insecure.in
+-rw-r--r-- 1 nag nag 1208 Sep 12 19:24 run_proxy.sh
+
+downloads/kubernetes/cluster/addons/registry/tls:
+total 20
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 6 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r-- 1 nag nag 3188 Sep 12 19:24 README.md
+-rw-r--r-- 1 nag nag 1416 Sep 12 19:24 registry-tls-rc.yaml
+-rw-r--r-- 1 nag nag  332 Sep 12 19:24 registry-tls-svc.yaml
+
+downloads/kubernetes/cluster/aws:
+total 104
+drwxr-xr-x  6 nag nag  4096 Sep 12 19:24 .
+drwxr-xr-x 23 nag nag  4096 Sep 12 19:24 ..
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:24 common
+-rw-r--r--  1 nag nag  6362 Sep 12 19:24 config-default.sh
+-rwxr-xr-x  1 nag nag  5540 Sep 12 19:24 config-test.sh
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:24 jessie
+-rw-r--r--  1 nag nag  6772 Sep 12 19:24 options.md
+drwxr-xr-x  3 nag nag  4096 Sep 12 19:24 templates
+-rwxr-xr-x  1 nag nag 55413 Sep 12 19:24 util.sh
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:24 wily
+
+downloads/kubernetes/cluster/aws/common:
+total 12
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 6 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r-- 1 nag nag 1764 Sep 12 19:24 common.sh
+
+downloads/kubernetes/cluster/aws/jessie:
+total 12
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 6 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r-- 1 nag nag 1734 Sep 12 19:24 util.sh
+
+downloads/kubernetes/cluster/aws/templates:
+total 24
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 6 nag nag 4096 Sep 12 19:24 ..
+-rwxr-xr-x 1 nag nag 3857 Sep 12 19:24 configure-vm-aws.sh
+-rw-r--r-- 1 nag nag 8063 Sep 12 19:24 format-disks.sh
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 iam
+
+downloads/kubernetes/cluster/aws/templates/iam:
+total 24
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r-- 1 nag nag  465 Sep 12 19:24 kubernetes-master-policy.json
+-rw-r--r-- 1 nag nag  176 Sep 12 19:24 kubernetes-master-role.json
+-rw-r--r-- 1 nag nag  885 Sep 12 19:24 kubernetes-minion-policy.json
+-rw-r--r-- 1 nag nag  176 Sep 12 19:24 kubernetes-minion-role.json
+
+downloads/kubernetes/cluster/aws/wily:
+total 12
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 6 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r-- 1 nag nag 1969 Sep 12 19:24 util.sh
+
+downloads/kubernetes/cluster/azure:
+total 28
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:24 .
+drwxr-xr-x 23 nag nag  4096 Sep 12 19:24 ..
+-rw-r--r--  1 nag nag  1634 Sep 12 19:24 config-default.sh
+-rw-r--r--  1 nag nag    28 Sep 12 19:24 .gitignore
+-rw-r--r--  1 nag nag 10420 Sep 12 19:24 util.sh
+
+downloads/kubernetes/cluster/centos:
+total 52
+drwxr-xr-x  4 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 23 nag nag 4096 Sep 12 19:24 ..
+-rwxr-xr-x  1 nag nag 4190 Sep 12 19:24 build.sh
+-rwxr-xr-x  1 nag nag 1409 Sep 12 19:24 config-build.sh
+-rwxr-xr-x  1 nag nag 2301 Sep 12 19:24 config-default.sh
+-rw-r--r--  1 nag nag  767 Sep 12 19:24 config-test.sh
+-rw-r--r--  1 nag nag  157 Sep 12 19:24 .gitignore
+drwxr-xr-x  3 nag nag 4096 Sep 12 19:24 master
+drwxr-xr-x  4 nag nag 4096 Sep 12 19:24 node
+-rwxr-xr-x  1 nag nag 9296 Sep 12 19:24 util.sh
+
+downloads/kubernetes/cluster/centos/master:
+total 12
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:24 ..
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 scripts
+
+downloads/kubernetes/cluster/centos/master/scripts:
+total 28
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:24 ..
+-rwxr-xr-x 1 nag nag 4438 Sep 12 19:24 apiserver.sh
+-rwxr-xr-x 1 nag nag 2146 Sep 12 19:24 controller-manager.sh
+-rwxr-xr-x 1 nag nag 2261 Sep 12 19:24 etcd.sh
+-rwxr-xr-x 1 nag nag 1621 Sep 12 19:24 scheduler.sh
+
+downloads/kubernetes/cluster/centos/node:
+total 16
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:24 ..
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 bin
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 scripts
+
+downloads/kubernetes/cluster/centos/node/bin:
+total 16
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:24 ..
+-rwxr-xr-x 1 nag nag 2610 Sep 12 19:24 mk-docker-opts.sh
+-rwxr-xr-x 1 nag nag  870 Sep 12 19:24 remove-docker0.sh
+
+downloads/kubernetes/cluster/centos/node/scripts:
+total 24
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:24 ..
+-rwxr-xr-x 1 nag nag 1431 Sep 12 19:24 docker.sh
+-rwxr-xr-x 1 nag nag 1901 Sep 12 19:24 flannel.sh
+-rwxr-xr-x 1 nag nag 2475 Sep 12 19:24 kubelet.sh
+-rwxr-xr-x 1 nag nag 1737 Sep 12 19:24 proxy.sh
+
+downloads/kubernetes/cluster/gce:
+total 152
+drwxr-xr-x  6 nag nag  4096 Sep 12 19:24 .
+drwxr-xr-x 23 nag nag  4096 Sep 12 19:24 ..
+-rw-r--r--  1 nag nag  1388 Sep 12 19:24 config-common.sh
+-rwxr-xr-x  1 nag nag  6765 Sep 12 19:24 config-default.sh
+-rwxr-xr-x  1 nag nag  8563 Sep 12 19:24 config-test.sh
+-rwxr-xr-x  1 nag nag 34785 Sep 12 19:24 configure-vm.sh
+drwxr-xr-x  3 nag nag  4096 Sep 12 19:24 coreos
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:24 debian
+-rwxr-xr-x  1 nag nag  1419 Sep 12 19:24 delete-stranded-load-balancers.sh
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:24 gci
+-rwxr-xr-x  1 nag nag  3572 Sep 12 19:24 list-resources.sh
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:24 trusty
+-rwxr-xr-x  1 nag nag  9654 Sep 12 19:24 upgrade.sh
+-rwxr-xr-x  1 nag nag 48591 Sep 12 19:24 util.sh
+
+downloads/kubernetes/cluster/gce/coreos:
+total 76
+drwxr-xr-x 3 nag nag  4096 Sep 12 19:24 .
+drwxr-xr-x 6 nag nag  4096 Sep 12 19:24 ..
+-rwxr-xr-x 1 nag nag  1098 Sep 12 19:24 configure-kubelet.sh
+-rwxr-xr-x 1 nag nag 13126 Sep 12 19:24 configure-node.sh
+drwxr-xr-x 3 nag nag  4096 Sep 12 19:24 kube-manifests
+-rw-r--r-- 1 nag nag  6704 Sep 12 19:24 master-docker.yaml
+-rwxr-xr-x 1 nag nag  2378 Sep 12 19:24 master-helper.sh
+-rw-r--r-- 1 nag nag  8941 Sep 12 19:24 master-rkt.yaml
+-rw-r--r-- 1 nag nag  6203 Sep 12 19:24 node-docker.yaml
+-rwxr-xr-x 1 nag nag  1181 Sep 12 19:24 node-helper.sh
+-rw-r--r-- 1 nag nag  7764 Sep 12 19:24 node-rkt.yaml
+
+downloads/kubernetes/cluster/gce/coreos/kube-manifests:
+total 48
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:24 ..
+drwxr-xr-x 9 nag nag 4096 Sep 12 19:24 addons
+-rw-r--r-- 1 nag nag 1333 Sep 12 19:24 etcd-events.yaml
+-rw-r--r-- 1 nag nag 1228 Sep 12 19:24 etcd.yaml
+-rw-r--r-- 1 nag nag  603 Sep 12 19:24 kube-addon-manager.yaml
+-rw-r--r-- 1 nag nag 2169 Sep 12 19:24 kube-apiserver.yaml
+-rw-r--r-- 1 nag nag 1740 Sep 12 19:24 kube-controller-manager.yaml
+-rw-r--r-- 1 nag nag  349 Sep 12 19:24 kubelet-config.yaml
+-rw-r--r-- 1 nag nag  305 Sep 12 19:24 kubeproxy-config.yaml
+-rw-r--r-- 1 nag nag  934 Sep 12 19:24 kube-scheduler.yaml
+-rw-r--r-- 1 nag nag   95 Sep 12 19:24 kube-system.json
+
+downloads/kubernetes/cluster/gce/coreos/kube-manifests/addons:
+total 40
+drwxr-xr-x 9 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:24 ..
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:24 cluster-loadbalancing
+drwxr-xr-x 6 nag nag 4096 Sep 12 19:24 cluster-monitoring
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 dashboard
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 dns
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 fluentd-elasticsearch
+-rw-r--r-- 1 nag nag   61 Sep 12 19:24 namespace.yaml
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 node-problem-detector
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 registry
+
+downloads/kubernetes/cluster/gce/coreos/kube-manifests/addons/cluster-loadbalancing:
+total 12
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 9 nag nag 4096 Sep 12 19:24 ..
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 glbc
+
+downloads/kubernetes/cluster/gce/coreos/kube-manifests/addons/cluster-loadbalancing/glbc:
+total 16
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r-- 1 nag nag  529 Sep 12 19:24 default-svc.yaml
+-rw-r--r-- 1 nag nag 1822 Sep 12 19:24 glbc-controller.yaml
+
+downloads/kubernetes/cluster/gce/coreos/kube-manifests/addons/cluster-monitoring:
+total 24
+drwxr-xr-x 6 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 9 nag nag 4096 Sep 12 19:24 ..
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 google
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 googleinfluxdb
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 influxdb
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 standalone
+
+downloads/kubernetes/cluster/gce/coreos/kube-manifests/addons/cluster-monitoring/google:
+total 16
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 6 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r-- 1 nag nag 3636 Sep 12 19:24 heapster-controller.yaml
+-rw-r--r-- 1 nag nag  260 Sep 12 19:24 heapster-service.yaml
+
+downloads/kubernetes/cluster/gce/coreos/kube-manifests/addons/cluster-monitoring/googleinfluxdb:
+total 12
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 6 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r-- 1 nag nag 3719 Sep 12 19:24 heapster-controller-combined.yaml
+
+downloads/kubernetes/cluster/gce/coreos/kube-manifests/addons/cluster-monitoring/influxdb:
+total 28
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 6 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r-- 1 nag nag  431 Sep 12 19:24 grafana-service.yaml
+-rw-r--r-- 1 nag nag 3035 Sep 12 19:24 heapster-controller.yaml
+-rw-r--r-- 1 nag nag  258 Sep 12 19:24 heapster-service.yaml
+-rw-r--r-- 1 nag nag 2423 Sep 12 19:24 influxdb-grafana-controller.yaml
+-rw-r--r-- 1 nag nag  351 Sep 12 19:24 influxdb-service.yaml
+
+downloads/kubernetes/cluster/gce/coreos/kube-manifests/addons/cluster-monitoring/standalone:
+total 16
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 6 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r-- 1 nag nag 1668 Sep 12 19:24 heapster-controller.yaml
+-rw-r--r-- 1 nag nag  260 Sep 12 19:24 heapster-service.yaml
+
+downloads/kubernetes/cluster/gce/coreos/kube-manifests/addons/dashboard:
+total 16
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 9 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r-- 1 nag nag 1066 Sep 12 19:24 dashboard-controller.yaml
+-rw-r--r-- 1 nag nag  274 Sep 12 19:24 dashboard-service.yaml
+
+downloads/kubernetes/cluster/gce/coreos/kube-manifests/addons/dns:
+total 16
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 9 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r-- 1 nag nag 2714 Sep 12 19:24 skydns-rc.yaml
+-rw-r--r-- 1 nag nag  363 Sep 12 19:24 skydns-svc.yaml
+
+downloads/kubernetes/cluster/gce/coreos/kube-manifests/addons/fluentd-elasticsearch:
+total 24
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 9 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r-- 1 nag nag 1077 Sep 12 19:24 es-controller.yaml
+-rw-r--r-- 1 nag nag  335 Sep 12 19:24 es-service.yaml
+-rw-r--r-- 1 nag nag  892 Sep 12 19:24 kibana-controller.yaml
+-rw-r--r-- 1 nag nag  307 Sep 12 19:24 kibana-service.yaml
+
+downloads/kubernetes/cluster/gce/coreos/kube-manifests/addons/node-problem-detector:
+total 12
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 9 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r-- 1 nag nag 1126 Sep 12 19:24 node-problem-detector.yaml
+
+downloads/kubernetes/cluster/gce/coreos/kube-manifests/addons/registry:
+total 24
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 9 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r-- 1 nag nag  269 Sep 12 19:24 registry-pvc.yaml
+-rw-r--r-- 1 nag nag  310 Sep 12 19:24 registry-pv.yaml
+-rw-r--r-- 1 nag nag 1030 Sep 12 19:24 registry-rc.yaml
+-rw-r--r-- 1 nag nag  310 Sep 12 19:24 registry-svc.yaml
+
+downloads/kubernetes/cluster/gce/debian:
+total 16
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 6 nag nag 4096 Sep 12 19:24 ..
+-rwxr-xr-x 1 nag nag 2232 Sep 12 19:24 master-helper.sh
+-rwxr-xr-x 1 nag nag 1023 Sep 12 19:24 node-helper.sh
+
+downloads/kubernetes/cluster/gce/gci:
+total 88
+drwxr-xr-x 2 nag nag  4096 Sep 12 19:24 .
+drwxr-xr-x 6 nag nag  4096 Sep 12 19:24 ..
+-rw-r--r-- 1 nag nag 39691 Sep 12 19:24 configure-helper.sh
+-rw-r--r-- 1 nag nag  8468 Sep 12 19:24 configure.sh
+-rw-r--r-- 1 nag nag  2581 Sep 12 19:24 health-monitor.sh
+-rwxr-xr-x 1 nag nag  1216 Sep 12 19:24 helper.sh
+-rwxr-xr-x 1 nag nag  2317 Sep 12 19:24 master-helper.sh
+-rw-r--r-- 1 nag nag  3338 Sep 12 19:24 master.yaml
+-rwxr-xr-x 1 nag nag  1328 Sep 12 19:24 node-helper.sh
+-rw-r--r-- 1 nag nag  3320 Sep 12 19:24 node.yaml
+-rw-r--r-- 1 nag nag   569 Sep 12 19:24 README.md
+
+downloads/kubernetes/cluster/gce/trusty:
+total 84
+drwxr-xr-x 2 nag nag  4096 Sep 12 19:24 .
+drwxr-xr-x 6 nag nag  4096 Sep 12 19:24 ..
+-rw-r--r-- 1 nag nag 35132 Sep 12 19:24 configure-helper.sh
+-rw-r--r-- 1 nag nag  8215 Sep 12 19:24 configure.sh
+-rwxr-xr-x 1 nag nag  1452 Sep 12 19:24 helper.sh
+-rwxr-xr-x 1 nag nag  2759 Sep 12 19:24 master-helper.sh
+-rw-r--r-- 1 nag nag  5437 Sep 12 19:24 master.yaml
+-rwxr-xr-x 1 nag nag  1636 Sep 12 19:24 node-helper.sh
+-rw-r--r-- 1 nag nag  7683 Sep 12 19:24 node.yaml
+
+downloads/kubernetes/cluster/gke:
+total 32
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:24 .
+drwxr-xr-x 23 nag nag  4096 Sep 12 19:24 ..
+-rw-r--r--  1 nag nag  2007 Sep 12 19:24 config-common.sh
+-rw-r--r--  1 nag nag  1775 Sep 12 19:24 config-default.sh
+-rw-r--r--  1 nag nag   984 Sep 12 19:24 config-test.sh
+-rwxr-xr-x  1 nag nag 12231 Sep 12 19:24 util.sh
+
+downloads/kubernetes/cluster/images:
+total 36
+drwxr-xr-x  9 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 23 nag nag 4096 Sep 12 19:24 ..
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:24 etcd
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:24 etcd-empty-dir-cleanup
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:24 flannel
+drwxr-xr-x  3 nag nag 4096 Sep 12 19:24 hyperkube
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:24 kubelet
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:24 kubemark
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:24 nginx
+
+downloads/kubernetes/cluster/images/etcd:
+total 20
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 9 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r-- 1 nag nag  728 Sep 12 19:24 Dockerfile
+-rw-r--r-- 1 nag nag 2235 Sep 12 19:24 Makefile
+-rw-r--r-- 1 nag nag  916 Sep 12 19:24 README.md
+
+downloads/kubernetes/cluster/images/etcd-empty-dir-cleanup:
+total 20
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 9 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r-- 1 nag nag  891 Sep 12 19:24 Dockerfile
+-rw-r--r-- 1 nag nag 1042 Sep 12 19:24 etcd-empty-dir-cleanup.sh
+-rw-r--r-- 1 nag nag 1223 Sep 12 19:24 Makefile
+
+downloads/kubernetes/cluster/images/flannel:
+total 20
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 9 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r-- 1 nag nag  708 Sep 12 19:24 Dockerfile
+-rw-r--r-- 1 nag nag 2174 Sep 12 19:24 Makefile
+-rw-r--r-- 1 nag nag  879 Sep 12 19:24 README.md
+
+downloads/kubernetes/cluster/images/hyperkube:
+total 40
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 9 nag nag 4096 Sep 12 19:24 ..
+-rwxr-xr-x 1 nag nag 1180 Sep 12 19:24 copy-addons.sh
+-rw-r--r-- 1 nag nag 3026 Sep 12 19:24 Dockerfile
+-rw-r--r-- 1 nag nag 1383 Sep 12 19:24 kube-proxy-ds.yaml
+-rw-r--r-- 1 nag nag 4348 Sep 12 19:24 Makefile
+-rw-r--r-- 1 nag nag 1177 Sep 12 19:24 README.md
+-rw-r--r-- 1 nag nag 2595 Sep 12 19:24 setup-files.sh
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 static-pods
+
+downloads/kubernetes/cluster/images/hyperkube/static-pods:
+total 28
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r-- 1 nag nag 1056 Sep 12 19:24 addon-manager.json
+-rw-r--r-- 1 nag nag  777 Sep 12 19:24 etcd.json
+-rw-r--r-- 1 nag nag  575 Sep 12 19:24 kube-proxy.json
+-rw-r--r-- 1 nag nag 2388 Sep 12 19:24 master.json
+-rw-r--r-- 1 nag nag 2386 Sep 12 19:24 master-multi.json
+
+downloads/kubernetes/cluster/images/kubelet:
+total 16
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 9 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r-- 1 nag nag  765 Sep 12 19:24 Dockerfile
+-rw-r--r-- 1 nag nag 1303 Sep 12 19:24 Makefile
+
+downloads/kubernetes/cluster/images/kubemark:
+total 24
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 9 nag nag 4096 Sep 12 19:24 ..
+-rwxr-xr-x 1 nag nag  976 Sep 12 19:24 build-kubemark.sh
+-rw-r--r-- 1 nag nag  710 Sep 12 19:24 Dockerfile
+-rw-r--r-- 1 nag nag  827 Sep 12 19:24 kubemark.sh
+-rw-r--r-- 1 nag nag  899 Sep 12 19:24 Makefile
+
+downloads/kubernetes/cluster/images/nginx:
+total 24
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 9 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r-- 1 nag nag   83 Sep 12 19:24 backports.list
+-rw-r--r-- 1 nag nag  767 Sep 12 19:24 Dockerfile
+-rw-r--r-- 1 nag nag  941 Sep 12 19:24 Makefile
+-rw-r--r-- 1 nag nag  204 Sep 12 19:24 README.md
+
+downloads/kubernetes/cluster/juju:
+total 48
+drwxr-xr-x  5 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 23 nag nag 4096 Sep 12 19:24 ..
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:24 bundles
+-rw-r--r--  1 nag nag  621 Sep 12 19:24 config-default.sh
+-rw-r--r--  1 nag nag  647 Sep 12 19:24 config-test.sh
+-rwxr-xr-x  1 nag nag 1046 Sep 12 19:24 identify-leaders.py
+-rw-r--r--  1 nag nag   61 Sep 12 19:24 kube-system-ns.yaml
+drwxr-xr-x  3 nag nag 4096 Sep 12 19:24 layers
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:24 prereqs
+-rwxr-xr-x  1 nag nag 1024 Sep 12 19:24 return-node-ips.py
+-rwxr-xr-x  1 nag nag 4708 Sep 12 19:24 util.sh
+
+downloads/kubernetes/cluster/juju/bundles:
+total 20
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 5 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r-- 1 nag nag  336 Sep 12 19:24 local.yaml
+-rw-r--r-- 1 nag nag 7361 Sep 12 19:24 README.md
+
+downloads/kubernetes/cluster/juju/layers:
+total 12
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 5 nag nag 4096 Sep 12 19:24 ..
+drwxr-xr-x 5 nag nag 4096 Sep 12 19:24 kubernetes
+
+downloads/kubernetes/cluster/juju/layers/kubernetes:
+total 120
+drwxr-xr-x 5 nag nag  4096 Sep 12 19:24 .
+drwxr-xr-x 3 nag nag  4096 Sep 12 19:24 ..
+drwxr-xr-x 2 nag nag  4096 Sep 12 19:24 actions
+-rw-r--r-- 1 nag nag    85 Sep 12 19:24 actions.yaml
+-rw-r--r-- 1 nag nag   468 Sep 12 19:24 config.yaml
+-rw-r--r-- 1 nag nag 78220 Sep 12 19:24 icon.svg
+-rw-r--r-- 1 nag nag    75 Sep 12 19:24 layer.yaml
+-rw-r--r-- 1 nag nag   686 Sep 12 19:24 metadata.yaml
+drwxr-xr-x 2 nag nag  4096 Sep 12 19:24 reactive
+-rw-r--r-- 1 nag nag  3217 Sep 12 19:24 README.md
+drwxr-xr-x 2 nag nag  4096 Sep 12 19:24 templates
+
+downloads/kubernetes/cluster/juju/layers/kubernetes/actions:
+total 12
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 5 nag nag 4096 Sep 12 19:24 ..
+-rwxr-xr-x 1 nag nag 1457 Sep 12 19:24 guestbook-example
+
+downloads/kubernetes/cluster/juju/layers/kubernetes/reactive:
+total 24
+drwxr-xr-x 2 nag nag  4096 Sep 12 19:24 .
+drwxr-xr-x 5 nag nag  4096 Sep 12 19:24 ..
+-rw-r--r-- 1 nag nag 14370 Sep 12 19:24 k8s.py
+
+downloads/kubernetes/cluster/juju/layers/kubernetes/templates:
+total 24
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 5 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r-- 1 nag nag 2664 Sep 12 19:24 docker-compose.yml
+-rw-r--r-- 1 nag nag 1561 Sep 12 19:24 master.json
+-rw-r--r-- 1 nag nag 2739 Sep 12 19:24 skydns-rc.yml
+-rw-r--r-- 1 nag nag  363 Sep 12 19:24 skydns-svc.yml
+
+downloads/kubernetes/cluster/juju/prereqs:
+total 12
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 5 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r-- 1 nag nag 1433 Sep 12 19:24 ubuntu-juju.sh
+
+downloads/kubernetes/cluster/kubemark:
+total 16
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 23 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r--  1 nag nag 3588 Sep 12 19:24 config-default.sh
+-rw-r--r--  1 nag nag  760 Sep 12 19:24 util.sh
+
+downloads/kubernetes/cluster/lib:
+total 16
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 23 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r--  1 nag nag 3780 Sep 12 19:24 logging.sh
+-rw-r--r--  1 nag nag 1373 Sep 12 19:24 util.sh
+
+downloads/kubernetes/cluster/libvirt-coreos:
+total 84
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:24 .
+drwxr-xr-x 23 nag nag  4096 Sep 12 19:24 ..
+-rw-r--r--  1 nag nag  2174 Sep 12 19:24 config-default.sh
+-rw-r--r--  1 nag nag   815 Sep 12 19:24 config-test.sh
+-rw-r--r--  1 nag nag  2025 Sep 12 19:24 coreos.xml
+-rw-r--r--  1 nag nag    61 Sep 12 19:24 .gitignore
+-rw-r--r--  1 nag nag    61 Sep 12 19:24 namespace.yaml
+-rw-r--r--  1 nag nag   266 Sep 12 19:24 network_kubernetes_global.xml
+-rw-r--r--  1 nag nag   165 Sep 12 19:24 network_kubernetes_pods.xml
+-rw-r--r--  1 nag nag   262 Sep 12 19:24 node-openssl.cnf
+-rw-r--r--  1 nag nag   412 Sep 12 19:24 openssl.cnf
+-rw-r--r--  1 nag nag   818 Sep 12 19:24 README.md
+-rw-r--r--  1 nag nag  4091 Sep 12 19:24 skydns-rc.yaml
+-rw-r--r--  1 nag nag   367 Sep 12 19:24 skydns-svc.yaml
+-rw-r--r--  1 nag nag  3348 Sep 12 19:24 user_data_master.yml
+-rw-r--r--  1 nag nag  1679 Sep 12 19:24 user_data_minion.yml
+-rw-r--r--  1 nag nag  2766 Sep 12 19:24 user_data.yml
+-rw-r--r--  1 nag nag 12891 Sep 12 19:24 util.sh
+
+downloads/kubernetes/cluster/local:
+total 12
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 23 nag nag 4096 Sep 12 19:24 ..
+-rwxr-xr-x  1 nag nag  766 Sep 12 19:24 util.sh
+
+downloads/kubernetes/cluster/mesos:
+total 12
+drwxr-xr-x  3 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 23 nag nag 4096 Sep 12 19:24 ..
+drwxr-xr-x  6 nag nag 4096 Sep 12 19:24 docker
+
+downloads/kubernetes/cluster/mesos/docker:
+total 88
+drwxr-xr-x 6 nag nag  4096 Sep 12 19:24 .
+drwxr-xr-x 3 nag nag  4096 Sep 12 19:24 ..
+drwxr-xr-x 3 nag nag  4096 Sep 12 19:24 common
+-rwxr-xr-x 1 nag nag  2937 Sep 12 19:24 config-default.sh
+-rw-r--r-- 1 nag nag   894 Sep 12 19:24 config-test.sh
+-rwxr-xr-x 1 nag nag  1706 Sep 12 19:24 deploy-addons.sh
+-rwxr-xr-x 1 nag nag  2166 Sep 12 19:24 deploy-dns.sh
+-rwxr-xr-x 1 nag nag  1085 Sep 12 19:24 deploy-ui.sh
+-rw-r--r-- 1 nag nag  5840 Sep 12 19:24 docker-compose.yml
+-rw-r--r-- 1 nag nag    11 Sep 12 19:24 .gitignore
+drwxr-xr-x 3 nag nag  4096 Sep 12 19:24 km
+-rw-r--r-- 1 nag nag   100 Sep 12 19:24 kube-system-ns.yaml
+-rw-r--r-- 1 nag nag    23 Sep 12 19:24 OWNERS
+drwxr-xr-x 2 nag nag  4096 Sep 12 19:24 socat
+-rw-r--r-- 1 nag nag   396 Sep 12 19:24 static-pod.json
+-rw-r--r-- 1 nag nag    97 Sep 12 19:24 static-pods-ns.yaml
+drwxr-xr-x 3 nag nag  4096 Sep 12 19:24 test
+-rw-r--r-- 1 nag nag 13654 Sep 12 19:24 util.sh
+
+downloads/kubernetes/cluster/mesos/docker/common:
+total 12
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 6 nag nag 4096 Sep 12 19:24 ..
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 bin
+
+downloads/kubernetes/cluster/mesos/docker/common/bin:
+total 20
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:24 ..
+-rwxr-xr-x 1 nag nag 1287 Sep 12 19:24 await-file
+-rwxr-xr-x 1 nag nag 1396 Sep 12 19:24 await-health-check
+-rwxr-xr-x 1 nag nag 1014 Sep 12 19:24 health-check
+
+downloads/kubernetes/cluster/mesos/docker/km:
+total 24
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 6 nag nag 4096 Sep 12 19:24 ..
+-rwxr-xr-x 1 nag nag 3325 Sep 12 19:24 build.sh
+-rw-r--r-- 1 nag nag 1113 Sep 12 19:24 Dockerfile
+-rw-r--r-- 1 nag nag    9 Sep 12 19:24 .gitignore
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 opt
+
+downloads/kubernetes/cluster/mesos/docker/km/opt:
+total 12
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r-- 1 nag nag   69 Sep 12 19:24 mesos-cloud.conf
+
+downloads/kubernetes/cluster/mesos/docker/socat:
+total 16
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 6 nag nag 4096 Sep 12 19:24 ..
+-rwxr-xr-x 1 nag nag  858 Sep 12 19:24 build.sh
+-rw-r--r-- 1 nag nag 1163 Sep 12 19:24 Dockerfile
+
+downloads/kubernetes/cluster/mesos/docker/test:
+total 20
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 6 nag nag 4096 Sep 12 19:24 ..
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 bin
+-rwxr-xr-x 1 nag nag 1842 Sep 12 19:24 build.sh
+-rw-r--r-- 1 nag nag 2226 Sep 12 19:24 Dockerfile
+
+downloads/kubernetes/cluster/mesos/docker/test/bin:
+total 12
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:24 ..
+-rwxr-xr-x 1 nag nag 1204 Sep 12 19:24 install-etcd.sh
+
+downloads/kubernetes/cluster/openstack-heat:
+total 40
+drwxr-xr-x  3 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 23 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r--  1 nag nag 2280 Sep 12 19:24 config-default.sh
+-rw-r--r--  1 nag nag 1421 Sep 12 19:24 config-image.sh
+-rw-r--r--  1 nag nag  814 Sep 12 19:24 config-test.sh
+drwxr-xr-x  3 nag nag 4096 Sep 12 19:24 kubernetes-heat
+-rw-r--r--  1 nag nag 1130 Sep 12 19:24 openrc-default.sh
+-rw-r--r--  1 nag nag 1239 Sep 12 19:24 openrc-swift.sh
+-rw-r--r--  1 nag nag 8151 Sep 12 19:24 util.sh
+
+downloads/kubernetes/cluster/openstack-heat/kubernetes-heat:
+total 36
+drwxr-xr-x 3 nag nag  4096 Sep 12 19:24 .
+drwxr-xr-x 3 nag nag  4096 Sep 12 19:24 ..
+drwxr-xr-x 2 nag nag  4096 Sep 12 19:24 fragments
+-rw-r--r-- 1 nag nag 12323 Sep 12 19:24 kubecluster.yaml
+-rw-r--r-- 1 nag nag  7842 Sep 12 19:24 kubeminion.yaml
+
+downloads/kubernetes/cluster/openstack-heat/kubernetes-heat/fragments:
+total 52
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r-- 1 nag nag 2251 Sep 12 19:24 configure-proxy.sh
+-rw-r--r-- 1 nag nag 1984 Sep 12 19:24 configure-salt.yaml
+-rw-r--r-- 1 nag nag 1470 Sep 12 19:24 deploy-kube-auth-files-master.yaml
+-rw-r--r-- 1 nag nag 1169 Sep 12 19:24 deploy-kube-auth-files-node.yaml
+-rw-r--r-- 1 nag nag  910 Sep 12 19:24 hostname-hack.sh
+-rw-r--r-- 1 nag nag  213 Sep 12 19:24 hostname-hack.yaml
+-rw-r--r-- 1 nag nag  222 Sep 12 19:24 kube-user.yaml
+-rw-r--r-- 1 nag nag 1790 Sep 12 19:24 provision-network-master.sh
+-rw-r--r-- 1 nag nag 1297 Sep 12 19:24 provision-network-node.sh
+-rw-r--r-- 1 nag nag 1775 Sep 12 19:24 run-salt.sh
+-rw-r--r-- 1 nag nag  336 Sep 12 19:24 write-heat-params.yaml
+
+downloads/kubernetes/cluster/ovirt:
+total 12
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 23 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r--  1 nag nag  191 Sep 12 19:24 ovirt-cloud.conf
+
+downloads/kubernetes/cluster/photon-controller:
+total 72
+drwxr-xr-x  3 nag nag  4096 Sep 12 19:24 .
+drwxr-xr-x 23 nag nag  4096 Sep 12 19:24 ..
+-rw-r--r--  1 nag nag  2550 Sep 12 19:24 config-common.sh
+-rwxr-xr-x  1 nag nag  3601 Sep 12 19:24 config-default.sh
+-rwxr-xr-x  1 nag nag   759 Sep 12 19:24 config-test.sh
+-rwxr-xr-x  1 nag nag  8293 Sep 12 19:24 setup-prereq.sh
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:24 templates
+-rwxr-xr-x  1 nag nag 34930 Sep 12 19:24 util.sh
+
+downloads/kubernetes/cluster/photon-controller/templates:
+total 36
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:24 ..
+-rwxr-xr-x 1 nag nag 4678 Sep 12 19:24 create-dynamic-salt-files.sh
+-rwxr-xr-x 1 nag nag  820 Sep 12 19:24 hostname.sh
+-rwxr-xr-x 1 nag nag  958 Sep 12 19:24 install-release.sh
+-rw-r--r-- 1 nag nag  208 Sep 12 19:24 README
+-rwxr-xr-x 1 nag nag 1813 Sep 12 19:24 salt-master.sh
+-rwxr-xr-x 1 nag nag 1823 Sep 12 19:24 salt-minion.sh
+
+downloads/kubernetes/cluster/rackspace:
+total 36
+drwxr-xr-x  3 nag nag  4096 Sep 12 19:24 .
+drwxr-xr-x 23 nag nag  4096 Sep 12 19:24 ..
+-rw-r--r--  1 nag nag  1381 Sep 12 19:24 authorization.sh
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:24 cloud-config
+-rwxr-xr-x  1 nag nag  2353 Sep 12 19:24 config-default.sh
+-rwxr-xr-x  1 nag nag  1136 Sep 12 19:24 kube-up.sh
+-rwxr-xr-x  1 nag nag 12288 Sep 12 19:24 util.sh
+
+downloads/kubernetes/cluster/rackspace/cloud-config:
+total 24
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r-- 1 nag nag 5587 Sep 12 19:24 master-cloud-config.yaml
+-rwxr-xr-x 1 nag nag 7383 Sep 12 19:24 node-cloud-config.yaml
+
+downloads/kubernetes/cluster/skeleton:
+total 12
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 23 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r--  1 nag nag 2793 Sep 12 19:24 util.sh
+
+downloads/kubernetes/cluster/ubuntu:
+total 88
+drwxr-xr-x  6 nag nag  4096 Sep 12 19:24 .
+drwxr-xr-x 23 nag nag  4096 Sep 12 19:24 ..
+-rwxr-xr-x  1 nag nag  5342 Sep 12 19:24 config-default.sh
+-rw-r--r--  1 nag nag   806 Sep 12 19:24 config-test.sh
+-rwxr-xr-x  1 nag nag  3047 Sep 12 19:24 deployAddons.sh
+-rwxr-xr-x  1 nag nag  3213 Sep 12 19:24 download-release.sh
+-rw-r--r--  1 nag nag    17 Sep 12 19:24 .gitignore
+drwxr-xr-x  4 nag nag  4096 Sep 12 19:24 master
+drwxr-xr-x  4 nag nag  4096 Sep 12 19:24 master-flannel
+drwxr-xr-x  4 nag nag  4096 Sep 12 19:24 minion
+drwxr-xr-x  4 nag nag  4096 Sep 12 19:24 minion-flannel
+-rw-r--r--  1 nag nag    61 Sep 12 19:24 namespace.yaml
+-rwxr-xr-x  1 nag nag  2074 Sep 12 19:24 reconfDocker.sh
+-rwxr-xr-x  1 nag nag 29310 Sep 12 19:24 util.sh
+
+downloads/kubernetes/cluster/ubuntu/master:
+total 16
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 6 nag nag 4096 Sep 12 19:24 ..
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 init_conf
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 init_scripts
+
+downloads/kubernetes/cluster/ubuntu/master/init_conf:
+total 24
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r-- 1 nag nag  709 Sep 12 19:24 etcd.conf
+-rw-r--r-- 1 nag nag  674 Sep 12 19:24 kube-apiserver.conf
+-rw-r--r-- 1 nag nag  744 Sep 12 19:24 kube-controller-manager.conf
+-rw-r--r-- 1 nag nag  674 Sep 12 19:24 kube-scheduler.conf
+
+downloads/kubernetes/cluster/ubuntu/master/init_scripts:
+total 24
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:24 ..
+-rwxr-xr-x 1 nag nag 2073 Sep 12 19:24 etcd
+-rwxr-xr-x 1 nag nag 2358 Sep 12 19:24 kube-apiserver
+-rwxr-xr-x 1 nag nag 2672 Sep 12 19:24 kube-controller-manager
+-rwxr-xr-x 1 nag nag 2360 Sep 12 19:24 kube-scheduler
+
+downloads/kubernetes/cluster/ubuntu/master-flannel:
+total 16
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 6 nag nag 4096 Sep 12 19:24 ..
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 init_conf
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 init_scripts
+
+downloads/kubernetes/cluster/ubuntu/master-flannel/init_conf:
+total 12
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r-- 1 nag nag  568 Sep 12 19:24 flanneld.conf
+
+downloads/kubernetes/cluster/ubuntu/master-flannel/init_scripts:
+total 12
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r-- 1 nag nag 2131 Sep 12 19:24 flanneld
+
+downloads/kubernetes/cluster/ubuntu/minion:
+total 16
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 6 nag nag 4096 Sep 12 19:24 ..
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 init_conf
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 init_scripts
+
+downloads/kubernetes/cluster/ubuntu/minion/init_conf:
+total 16
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r-- 1 nag nag  644 Sep 12 19:24 kubelet.conf
+-rw-r--r-- 1 nag nag  684 Sep 12 19:24 kube-proxy.conf
+
+downloads/kubernetes/cluster/ubuntu/minion/init_scripts:
+total 16
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:24 ..
+-rwxr-xr-x 1 nag nag 2158 Sep 12 19:24 kubelet
+-rwxr-xr-x 1 nag nag 2233 Sep 12 19:24 kube-proxy
+
+downloads/kubernetes/cluster/ubuntu/minion-flannel:
+total 16
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 6 nag nag 4096 Sep 12 19:24 ..
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 init_conf
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 init_scripts
+
+downloads/kubernetes/cluster/ubuntu/minion-flannel/init_conf:
+total 12
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:24 ..
+-rw-r--r-- 1 nag nag  577 Sep 12 19:24 flanneld.conf
+
+downloads/kubernetes/cluster/ubuntu/minion-flannel/init_scripts:
+total 12
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:24 ..
+-rwxr-xr-x 1 nag nag 2121 Sep 12 19:24 flanneld
+
+downloads/kubernetes/cluster/vagrant:
+total 72
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:24 .
+drwxr-xr-x 23 nag nag  4096 Sep 12 19:24 ..
+-rwxr-xr-x  1 nag nag  4944 Sep 12 19:24 config-default.sh
+-rw-r--r--  1 nag nag  1127 Sep 12 19:24 config-test.sh
+-rw-r--r--  1 nag nag    30 Sep 12 19:24 OWNERS
+-rwxr-xr-x  1 nag nag  3317 Sep 12 19:24 pod-ip-test.sh
+-rwxr-xr-x  1 nag nag  5092 Sep 12 19:24 provision-master.sh
+-rw-r--r--  1 nag nag  2819 Sep 12 19:24 provision-network-master.sh
+-rw-r--r--  1 nag nag  1735 Sep 12 19:24 provision-network-node.sh
+-rwxr-xr-x  1 nag nag  2785 Sep 12 19:24 provision-node.sh
+-rwxr-xr-x  1 nag nag  6624 Sep 12 19:24 provision-utils.sh
+-rwxr-xr-x  1 nag nag 13137 Sep 12 19:24 util.sh
+
+downloads/kubernetes/cluster/vsphere:
+total 44
+drwxr-xr-x  3 nag nag  4096 Sep 12 19:24 .
+drwxr-xr-x 23 nag nag  4096 Sep 12 19:24 ..
+-rw-r--r--  1 nag nag  1014 Sep 12 19:24 config-common.sh
+-rwxr-xr-x  1 nag nag  2529 Sep 12 19:24 config-default.sh
+-rwxr-xr-x  1 nag nag  1275 Sep 12 19:24 config-test.sh
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:24 templates
+-rwxr-xr-x  1 nag nag 17134 Sep 12 19:24 util.sh
+
+downloads/kubernetes/cluster/vsphere/templates:
+total 32
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:24 ..
+-rwxr-xr-x 1 nag nag 4777 Sep 12 19:24 create-dynamic-salt-files.sh
+-rwxr-xr-x 1 nag nag  820 Sep 12 19:24 hostname.sh
+-rwxr-xr-x 1 nag nag  958 Sep 12 19:24 install-release.sh
+-rwxr-xr-x 1 nag nag 1773 Sep 12 19:24 salt-master.sh
+-rwxr-xr-x 1 nag nag 1797 Sep 12 19:24 salt-minion.sh
+
+downloads/kubernetes/docs:
+total 100
+drwxr-xr-x 12 nag nag  4096 Sep 12 19:25 .
+drwxr-xr-x  9 nag nag  4096 Sep 12 19:25 ..
+drwxr-xr-x  6 nag nag  4096 Sep 12 19:25 admin
+-rw-r--r--  1 nag nag 12749 Sep 12 19:25 api.md
+drwxr-xr-x  6 nag nag  4096 Sep 12 19:25 api-reference
+drwxr-xr-x  3 nag nag  4096 Sep 12 19:25 design
+drwxr-xr-x  3 nag nag  4096 Sep 12 19:25 devel
+drwxr-xr-x  7 nag nag  4096 Sep 12 19:25 getting-started-guides
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:25 images
+drwxr-xr-x  3 nag nag  4096 Sep 12 19:25 man
+-rw-r--r--  1 nag nag    75 Sep 12 19:25 OWNERS
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:25 proposals
+-rw-r--r--  1 nag nag  1528 Sep 12 19:25 README.md
+-rw-r--r--  1 nag nag  1646 Sep 12 19:25 reporting-security-issues.md
+-rw-r--r--  1 nag nag   500 Sep 12 19:25 roadmap.md
+-rw-r--r--  1 nag nag  3197 Sep 12 19:25 troubleshooting.md
+drwxr-xr-x 16 nag nag  4096 Sep 12 19:25 user-guide
+-rw-r--r--  1 nag nag  2363 Sep 12 19:25 warning.png
+-rw-r--r--  1 nag nag 11718 Sep 12 19:25 whatisk8s.md
+drwxr-xr-x  3 nag nag  4096 Sep 12 19:25 yaml
+
+downloads/kubernetes/docs/admin:
+total 264
+drwxr-xr-x  6 nag nag   4096 Sep 12 19:25 .
+drwxr-xr-x 12 nag nag   4096 Sep 12 19:25 ..
+-rw-r--r--  1 nag nag    463 Sep 12 19:25 accessing-the-api.md
+-rw-r--r--  1 nag nag    471 Sep 12 19:25 admission-controllers.md
+-rw-r--r--  1 nag nag    457 Sep 12 19:25 authentication.md
+-rw-r--r--  1 nag nag    455 Sep 12 19:25 authorization.md
+-rw-r--r--  1 nag nag    465 Sep 12 19:25 cluster-components.md
+-rw-r--r--  1 nag nag    455 Sep 12 19:25 cluster-large.md
+-rw-r--r--  1 nag nag    465 Sep 12 19:25 cluster-management.md
+-rw-r--r--  1 nag nag    475 Sep 12 19:25 cluster-troubleshooting.md
+-rw-r--r--  1 nag nag    443 Sep 12 19:25 daemons.md
+-rw-r--r--  1 nag nag    376 Sep 12 19:25 daemon.yaml
+-rw-r--r--  1 nag nag    435 Sep 12 19:25 dns.md
+-rw-r--r--  1 nag nag    437 Sep 12 19:25 etcd.md
+-rw-r--r--  1 nag nag    558 Sep 12 19:25 federation-apiserver.md
+-rw-r--r--  1 nag nag    567 Sep 12 19:25 federation-controller-manager.md
+-rw-r--r--  1 nag nag    465 Sep 12 19:25 garbage-collection.md
+drwxr-xr-x  2 nag nag   4096 Sep 12 19:25 high-availability
+-rw-r--r--  1 nag nag    463 Sep 12 19:25 high-availability.md
+-rw-r--r--  1 nag nag    453 Sep 12 19:25 introduction.md
+-rw-r--r--  1 nag nag    552 Sep 12 19:25 kube-apiserver.md
+-rw-r--r--  1 nag nag    561 Sep 12 19:25 kube-controller-manager.md
+-rw-r--r--  1 nag nag    545 Sep 12 19:25 kubelet.md
+-rw-r--r--  1 nag nag    548 Sep 12 19:25 kube-proxy.md
+-rw-r--r--  1 nag nag    552 Sep 12 19:25 kube-scheduler.md
+drwxr-xr-x  2 nag nag   4096 Sep 12 19:25 limitrange
+-rw-r--r--  1 nag nag    479 Sep 12 19:25 master-node-communication.md
+-rw-r--r--  1 nag nag    455 Sep 12 19:25 multi-cluster.md
+drwxr-xr-x  2 nag nag   4096 Sep 12 19:25 namespaces
+-rw-r--r--  1 nag nag    449 Sep 12 19:25 namespaces.md
+-rw-r--r--  1 nag nag    449 Sep 12 19:25 networking.md
+-rw-r--r--  1 nag nag    459 Sep 12 19:25 network-plugins.md
+-rw-r--r--  1 nag nag    437 Sep 12 19:25 node.md
+-rw-r--r--  1 nag nag    457 Sep 12 19:25 ovs-networking.md
+-rwxr-xr-x  1 nag nag 105445 Sep 12 19:25 ovs-networking.png
+-rw-r--r--  1 nag nag    434 Sep 12 19:25 README.md
+drwxr-xr-x  2 nag nag   4096 Sep 12 19:25 resourcequota
+-rwxr-xr-x  1 nag nag    457 Sep 12 19:25 resource-quota.md
+-rw-r--r--  1 nag nag    437 Sep 12 19:25 salt.md
+-rw-r--r--  1 nag nag    473 Sep 12 19:25 service-accounts-admin.md
+-rw-r--r--  1 nag nag    451 Sep 12 19:25 static-pods.md
+
+downloads/kubernetes/docs/admin/high-availability:
+total 532
+drwxr-xr-x 2 nag nag   4096 Sep 12 19:25 .
+drwxr-xr-x 6 nag nag   4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag    499 Sep 12 19:25 default-kubelet
+-rw-r--r-- 1 nag nag   1886 Sep 12 19:25 etcd.yaml
+-rw-r--r-- 1 nag nag  38814 Sep 12 19:25 ha.png
+-rw-r--r-- 1 nag nag 463901 Sep 12 19:25 ha.svg
+-rw-r--r-- 1 nag nag   2436 Sep 12 19:25 kube-apiserver.yaml
+-rw-r--r-- 1 nag nag   2085 Sep 12 19:25 kube-controller-manager.yaml
+-rw-r--r-- 1 nag nag    779 Sep 12 19:25 kube-scheduler.yaml
+-rw-r--r-- 1 nag nag    273 Sep 12 19:25 monit-docker
+-rw-r--r-- 1 nag nag    277 Sep 12 19:25 monit-kubelet
+
+downloads/kubernetes/docs/admin/limitrange:
+total 28
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 6 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag  230 Sep 12 19:25 invalid-pod.yaml
+-rw-r--r-- 1 nag nag  384 Sep 12 19:25 limits.yaml
+-rw-r--r-- 1 nag nag   63 Sep 12 19:25 namespace.yaml
+-rw-r--r-- 1 nag nag  456 Sep 12 19:25 README.md
+-rw-r--r-- 1 nag nag  258 Sep 12 19:25 valid-pod.yaml
+
+downloads/kubernetes/docs/admin/namespaces:
+total 20
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 6 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag  146 Sep 12 19:25 namespace-dev.json
+-rw-r--r-- 1 nag nag  144 Sep 12 19:25 namespace-prod.json
+-rw-r--r-- 1 nag nag  456 Sep 12 19:25 README.md
+
+downloads/kubernetes/docs/admin/resourcequota:
+total 24
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 6 nag nag 4096 Sep 12 19:25 ..
+-rwxr-xr-x 1 nag nag  198 Sep 12 19:25 limits.yaml
+-rw-r--r-- 1 nag nag   63 Sep 12 19:25 namespace.yaml
+-rw-r--r-- 1 nag nag  244 Sep 12 19:25 quota.yaml
+-rwxr-xr-x 1 nag nag  462 Sep 12 19:25 README.md
+
+downloads/kubernetes/docs/api-reference:
+total 28
+drwxr-xr-x  6 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 12 nag nag 4096 Sep 12 19:25 ..
+drwxr-xr-x  3 nag nag 4096 Sep 12 19:25 autoscaling
+drwxr-xr-x  3 nag nag 4096 Sep 12 19:25 batch
+drwxr-xr-x  3 nag nag 4096 Sep 12 19:25 extensions
+-rw-r--r--  1 nag nag 1805 Sep 12 19:25 README.md
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 v1
+
+downloads/kubernetes/docs/api-reference/autoscaling:
+total 12
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 6 nag nag 4096 Sep 12 19:25 ..
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 v1
+
+downloads/kubernetes/docs/api-reference/autoscaling/v1:
+total 200
+drwxr-xr-x 2 nag nag   4096 Sep 12 19:25 .
+drwxr-xr-x 3 nag nag   4096 Sep 12 19:25 ..
+-rwxr-xr-x 1 nag nag  87598 Sep 12 19:25 definitions.html
+-rwxr-xr-x 1 nag nag 103815 Sep 12 19:25 operations.html
+
+downloads/kubernetes/docs/api-reference/batch:
+total 12
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 6 nag nag 4096 Sep 12 19:25 ..
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 v1
+
+downloads/kubernetes/docs/api-reference/batch/v1:
+total 356
+drwxr-xr-x 2 nag nag   4096 Sep 12 19:25 .
+drwxr-xr-x 3 nag nag   4096 Sep 12 19:25 ..
+-rwxr-xr-x 1 nag nag 252350 Sep 12 19:25 definitions.html
+-rwxr-xr-x 1 nag nag 102155 Sep 12 19:25 operations.html
+
+downloads/kubernetes/docs/api-reference/extensions:
+total 12
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 6 nag nag 4096 Sep 12 19:25 ..
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 v1beta1
+
+downloads/kubernetes/docs/api-reference/extensions/v1beta1:
+total 984
+drwxr-xr-x 2 nag nag   4096 Sep 12 19:25 .
+drwxr-xr-x 3 nag nag   4096 Sep 12 19:25 ..
+-rwxr-xr-x 1 nag nag 379642 Sep 12 19:25 definitions.html
+-rw-r--r-- 1 nag nag    522 Sep 12 19:25 definitions.md
+-rwxr-xr-x 1 nag nag 609964 Sep 12 19:25 operations.html
+-rw-r--r-- 1 nag nag    520 Sep 12 19:25 operations.md
+
+downloads/kubernetes/docs/api-reference/v1:
+total 1672
+drwxr-xr-x 2 nag nag    4096 Sep 12 19:25 .
+drwxr-xr-x 6 nag nag    4096 Sep 12 19:25 ..
+-rwxr-xr-x 1 nag nag  489802 Sep 12 19:25 definitions.html
+-rw-r--r-- 1 nag nag     490 Sep 12 19:25 definitions.md
+-rwxr-xr-x 1 nag nag 1200281 Sep 12 19:25 operations.html
+-rw-r--r-- 1 nag nag     488 Sep 12 19:25 operations.md
+
+downloads/kubernetes/docs/design:
+total 972
+drwxr-xr-x  3 nag nag   4096 Sep 12 19:25 .
+drwxr-xr-x 12 nag nag   4096 Sep 12 19:25 ..
+-rw-r--r--  1 nag nag  16680 Sep 12 19:25 access.md
+-rw-r--r--  1 nag nag   6940 Sep 12 19:25 admission_control_limit_range.md
+-rw-r--r--  1 nag nag   3395 Sep 12 19:25 admission_control.md
+-rw-r--r--  1 nag nag   9899 Sep 12 19:25 admission_control_resource_quota.md
+-rw-r--r--  1 nag nag   6523 Sep 12 19:25 architecture.dia
+-rw-r--r--  1 nag nag   3847 Sep 12 19:25 architecture.md
+-rw-r--r--  1 nag nag 268126 Sep 12 19:25 architecture.png
+-rw-r--r--  1 nag nag  50778 Sep 12 19:25 architecture.svg
+-rw-r--r--  1 nag nag  15913 Sep 12 19:25 aws_under_the_hood.md
+drwxr-xr-x  2 nag nag   4096 Sep 12 19:25 clustering
+-rw-r--r--  1 nag nag   6682 Sep 12 19:25 clustering.md
+-rw-r--r--  1 nag nag   7414 Sep 12 19:25 command_execution_port_forwarding.md
+-rw-r--r--  1 nag nag   9122 Sep 12 19:25 configmap.md
+-rw-r--r--  1 nag nag  12184 Sep 12 19:25 control-plane-resilience.md
+-rw-r--r--  1 nag nag   9126 Sep 12 19:25 daemon.md
+-rw-r--r--  1 nag nag  24483 Sep 12 19:25 downward_api_resources_limits_requests.md
+-rw-r--r--  1 nag nag  17697 Sep 12 19:25 enhance-pluggable-policy.md
+-rw-r--r--  1 nag nag  11297 Sep 12 19:25 event_compression.md
+-rw-r--r--  1 nag nag  16704 Sep 12 19:25 expansion.md
+-rw-r--r--  1 nag nag   6827 Sep 12 19:25 extending-api.md
+-rw-r--r--  1 nag nag  21786 Sep 12 19:25 federated-services.md
+-rw-r--r--  1 nag nag  15834 Sep 12 19:25 federation-phase-1.md
+-rw-r--r--  1 nag nag  11516 Sep 12 19:25 horizontal-pod-autoscaler.md
+-rw-r--r--  1 nag nag   5669 Sep 12 19:25 identifiers.md
+-rw-r--r--  1 nag nag  31754 Sep 12 19:25 indexed-job.md
+-rw-r--r--  1 nag nag   6545 Sep 12 19:25 metadata-policy.md
+-rw-r--r--  1 nag nag  12764 Sep 12 19:25 namespaces.md
+-rw-r--r--  1 nag nag   9871 Sep 12 19:25 networking.md
+-rw-r--r--  1 nag nag  11739 Sep 12 19:25 nodeaffinity.md
+-rw-r--r--  1 nag nag   8781 Sep 12 19:25 persistent-storage.md
+-rw-r--r--  1 nag nag  38819 Sep 12 19:25 podaffinity.md
+-rw-r--r--  1 nag nag   5123 Sep 12 19:25 principles.md
+-rw-r--r--  1 nag nag   3799 Sep 12 19:25 README.md
+-rw-r--r--  1 nag nag  11304 Sep 12 19:25 resource-qos.md
+-rw-r--r--  1 nag nag  17026 Sep 12 19:25 resources.md
+-rw-r--r--  1 nag nag   4504 Sep 12 19:25 scheduler_extender.md
+-rw-r--r--  1 nag nag  10483 Sep 12 19:25 seccomp.md
+-rw-r--r--  1 nag nag  23454 Sep 12 19:25 secrets.md
+-rw-r--r--  1 nag nag   8263 Sep 12 19:25 security_context.md
+-rw-r--r--  1 nag nag  11614 Sep 12 19:25 security.md
+-rw-r--r--  1 nag nag   7843 Sep 12 19:25 selector-generation.md
+-rw-r--r--  1 nag nag   9579 Sep 12 19:25 service_accounts.md
+-rw-r--r--  1 nag nag   5235 Sep 12 19:25 simple-rolling-update.md
+-rw-r--r--  1 nag nag  14950 Sep 12 19:25 taint-toleration-dedicated.md
+-rw-r--r--  1 nag nag  13824 Sep 12 19:25 ubernetes-cluster-state.png
+-rw-r--r--  1 nag nag  20358 Sep 12 19:25 ubernetes-design.png
+-rw-r--r--  1 nag nag  39094 Sep 12 19:25 ubernetes-scheduling.png
+-rw-r--r--  1 nag nag   9240 Sep 12 19:25 versioning.md
+
+downloads/kubernetes/docs/design/clustering:
+total 140
+drwxr-xr-x 2 nag nag  4096 Sep 12 19:25 .
+drwxr-xr-x 3 nag nag  4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag   900 Sep 12 19:25 Dockerfile
+-rw-r--r-- 1 nag nag 72373 Sep 12 19:25 dynamic.png
+-rw-r--r-- 1 nag nag   877 Sep 12 19:25 dynamic.seqdiag
+-rw-r--r-- 1 nag nag    18 Sep 12 19:25 .gitignore
+-rw-r--r-- 1 nag nag  1334 Sep 12 19:25 Makefile
+-rw-r--r-- 1 nag nag  1379 Sep 12 19:25 README.md
+-rw-r--r-- 1 nag nag 36583 Sep 12 19:25 static.png
+-rw-r--r-- 1 nag nag   426 Sep 12 19:25 static.seqdiag
+
+downloads/kubernetes/docs/devel:
+total 620
+drwxr-xr-x  3 nag nag   4096 Sep 12 19:25 .
+drwxr-xr-x 12 nag nag   4096 Sep 12 19:25 ..
+-rw-r--r--  1 nag nag   3955 Sep 12 19:25 adding-an-APIGroup.md
+-rw-r--r--  1 nag nag  32111 Sep 12 19:25 api_changes.md
+-rw-r--r--  1 nag nag  63046 Sep 12 19:25 api-conventions.md
+-rw-r--r--  1 nag nag   4027 Sep 12 19:25 automation.md
+-rw-r--r--  1 nag nag   3915 Sep 12 19:25 cherry-picks.md
+-rw-r--r--  1 nag nag   1274 Sep 12 19:25 client-libraries.md
+-rw-r--r--  1 nag nag    749 Sep 12 19:25 cli-roadmap.md
+-rw-r--r--  1 nag nag   5513 Sep 12 19:25 coding-conventions.md
+-rw-r--r--  1 nag nag   4460 Sep 12 19:25 collab.md
+drwxr-xr-x  2 nag nag   4096 Sep 12 19:25 developer-guides
+-rw-r--r--  1 nag nag   9794 Sep 12 19:25 development.md
+-rw-r--r--  1 nag nag   6900 Sep 12 19:25 e2e-node-tests.md
+-rw-r--r--  1 nag nag  25823 Sep 12 19:25 e2e-tests.md
+-rw-r--r--  1 nag nag  11253 Sep 12 19:25 faster_reviews.md
+-rw-r--r--  1 nag nag   7581 Sep 12 19:25 flaky-tests.md
+-rw-r--r--  1 nag nag   3472 Sep 12 19:25 generating-clientset.md
+-rw-r--r--  1 nag nag   1857 Sep 12 19:25 getting-builds.md
+-rw-r--r--  1 nag nag 114745 Sep 12 19:25 git_workflow.png
+-rw-r--r--  1 nag nag   7451 Sep 12 19:25 how-to-doc.md
+-rw-r--r--  1 nag nag   2927 Sep 12 19:25 instrumentation.md
+-rw-r--r--  1 nag nag   3097 Sep 12 19:25 issues.md
+-rw-r--r--  1 nag nag  14587 Sep 12 19:25 kubectl-conventions.md
+-rw-r--r--  1 nag nag   9772 Sep 12 19:25 kubemark-guide.md
+-rw-r--r--  1 nag nag   1997 Sep 12 19:25 logging.md
+-rw-r--r--  1 nag nag   1708 Sep 12 19:25 making-release-notes.md
+-rw-r--r--  1 nag nag   9973 Sep 12 19:25 mesos-style.md
+-rw-r--r--  1 nag nag   5116 Sep 12 19:25 node-performance-testing.md
+-rw-r--r--  1 nag nag   7651 Sep 12 19:25 on-call-build-cop.md
+-rw-r--r--  1 nag nag   2437 Sep 12 19:25 on-call-rotations.md
+-rw-r--r--  1 nag nag   4275 Sep 12 19:25 on-call-user-support.md
+-rw-r--r--  1 nag nag   4380 Sep 12 19:25 owners.md
+-rw-r--r--  1 nag nag   3096 Sep 12 19:25 profiling.md
+-rw-r--r--  1 nag nag   3189 Sep 12 19:25 pr_workflow.dia
+-rw-r--r--  1 nag nag  80793 Sep 12 19:25 pr_workflow.png
+-rw-r--r--  1 nag nag   4732 Sep 12 19:25 pull-requests.md
+-rw-r--r--  1 nag nag   4098 Sep 12 19:25 README.md
+-rw-r--r--  1 nag nag  12544 Sep 12 19:25 releasing.md
+-rw-r--r--  1 nag nag   6605 Sep 12 19:25 running-locally.md
+-rwxr-xr-x  1 nag nag   7512 Sep 12 19:25 scheduler_algorithm.md
+-rwxr-xr-x  1 nag nag   3658 Sep 12 19:25 scheduler.md
+-rw-r--r--  1 nag nag   8017 Sep 12 19:25 testing.md
+-rw-r--r--  1 nag nag   5924 Sep 12 19:25 update-release-docs.md
+-rw-r--r--  1 nag nag   4442 Sep 12 19:25 updating-docs-for-feature-changes.md
+-rw-r--r--  1 nag nag   6681 Sep 12 19:25 writing-a-getting-started-guide.md
+-rw-r--r--  1 nag nag  11839 Sep 12 19:25 writing-good-e2e-tests.md
+
+downloads/kubernetes/docs/devel/developer-guides:
+total 24
+drwxr-xr-x 2 nag nag  4096 Sep 12 19:25 .
+drwxr-xr-x 3 nag nag  4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag 13073 Sep 12 19:25 vagrant.md
+
+downloads/kubernetes/docs/getting-started-guides:
+total 796
+drwxr-xr-x  7 nag nag   4096 Sep 12 19:25 .
+drwxr-xr-x 12 nag nag   4096 Sep 12 19:25 ..
+-rw-r--r--  1 nag nag 226552 Sep 12 19:25 all-lines.png
+-rw-r--r--  1 nag nag    469 Sep 12 19:25 aws.md
+-rw-r--r--  1 nag nag    473 Sep 12 19:25 azure.md
+-rw-r--r--  1 nag nag  57417 Sep 12 19:25 bigquery-logging.png
+-rw-r--r--  1 nag nag    491 Sep 12 19:25 binary_release.md
+drwxr-xr-x  2 nag nag   4096 Sep 12 19:25 centos
+-rw-r--r--  1 nag nag  87825 Sep 12 19:25 cloud-logging-console.png
+-rw-r--r--  1 nag nag    483 Sep 12 19:25 cloudstack.md
+drwxr-xr-x  4 nag nag   4096 Sep 12 19:25 coreos
+-rw-r--r--  1 nag nag    475 Sep 12 19:25 coreos.md
+-rw-r--r--  1 nag nag    471 Sep 12 19:25 dcos.md
+-rw-r--r--  1 nag nag    475 Sep 12 19:25 docker.md
+-rw-r--r--  1 nag nag    469 Sep 12 19:25 docker-multinode.md
+-rw-r--r--  1 nag nag  40769 Sep 12 19:25 es-browser.png
+drwxr-xr-x  2 nag nag   4096 Sep 12 19:25 fedora
+-rw-r--r--  1 nag nag    469 Sep 12 19:25 gce.md
+-rw-r--r--  1 nag nag    471 Sep 12 19:25 juju.md
+-rw-r--r--  1 nag nag  52545 Sep 12 19:25 k8s-docker.png
+-rw-r--r--  1 nag nag  31801 Sep 12 19:25 k8s-singlenode-docker.png
+-rw-r--r--  1 nag nag 183775 Sep 12 19:25 kibana-logs.png
+-rw-r--r--  1 nag nag    491 Sep 12 19:25 libvirt-coreos.md
+-rw-r--r--  1 nag nag    505 Sep 12 19:25 logging-elasticsearch.md
+-rw-r--r--  1 nag nag    477 Sep 12 19:25 logging.md
+drwxr-xr-x  2 nag nag   4096 Sep 12 19:25 mesos
+-rw-r--r--  1 nag nag    487 Sep 12 19:25 mesos-docker.md
+-rw-r--r--  1 nag nag    473 Sep 12 19:25 mesos.md
+-rw-r--r--  1 nag nag    473 Sep 12 19:25 ovirt.md
+-rw-r--r--  1 nag nag    481 Sep 12 19:25 rackspace.md
+-rw-r--r--  1 nag nag    468 Sep 12 19:25 README.md
+drwxr-xr-x  2 nag nag   4096 Sep 12 19:25 rkt
+-rw-r--r--  1 nag nag    477 Sep 12 19:25 scratch.md
+-rw-r--r--  1 nag nag    489 Sep 12 19:25 ubuntu-calico.md
+-rw-r--r--  1 nag nag    475 Sep 12 19:25 ubuntu.md
+-rw-r--r--  1 nag nag    477 Sep 12 19:25 vagrant.md
+-rw-r--r--  1 nag nag    477 Sep 12 19:25 vsphere.md
+
+downloads/kubernetes/docs/getting-started-guides/centos:
+total 12
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 7 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag  517 Sep 12 19:25 centos_manual_config.md
+
+downloads/kubernetes/docs/getting-started-guides/coreos:
+total 28
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 7 nag nag 4096 Sep 12 19:25 ..
+drwxr-xr-x 6 nag nag 4096 Sep 12 19:25 azure
+-rw-r--r-- 1 nag nag  511 Sep 12 19:25 bare_metal_calico.md
+-rw-r--r-- 1 nag nag  513 Sep 12 19:25 bare_metal_offline.md
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 cloud-configs
+-rw-r--r-- 1 nag nag  525 Sep 12 19:25 coreos_multinode_cluster.md
+
+downloads/kubernetes/docs/getting-started-guides/coreos/azure:
+total 516
+drwxr-xr-x 6 nag nag   4096 Sep 12 19:25 .
+drwxr-xr-x 4 nag nag   4096 Sep 12 19:25 ..
+drwxr-xr-x 2 nag nag   4096 Sep 12 19:25 addons
+-rwxr-xr-x 1 nag nag    120 Sep 12 19:25 azure-login.js
+drwxr-xr-x 2 nag nag   4096 Sep 12 19:25 cloud_config_templates
+-rwxr-xr-x 1 nag nag    434 Sep 12 19:25 create-kubernetes-cluster.js
+-rwxr-xr-x 1 nag nag    193 Sep 12 19:25 destroy-cluster.js
+-rwxr-xr-x 1 nag nag   1046 Sep 12 19:25 expose_guestbook_app_port.sh
+-rw-r--r-- 1 nag nag 292367 Sep 12 19:25 external_access.png
+-rw-r--r-- 1 nag nag     14 Sep 12 19:25 .gitignore
+-rw-r--r-- 1 nag nag 173212 Sep 12 19:25 initial_cluster.png
+drwxr-xr-x 3 nag nag   4096 Sep 12 19:25 lib
+drwxr-xr-x 2 nag nag   4096 Sep 12 19:25 output
+-rw-r--r-- 1 nag nag    509 Sep 12 19:25 package.json
+-rw-r--r-- 1 nag nag    494 Sep 12 19:25 README.md
+-rwxr-xr-x 1 nag nag    318 Sep 12 19:25 scale-kubernetes-cluster.js
+
+downloads/kubernetes/docs/getting-started-guides/coreos/azure/addons:
+total 16
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 6 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag 2548 Sep 12 19:25 skydns-rc.yaml
+-rw-r--r-- 1 nag nag  355 Sep 12 19:25 skydns-svc.yaml
+
+downloads/kubernetes/docs/getting-started-guides/coreos/azure/cloud_config_templates:
+total 24
+drwxr-xr-x 2 nag nag  4096 Sep 12 19:25 .
+drwxr-xr-x 6 nag nag  4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag   608 Sep 12 19:25 kubernetes-cluster-etcd-node-template.yml
+-rw-r--r-- 1 nag nag 11127 Sep 12 19:25 kubernetes-cluster-main-nodes-template.yml
+
+downloads/kubernetes/docs/getting-started-guides/coreos/azure/lib:
+total 32
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 6 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag 8618 Sep 12 19:25 azure_wrapper.js
+-rw-r--r-- 1 nag nag 1572 Sep 12 19:25 cloud_config.js
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 deployment_logic
+-rw-r--r-- 1 nag nag  812 Sep 12 19:25 util.js
+
+downloads/kubernetes/docs/getting-started-guides/coreos/azure/lib/deployment_logic:
+total 12
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag 2602 Sep 12 19:25 kubernetes.js
+
+downloads/kubernetes/docs/getting-started-guides/coreos/azure/output:
+total 12
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 6 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag    2 Sep 12 19:25 .gitignore
+
+downloads/kubernetes/docs/getting-started-guides/coreos/cloud-configs:
+total 20
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag 5570 Sep 12 19:25 master.yaml
+-rw-r--r-- 1 nag nag 3519 Sep 12 19:25 node.yaml
+
+downloads/kubernetes/docs/getting-started-guides/fedora:
+total 20
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 7 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag  519 Sep 12 19:25 fedora_ansible_config.md
+-rw-r--r-- 1 nag nag  517 Sep 12 19:25 fedora_manual_config.md
+-rw-r--r-- 1 nag nag  529 Sep 12 19:25 flannel_multi_node_cluster.md
+
+downloads/kubernetes/docs/getting-started-guides/mesos:
+total 144
+drwxr-xr-x 2 nag nag  4096 Sep 12 19:25 .
+drwxr-xr-x 7 nag nag  4096 Sep 12 19:25 ..
+-rwxr-xr-x 1 nag nag 88722 Sep 12 19:25 k8s-firewall.png
+-rwxr-xr-x 1 nag nag 44000 Sep 12 19:25 k8s-guestbook.png
+-rw-r--r-- 1 nag nag    32 Sep 12 19:25 OWNERS
+
+downloads/kubernetes/docs/getting-started-guides/rkt:
+total 16
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 7 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag  481 Sep 12 19:25 notes.md
+-rw-r--r-- 1 nag nag  476 Sep 12 19:25 README.md
+
+downloads/kubernetes/docs/images:
+total 40
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:25 .
+drwxr-xr-x 12 nag nag  4096 Sep 12 19:25 ..
+-rw-r--r--  1 nag nag 30899 Sep 12 19:25 newgui.png
+
+downloads/kubernetes/docs/man:
+total 12
+drwxr-xr-x  3 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 12 nag nag 4096 Sep 12 19:25 ..
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 man1
+
+downloads/kubernetes/docs/man/man1:
+total 244
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag  673 Sep 12 19:25 .files_generated
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-annotate.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-api-versions.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-apply.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-attach.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-autoscale.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-cluster-info.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-cluster-info-dump.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-completion.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-config.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-config-current-context.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-config-set.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-config-set-cluster.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-config-set-context.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-config-set-credentials.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-config-unset.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-config-use-context.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-config-view.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-convert.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-cordon.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-create.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-create-configmap.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-create-namespace.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-create-secret.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-create-secret-docker-registry.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-create-secret-generic.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-create-secret-tls.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-create-serviceaccount.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-delete.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-describe.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-drain.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-edit.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-exec.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-explain.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-expose.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-get.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-label.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-logs.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-namespace.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-patch.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-port-forward.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-proxy.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-replace.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-rolling-update.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-rollout.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-rollout-history.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-rollout-pause.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-rollout-resume.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-rollout-status.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-rollout-undo.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-run.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-scale.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-set.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-set-image.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-stop.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-taint.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-uncordon.1
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl-version.1
+
+downloads/kubernetes/docs/proposals:
+total 816
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:25 .
+drwxr-xr-x 12 nag nag  4096 Sep 12 19:25 ..
+-rw-r--r--  1 nag nag 10159 Sep 12 19:25 api-group.md
+-rw-r--r--  1 nag nag  7184 Sep 12 19:25 apiserver-watch.md
+-rw-r--r--  1 nag nag 13854 Sep 12 19:25 client-package-structure.md
+-rw-r--r--  1 nag nag  6923 Sep 12 19:25 cluster-deployment.md
+-rw-r--r--  1 nag nag 18207 Sep 12 19:25 container-init.md
+-rw-r--r--  1 nag nag  5482 Sep 12 19:25 custom-metrics.md
+-rw-r--r--  1 nag nag  9216 Sep 12 19:25 deploy.md
+-rw-r--r--  1 nag nag 10334 Sep 12 19:25 deployment.md
+-rw-r--r--  1 nag nag 27842 Sep 12 19:25 disk-accounting.md
+-rw-r--r--  1 nag nag 10035 Sep 12 19:25 federated-api-servers.md
+-rw-r--r--  1 nag nag 31793 Sep 12 19:25 federation-high-level-arch.png
+-rw-r--r--  1 nag nag 10294 Sep 12 19:25 federation-lite.md
+-rw-r--r--  1 nag nag 33224 Sep 12 19:25 federation.md
+-rw-r--r--  1 nag nag  7064 Sep 12 19:25 flannel-integration.md
+-rw-r--r--  1 nag nag 23952 Sep 12 19:25 garbage-collection.md
+-rw-r--r--  1 nag nag 12601 Sep 12 19:25 gpu-support.md
+-rw-r--r--  1 nag nag   639 Sep 12 19:25 high-availability.md
+-rw-r--r--  1 nag nag  5163 Sep 12 19:25 initial-resources.md
+-rw-r--r--  1 nag nag  5752 Sep 12 19:25 job.md
+-rw-r--r--  1 nag nag 20356 Sep 12 19:25 kubelet-eviction.md
+-rw-r--r--  1 nag nag 17589 Sep 12 19:25 kubelet-systemd.md
+-rw-r--r--  1 nag nag  9650 Sep 12 19:25 kubelet-tls-bootstrap.md
+-rw-r--r--  1 nag nag 30417 Sep 12 19:25 Kubemark_architecture.png
+-rw-r--r--  1 nag nag 11065 Sep 12 19:25 kubemark.md
+-rw-r--r--  1 nag nag  8180 Sep 12 19:25 local-cluster-ux.md
+-rw-r--r--  1 nag nag  7110 Sep 12 19:25 metrics-plumbing.md
+-rw-r--r--  1 nag nag  9464 Sep 12 19:25 multiple-schedulers.md
+-rw-r--r--  1 nag nag 12970 Sep 12 19:25 network-policy.md
+-rw-r--r--  1 nag nag  7620 Sep 12 19:25 node-allocatable.md
+-rw-r--r--  1 nag nag 17673 Sep 12 19:25 node-allocatable.png
+-rw-r--r--  1 nag nag  6533 Sep 12 19:25 performance-related-monitoring.md
+-rw-r--r--  1 nag nag 49079 Sep 12 19:25 pleg.png
+-rw-r--r--  1 nag nag 51394 Sep 12 19:25 pod-cache.png
+-rw-r--r--  1 nag nag  8768 Sep 12 19:25 pod-lifecycle-event-generator.md
+-rw-r--r--  1 nag nag 12742 Sep 12 19:25 pod-security-context.md
+-rw-r--r--  1 nag nag 21818 Sep 12 19:25 protobuf.md
+-rw-r--r--  1 nag nag  7623 Sep 12 19:25 release-notes.md
+-rw-r--r--  1 nag nag  9517 Sep 12 19:25 rescheduler.md
+-rw-r--r--  1 nag nag  6386 Sep 12 19:25 resource-metrics-api.md
+-rw-r--r--  1 nag nag 12151 Sep 12 19:25 resource-quota-scoping.md
+-rw-r--r--  1 nag nag  7111 Sep 12 19:25 runtime-pod-cache.md
+-rw-r--r--  1 nag nag  3859 Sep 12 19:25 scalability-testing.md
+-rw-r--r--  1 nag nag  7256 Sep 12 19:25 scheduledjob.md
+-rw-r--r--  1 nag nag 18802 Sep 12 19:25 security-context-constraints.md
+-rw-r--r--  1 nag nag  7294 Sep 12 19:25 self-hosted-kubelet.md
+-rw-r--r--  1 nag nag 15219 Sep 12 19:25 selinux.md
+-rw-r--r--  1 nag nag  5241 Sep 12 19:25 service-discovery.md
+-rw-r--r--  1 nag nag 31258 Sep 12 19:25 templates.md
+-rw-r--r--  1 nag nag  4407 Sep 12 19:25 volume-ownership-management.md
+-rw-r--r--  1 nag nag  9182 Sep 12 19:25 volume-selectors.md
+-rw-r--r--  1 nag nag 20281 Sep 12 19:25 volumes.md
+-rw-r--r--  1 nag nag 11392 Sep 12 19:25 workflow.md
+
+downloads/kubernetes/docs/user-guide:
+total 1812
+drwxr-xr-x 16 nag nag   4096 Sep 12 19:25 .
+drwxr-xr-x 12 nag nag   4096 Sep 12 19:25 ..
+-rw-r--r--  1 nag nag    481 Sep 12 19:25 accessing-the-cluster.md
+-rw-r--r--  1 nag nag    461 Sep 12 19:25 annotations.md
+-rw-r--r--  1 nag nag    493 Sep 12 19:25 application-troubleshooting.md
+-rw-r--r--  1 nag nag  60222 Sep 12 19:25 cadvisor.png
+-rw-r--r--  1 nag nag    473 Sep 12 19:25 compute-resources.md
+-rw-r--r--  1 nag nag    481 Sep 12 19:25 config-best-practices.md
+drwxr-xr-x  4 nag nag   4096 Sep 12 19:25 configmap
+-rw-r--r--  1 nag nag    457 Sep 12 19:25 configmap.md
+-rw-r--r--  1 nag nag    483 Sep 12 19:25 configuring-containers.md
+-rw-r--r--  1 nag nag    485 Sep 12 19:25 connecting-applications.md
+-rw-r--r--  1 nag nag    517 Sep 12 19:25 connecting-to-applications-port-forward.md
+-rw-r--r--  1 nag nag    503 Sep 12 19:25 connecting-to-applications-proxy.md
+-rw-r--r--  1 nag nag    481 Sep 12 19:25 container-environment.md
+-rw-r--r--  1 nag nag    459 Sep 12 19:25 containers.md
+-rw-r--r--  1 nag nag    475 Sep 12 19:25 debugging-services.md
+-rw-r--r--  1 nag nag    483 Sep 12 19:25 deploying-applications.md
+-rw-r--r--  1 nag nag    461 Sep 12 19:25 deployments.md
+-rw-r--r--  1 nag nag    360 Sep 12 19:25 deployment.yaml
+-rw-r--r--  1 nag nag    481 Sep 12 19:25 docker-cli-to-kubectl.md
+drwxr-xr-x  3 nag nag   4096 Sep 12 19:25 downward-api
+-rw-r--r--  1 nag nag    463 Sep 12 19:25 downward-api.md
+drwxr-xr-x  3 nag nag   4096 Sep 12 19:25 environment-guide
+-rw-r--r--  1 nag nag 209311 Sep 12 19:25 gcm.png
+-rw-r--r--  1 nag nag    485 Sep 12 19:25 getting-into-containers.md
+-rw-r--r--  1 nag nag    489 Sep 12 19:25 horizontal-pod-autoscaler.md
+-rw-r--r--  1 nag nag  21898 Sep 12 19:25 horizontal-pod-autoscaler.png
+-rw-r--r--  1 nag nag  31784 Sep 12 19:25 horizontal-pod-autoscaler.svg
+drwxr-xr-x  3 nag nag   4096 Sep 12 19:25 horizontal-pod-autoscaling
+-rw-r--r--  1 nag nag    461 Sep 12 19:25 identifiers.md
+-rw-r--r--  1 nag nag    451 Sep 12 19:25 images.md
+-rw-r--r--  1 nag nag 534294 Sep 12 19:25 influx.png
+-rw-r--r--  1 nag nag    453 Sep 12 19:25 ingress.md
+-rw-r--r--  1 nag nag    139 Sep 12 19:25 ingress.yaml
+-rw-r--r--  1 nag nag    493 Sep 12 19:25 introspection-and-debugging.md
+-rw-r--r--  1 nag nag    447 Sep 12 19:25 jobs.md
+-rw-r--r--  1 nag nag    262 Sep 12 19:25 job.yaml
+-rw-r--r--  1 nag nag    455 Sep 12 19:25 jsonpath.md
+-rw-r--r--  1 nag nag  82617 Sep 12 19:25 kibana.png
+-rw-r--r--  1 nag nag    470 Sep 12 19:25 known-issues.md
+-rw-r--r--  1 nag nag    469 Sep 12 19:25 kubeconfig-file.md
+drwxr-xr-x  2 nag nag   4096 Sep 12 19:25 kubectl
+-rw-r--r--  1 nag nag   4487 Sep 12 19:25 kubectl-cheatsheet.md
+-rw-r--r--  1 nag nag  14627 Sep 12 19:25 kubectl-overview.md
+-rw-r--r--  1 nag nag    451 Sep 12 19:25 labels.md
+drwxr-xr-x  3 nag nag   4096 Sep 12 19:25 liveness
+drwxr-xr-x  2 nag nag   4096 Sep 12 19:25 logging-demo
+-rw-r--r--  1 nag nag    453 Sep 12 19:25 logging.md
+-rw-r--r--  1 nag nag    479 Sep 12 19:25 managing-deployments.md
+-rw-r--r--  1 nag nag  22972 Sep 12 19:25 monitoring-architecture.png
+-rw-r--r--  1 nag nag    459 Sep 12 19:25 monitoring.md
+-rw-r--r--  1 nag nag    876 Sep 12 19:25 multi-pod.yaml
+-rw-r--r--  1 nag nag    459 Sep 12 19:25 namespaces.md
+-rw-r--r--  1 nag nag    280 Sep 12 19:25 new-nginx-deployment.yaml
+-rw-r--r--  1 nag nag    280 Sep 12 19:25 nginx-deployment.yaml
+drwxr-xr-x  2 nag nag   4096 Sep 12 19:25 node-selection
+-rw-r--r--  1 nag nag    446 Sep 12 19:25 overview.md
+drwxr-xr-x  5 nag nag   4096 Sep 12 19:25 persistent-volumes
+-rw-r--r--  1 nag nag    475 Sep 12 19:25 persistent-volumes.md
+-rw-r--r--  1 nag nag    447 Sep 12 19:25 pods.md
+-rw-r--r--  1 nag nag    459 Sep 12 19:25 pod-states.md
+-rw-r--r--  1 nag nag    465 Sep 12 19:25 pod-templates.md
+-rw-r--r--  1 nag nag    162 Sep 12 19:25 pod.yaml
+-rw-r--r--  1 nag nag    453 Sep 12 19:25 prereqs.md
+-rw-r--r--  1 nag nag    469 Sep 12 19:25 production-pods.md
+-rw-r--r--  1 nag nag    461 Sep 12 19:25 quick-start.md
+-rw-r--r--  1 nag nag    444 Sep 12 19:25 README.md
+drwxr-xr-x  2 nag nag   4096 Sep 12 19:25 replicaset
+-rw-r--r--  1 nag nag    483 Sep 12 19:25 replication-controller.md
+-rw-r--r--  1 nag nag    303 Sep 12 19:25 replication.yaml
+drwxr-xr-x  2 nag nag   4096 Sep 12 19:25 resourcequota
+drwxr-xr-x  2 nag nag   4096 Sep 12 19:25 secrets
+-rw-r--r--  1 nag nag    453 Sep 12 19:25 secrets.md
+-rw-r--r--  1 nag nag    471 Sep 12 19:25 security-context.md
+-rw-r--r--  1 nag nag    471 Sep 12 19:25 service-accounts.md
+-rw-r--r--  1 nag nag    475 Sep 12 19:25 services-firewalls.md
+-rw-r--r--  1 nag nag  54546 Sep 12 19:25 services-iptables-overview.png
+-rw-r--r--  1 nag nag  22454 Sep 12 19:25 services-iptables-overview.svg
+-rw-r--r--  1 nag nag    455 Sep 12 19:25 services.md
+-rw-r--r--  1 nag nag  54270 Sep 12 19:25 services-userspace-overview.png
+-rw-r--r--  1 nag nag  22371 Sep 12 19:25 services-userspace-overview.svg
+-rw-r--r--  1 nag nag    471 Sep 12 19:25 sharing-clusters.md
+-rw-r--r--  1 nag nag    463 Sep 12 19:25 simple-nginx.md
+-rw-r--r--  1 nag nag    461 Sep 12 19:25 simple-yaml.md
+-rwxr-xr-x  1 nag nag  40191 Sep 12 19:25 ui-dashboard-cards-menu.png
+-rwxr-xr-x  1 nag nag  24405 Sep 12 19:25 ui-dashboard-deploy-file.png
+-rwxr-xr-x  1 nag nag  76048 Sep 12 19:25 ui-dashboard-deploy-more.png
+-rwxr-xr-x  1 nag nag  54961 Sep 12 19:25 ui-dashboard-deploy-simple.png
+-rwxr-xr-x  1 nag nag  67354 Sep 12 19:25 ui-dashboard-rcs-detail.png
+-rwxr-xr-x  1 nag nag  68587 Sep 12 19:25 ui-dashboard-rcs.png
+-rwxr-xr-x  1 nag nag  31043 Sep 12 19:25 ui-dashboard-zerostate.png
+-rwxr-xr-x  1 nag nag    443 Sep 12 19:25 ui.md
+drwxr-xr-x  4 nag nag   4096 Sep 12 19:25 update-demo
+-rw-r--r--  1 nag nag    453 Sep 12 19:25 volumes.md
+drwxr-xr-x  2 nag nag   4096 Sep 12 19:25 walkthrough
+-rw-r--r--  1 nag nag    483 Sep 12 19:25 working-with-resources.md
+
+downloads/kubernetes/docs/user-guide/configmap:
+total 36
+drwxr-xr-x  4 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 16 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r--  1 nag nag  549 Sep 12 19:25 command-pod.yaml
+-rw-r--r--  1 nag nag  106 Sep 12 19:25 configmap.yaml
+-rw-r--r--  1 nag nag  514 Sep 12 19:25 env-pod.yaml
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 kubectl
+-rw-r--r--  1 nag nag  464 Sep 12 19:25 README.md
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 redis
+-rw-r--r--  1 nag nag  490 Sep 12 19:25 volume-pod.yaml
+
+downloads/kubernetes/docs/user-guide/configmap/kubectl:
+total 16
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag  157 Sep 12 19:25 game.properties
+-rw-r--r-- 1 nag nag   83 Sep 12 19:25 ui.properties
+
+downloads/kubernetes/docs/user-guide/configmap/redis:
+total 16
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag   43 Sep 12 19:25 redis-config
+-rw-r--r-- 1 nag nag  558 Sep 12 19:25 redis-pod.yaml
+
+downloads/kubernetes/docs/user-guide/downward-api:
+total 20
+drwxr-xr-x  3 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 16 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r--  1 nag nag  563 Sep 12 19:25 dapi-pod.yaml
+-rw-r--r--  1 nag nag  470 Sep 12 19:25 README.md
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 volume
+
+downloads/kubernetes/docs/user-guide/downward-api/volume:
+total 16
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag  829 Sep 12 19:25 dapi-volume.yaml
+-rw-r--r-- 1 nag nag  484 Sep 12 19:25 README.md
+
+downloads/kubernetes/docs/user-guide/environment-guide:
+total 52
+drwxr-xr-x  3 nag nag  4096 Sep 12 19:25 .
+drwxr-xr-x 16 nag nag  4096 Sep 12 19:25 ..
+-rw-r--r--  1 nag nag   647 Sep 12 19:25 backend-rc.yaml
+-rw-r--r--  1 nag nag   179 Sep 12 19:25 backend-srv.yaml
+drwxr-xr-x  4 nag nag  4096 Sep 12 19:25 containers
+-rw-r--r--  1 nag nag 18765 Sep 12 19:25 diagram.png
+-rw-r--r--  1 nag nag   480 Sep 12 19:25 README.md
+-rw-r--r--  1 nag nag   696 Sep 12 19:25 show-rc.yaml
+-rw-r--r--  1 nag nag   210 Sep 12 19:25 show-srv.yaml
+
+downloads/kubernetes/docs/user-guide/environment-guide/containers:
+total 20
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 ..
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 backend
+-rw-r--r-- 1 nag nag  502 Sep 12 19:25 README.md
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 show
+
+downloads/kubernetes/docs/user-guide/environment-guide/containers/backend:
+total 16
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag 1031 Sep 12 19:25 backend.go
+-rw-r--r-- 1 nag nag  640 Sep 12 19:25 Dockerfile
+
+downloads/kubernetes/docs/user-guide/environment-guide/containers/show:
+total 16
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag  640 Sep 12 19:25 Dockerfile
+-rw-r--r-- 1 nag nag 2454 Sep 12 19:25 show.go
+
+downloads/kubernetes/docs/user-guide/horizontal-pod-autoscaling:
+total 20
+drwxr-xr-x  3 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 16 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r--  1 nag nag  283 Sep 12 19:25 hpa-php-apache.yaml
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 image
+-rw-r--r--  1 nag nag  498 Sep 12 19:25 README.md
+
+downloads/kubernetes/docs/user-guide/horizontal-pod-autoscaling/image:
+total 16
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag  691 Sep 12 19:25 Dockerfile
+-rwxr-xr-x 1 nag nag   89 Sep 12 19:25 index.php
+
+downloads/kubernetes/docs/user-guide/kubectl:
+total 244
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 16 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r--  1 nag nag  708 Sep 12 19:25 .files_generated
+-rw-r--r--  1 nag nag  566 Sep 12 19:25 kubectl_annotate.md
+-rw-r--r--  1 nag nag  570 Sep 12 19:25 kubectl_api-versions.md
+-rw-r--r--  1 nag nag  563 Sep 12 19:25 kubectl_apply.md
+-rw-r--r--  1 nag nag  564 Sep 12 19:25 kubectl_attach.md
+-rw-r--r--  1 nag nag  567 Sep 12 19:25 kubectl_autoscale.md
+-rw-r--r--  1 nag nag  575 Sep 12 19:25 kubectl_cluster-info_dump.md
+-rw-r--r--  1 nag nag  570 Sep 12 19:25 kubectl_cluster-info.md
+-rw-r--r--  1 nag nag  568 Sep 12 19:25 kubectl_completion.md
+-rw-r--r--  1 nag nag  580 Sep 12 19:25 kubectl_config_current-context.md
+-rw-r--r--  1 nag nag  564 Sep 12 19:25 kubectl_config.md
+-rw-r--r--  1 nag nag  576 Sep 12 19:25 kubectl_config_set-cluster.md
+-rw-r--r--  1 nag nag  576 Sep 12 19:25 kubectl_config_set-context.md
+-rw-r--r--  1 nag nag  580 Sep 12 19:25 kubectl_config_set-credentials.md
+-rw-r--r--  1 nag nag  568 Sep 12 19:25 kubectl_config_set.md
+-rw-r--r--  1 nag nag  570 Sep 12 19:25 kubectl_config_unset.md
+-rw-r--r--  1 nag nag  576 Sep 12 19:25 kubectl_config_use-context.md
+-rw-r--r--  1 nag nag  569 Sep 12 19:25 kubectl_config_view.md
+-rw-r--r--  1 nag nag  565 Sep 12 19:25 kubectl_convert.md
+-rw-r--r--  1 nag nag  564 Sep 12 19:25 kubectl_cordon.md
+-rw-r--r--  1 nag nag  574 Sep 12 19:25 kubectl_create_configmap.md
+-rw-r--r--  1 nag nag  564 Sep 12 19:25 kubectl_create.md
+-rw-r--r--  1 nag nag  574 Sep 12 19:25 kubectl_create_namespace.md
+-rw-r--r--  1 nag nag  587 Sep 12 19:25 kubectl_create_secret_docker-registry.md
+-rw-r--r--  1 nag nag  579 Sep 12 19:25 kubectl_create_secret_generic.md
+-rw-r--r--  1 nag nag  571 Sep 12 19:25 kubectl_create_secret.md
+-rw-r--r--  1 nag nag  575 Sep 12 19:25 kubectl_create_secret_tls.md
+-rw-r--r--  1 nag nag  579 Sep 12 19:25 kubectl_create_serviceaccount.md
+-rw-r--r--  1 nag nag  564 Sep 12 19:25 kubectl_delete.md
+-rw-r--r--  1 nag nag  566 Sep 12 19:25 kubectl_describe.md
+-rw-r--r--  1 nag nag  563 Sep 12 19:25 kubectl_drain.md
+-rw-r--r--  1 nag nag  562 Sep 12 19:25 kubectl_edit.md
+-rw-r--r--  1 nag nag  562 Sep 12 19:25 kubectl_exec.md
+-rw-r--r--  1 nag nag  565 Sep 12 19:25 kubectl_explain.md
+-rw-r--r--  1 nag nag  564 Sep 12 19:25 kubectl_expose.md
+-rw-r--r--  1 nag nag  561 Sep 12 19:25 kubectl_get.md
+-rw-r--r--  1 nag nag  563 Sep 12 19:25 kubectl_label.md
+-rw-r--r--  1 nag nag  562 Sep 12 19:25 kubectl_logs.md
+-rw-r--r--  1 nag nag  557 Sep 12 19:25 kubectl.md
+-rw-r--r--  1 nag nag  567 Sep 12 19:25 kubectl_namespace.md
+-rw-r--r--  1 nag nag  563 Sep 12 19:25 kubectl_patch.md
+-rw-r--r--  1 nag nag  570 Sep 12 19:25 kubectl_port-forward.md
+-rw-r--r--  1 nag nag  563 Sep 12 19:25 kubectl_proxy.md
+-rw-r--r--  1 nag nag  565 Sep 12 19:25 kubectl_replace.md
+-rw-r--r--  1 nag nag  572 Sep 12 19:25 kubectl_rolling-update.md
+-rw-r--r--  1 nag nag  573 Sep 12 19:25 kubectl_rollout_history.md
+-rw-r--r--  1 nag nag  565 Sep 12 19:25 kubectl_rollout.md
+-rw-r--r--  1 nag nag  571 Sep 12 19:25 kubectl_rollout_pause.md
+-rw-r--r--  1 nag nag  572 Sep 12 19:25 kubectl_rollout_resume.md
+-rw-r--r--  1 nag nag  572 Sep 12 19:25 kubectl_rollout_status.md
+-rw-r--r--  1 nag nag  570 Sep 12 19:25 kubectl_rollout_undo.md
+-rw-r--r--  1 nag nag  561 Sep 12 19:25 kubectl_run.md
+-rw-r--r--  1 nag nag  563 Sep 12 19:25 kubectl_scale.md
+-rw-r--r--  1 nag nag  567 Sep 12 19:25 kubectl_set_image.md
+-rw-r--r--  1 nag nag  561 Sep 12 19:25 kubectl_set.md
+-rw-r--r--  1 nag nag 3817 Sep 12 19:25 kubectl_stop.md
+-rw-r--r--  1 nag nag  563 Sep 12 19:25 kubectl_taint.md
+-rw-r--r--  1 nag nag  566 Sep 12 19:25 kubectl_uncordon.md
+-rw-r--r--  1 nag nag  565 Sep 12 19:25 kubectl_version.md
+
+downloads/kubernetes/docs/user-guide/liveness:
+total 24
+drwxr-xr-x  3 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 16 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r--  1 nag nag  414 Sep 12 19:25 exec-liveness.yaml
+-rw-r--r--  1 nag nag  411 Sep 12 19:25 http-liveness.yaml
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 image
+-rw-r--r--  1 nag nag  462 Sep 12 19:25 README.md
+
+downloads/kubernetes/docs/user-guide/liveness/image:
+total 20
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag  642 Sep 12 19:25 Dockerfile
+-rw-r--r-- 1 nag nag  885 Sep 12 19:25 Makefile
+-rw-r--r-- 1 nag nag 1328 Sep 12 19:25 server.go
+
+downloads/kubernetes/docs/user-guide/logging-demo:
+total 112
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:25 .
+drwxr-xr-x 16 nag nag  4096 Sep 12 19:25 ..
+-rw-r--r--  1 nag nag  1507 Sep 12 19:25 Makefile
+-rw-r--r--  1 nag nag   470 Sep 12 19:25 README.md
+-rw-r--r--  1 nag nag   918 Sep 12 19:25 synthetic_0_25lps.yaml
+-rw-r--r--  1 nag nag   922 Sep 12 19:25 synthetic_10lps.yaml
+-rw-r--r--  1 nag nag 89284 Sep 12 19:25 synth-logger.png
+
+downloads/kubernetes/docs/user-guide/node-selection:
+total 16
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 16 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r--  1 nag nag  194 Sep 12 19:25 pod.yaml
+-rw-r--r--  1 nag nag  474 Sep 12 19:25 README.md
+
+downloads/kubernetes/docs/user-guide/persistent-volumes:
+total 24
+drwxr-xr-x  5 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 16 nag nag 4096 Sep 12 19:25 ..
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 claims
+-rw-r--r--  1 nag nag  482 Sep 12 19:25 README.md
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 simpletest
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 volumes
+
+downloads/kubernetes/docs/user-guide/persistent-volumes/claims:
+total 20
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 5 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag  158 Sep 12 19:25 claim-01.yaml
+-rw-r--r-- 1 nag nag  158 Sep 12 19:25 claim-02.yaml
+-rw-r--r-- 1 nag nag  332 Sep 12 19:25 claim-03.json
+
+downloads/kubernetes/docs/user-guide/persistent-volumes/simpletest:
+total 20
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 5 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag  164 Sep 12 19:25 namespace.json
+-rw-r--r-- 1 nag nag  382 Sep 12 19:25 pod.yaml
+-rw-r--r-- 1 nag nag  290 Sep 12 19:25 service.json
+
+downloads/kubernetes/docs/user-guide/persistent-volumes/volumes:
+total 24
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 5 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag  214 Sep 12 19:25 gce.yaml
+-rw-r--r-- 1 nag nag  201 Sep 12 19:25 local-01.yaml
+-rw-r--r-- 1 nag nag  241 Sep 12 19:25 local-02.yaml
+-rw-r--r-- 1 nag nag  183 Sep 12 19:25 nfs.yaml
+
+downloads/kubernetes/docs/user-guide/replicaset:
+total 16
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 16 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r--  1 nag nag 1144 Sep 12 19:25 frontend.yaml
+-rw-r--r--  1 nag nag 1179 Sep 12 19:25 redis-slave.yaml
+
+downloads/kubernetes/docs/user-guide/resourcequota:
+total 12
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 16 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r--  1 nag nag  472 Sep 12 19:25 README.md
+
+downloads/kubernetes/docs/user-guide/secrets:
+total 24
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 16 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r--  1 nag nag  460 Sep 12 19:25 README.md
+-rw-r--r--  1 nag nag  363 Sep 12 19:25 secret-env-pod.yaml
+-rw-r--r--  1 nag nag  463 Sep 12 19:25 secret-pod.yaml
+-rw-r--r--  1 nag nag  114 Sep 12 19:25 secret.yaml
+
+downloads/kubernetes/docs/user-guide/update-demo:
+total 32
+drwxr-xr-x  4 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 16 nag nag 4096 Sep 12 19:25 ..
+-rwxr-xr-x  1 nag nag  984 Sep 12 19:25 build-images.sh
+drwxr-xr-x  4 nag nag 4096 Sep 12 19:25 images
+-rw-r--r--  1 nag nag  410 Sep 12 19:25 kitten-rc.yaml
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 local
+-rw-r--r--  1 nag nag  432 Sep 12 19:25 nautilus-rc.yaml
+-rw-r--r--  1 nag nag  468 Sep 12 19:25 README.md
+
+downloads/kubernetes/docs/user-guide/update-demo/images:
+total 16
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:25 ..
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 kitten
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 nautilus
+
+downloads/kubernetes/docs/user-guide/update-demo/images/kitten:
+total 16
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag  701 Sep 12 19:25 Dockerfile
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 html
+
+downloads/kubernetes/docs/user-guide/update-demo/images/kitten/html:
+total 28
+drwxr-xr-x 2 nag nag  4096 Sep 12 19:25 .
+drwxr-xr-x 3 nag nag  4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag    28 Sep 12 19:25 data.json
+-rw-r--r-- 1 nag nag 14769 Sep 12 19:25 kitten.jpg
+
+downloads/kubernetes/docs/user-guide/update-demo/images/nautilus:
+total 16
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag  705 Sep 12 19:25 Dockerfile
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 html
+
+downloads/kubernetes/docs/user-guide/update-demo/images/nautilus/html:
+total 36
+drwxr-xr-x 2 nag nag  4096 Sep 12 19:25 .
+drwxr-xr-x 3 nag nag  4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag    30 Sep 12 19:25 data.json
+-rw-r--r-- 1 nag nag 21231 Sep 12 19:25 nautilus.jpg
+
+downloads/kubernetes/docs/user-guide/update-demo/local:
+total 404
+drwxr-xr-x 2 nag nag   4096 Sep 12 19:25 .
+drwxr-xr-x 4 nag nag   4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag 104453 Sep 12 19:25 angular.min.js
+-rw-r--r-- 1 nag nag 281309 Sep 12 19:25 angular.min.js.map
+-rw-r--r-- 1 nag nag   1324 Sep 12 19:25 index.html
+-rw-r--r-- 1 nag nag   1099 Sep 12 19:25 LICENSE.angular
+-rw-r--r-- 1 nag nag   2820 Sep 12 19:25 script.js
+-rw-r--r-- 1 nag nag    965 Sep 12 19:25 style.css
+
+downloads/kubernetes/docs/user-guide/walkthrough:
+total 44
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 16 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r--  1 nag nag  475 Sep 12 19:25 k8s201.md
+-rw-r--r--  1 nag nag  162 Sep 12 19:25 pod-nginx-with-label.yaml
+-rw-r--r--  1 nag nag  137 Sep 12 19:25 pod-nginx.yaml
+-rw-r--r--  1 nag nag  249 Sep 12 19:25 pod-redis.yaml
+-rw-r--r--  1 nag nag  423 Sep 12 19:25 podtemplate.json
+-rw-r--r--  1 nag nag  458 Sep 12 19:25 pod-with-http-healthcheck.yaml
+-rw-r--r--  1 nag nag  468 Sep 12 19:25 README.md
+-rw-r--r--  1 nag nag  609 Sep 12 19:25 replication-controller.yaml
+-rw-r--r--  1 nag nag  440 Sep 12 19:25 service.yaml
+
+downloads/kubernetes/docs/yaml:
+total 12
+drwxr-xr-x  3 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 12 nag nag 4096 Sep 12 19:25 ..
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 kubectl
+
+downloads/kubernetes/docs/yaml/kubectl:
+total 152
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl_annotate.yaml
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl_api-versions.yaml
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl_apply.yaml
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl_attach.yaml
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl_autoscale.yaml
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl_cluster-info.yaml
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl_completion.yaml
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl_config.yaml
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl_convert.yaml
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl_cordon.yaml
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl_create.yaml
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl_delete.yaml
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl_describe.yaml
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl_drain.yaml
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl_edit.yaml
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl_exec.yaml
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl_explain.yaml
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl_expose.yaml
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl_get.yaml
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl_label.yaml
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl_logs.yaml
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl_namespace.yaml
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl_patch.yaml
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl_port-forward.yaml
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl_proxy.yaml
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl_replace.yaml
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl_rolling-update.yaml
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl_rollout.yaml
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl_run.yaml
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl_scale.yaml
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl_set.yaml
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl_stop.yaml
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl_taint.yaml
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl_uncordon.yaml
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl_version.yaml
+-rw-r--r-- 1 nag nag  174 Sep 12 19:25 kubectl.yaml
+
+downloads/kubernetes/examples:
+total 236
+drwxr-xr-x 45 nag nag  4096 Sep 12 19:25 .
+drwxr-xr-x  9 nag nag  4096 Sep 12 19:25 ..
+drwxr-xr-x  4 nag nag  4096 Sep 12 19:25 apiserver
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:25 aws_ebs
+drwxr-xr-x  3 nag nag  4096 Sep 12 19:25 azure_file
+drwxr-xr-x  3 nag nag  4096 Sep 12 19:25 blog-logging
+drwxr-xr-x  4 nag nag  4096 Sep 12 19:25 cassandra
+drwxr-xr-x  4 nag nag  4096 Sep 12 19:25 celery-rabbitmq
+drwxr-xr-x  3 nag nag  4096 Sep 12 19:25 cephfs
+drwxr-xr-x  3 nag nag  4096 Sep 12 19:25 cluster-dns
+-rw-r--r--  1 nag nag   692 Sep 12 19:25 doc.go
+drwxr-xr-x  3 nag nag  4096 Sep 12 19:25 elasticsearch
+-rw-r--r--  1 nag nag 17650 Sep 12 19:25 examples_test.go
+drwxr-xr-x  3 nag nag  4096 Sep 12 19:25 experimental
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:25 explorer
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:25 fibre_channel
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:25 flexvolume
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:25 flocker
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:25 glusterfs
+drwxr-xr-x  6 nag nag  4096 Sep 12 19:25 guestbook
+drwxr-xr-x  3 nag nag  4096 Sep 12 19:25 guestbook-go
+-rw-r--r--  1 nag nag  4237 Sep 12 19:25 guidelines.md
+drwxr-xr-x  3 nag nag  4096 Sep 12 19:25 hazelcast
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:25 https-nginx
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:25 iscsi
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:25 javaee
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:25 javaweb-tomcat-sidecar
+drwxr-xr-x  5 nag nag  4096 Sep 12 19:25 job
+drwxr-xr-x  7 nag nag  4096 Sep 12 19:25 k8petstore
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:25 kubectl-container
+drwxr-xr-x  3 nag nag  4096 Sep 12 19:25 meteor
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:25 mysql-cinder-pd
+drwxr-xr-x  3 nag nag  4096 Sep 12 19:25 mysql-galera
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:25 mysql-wordpress-pd
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:25 newrelic
+drwxr-xr-x  4 nag nag  4096 Sep 12 19:25 nfs
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:25 nodesjs-mongodb
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:25 openshift-origin
+-rw-r--r--  1 nag nag    69 Sep 12 19:25 OWNERS
+drwxr-xr-x  3 nag nag  4096 Sep 12 19:25 phabricator
+-rw-r--r--  1 nag nag   214 Sep 12 19:25 pod
+drwxr-xr-x  3 nag nag  4096 Sep 12 19:25 rbd
+-rw-r--r--  1 nag nag  1479 Sep 12 19:25 README.md
+drwxr-xr-x  3 nag nag  4096 Sep 12 19:25 redis
+drwxr-xr-x  3 nag nag  4096 Sep 12 19:25 rethinkdb
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:25 runtime-constraints
+-rw-r--r--  1 nag nag   471 Sep 12 19:25 scheduler-policy-config.json
+-rw-r--r--  1 nag nag   662 Sep 12 19:25 scheduler-policy-config-with-extender.json
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:25 selenium
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:25 sharing-clusters
+-rw-r--r--  1 nag nag  2708 Sep 12 19:25 simple-nginx.md
+drwxr-xr-x  3 nag nag  4096 Sep 12 19:25 spark
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:25 storm
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:25 vitess
+
+downloads/kubernetes/examples/apiserver:
+total 32
+drwxr-xr-x  4 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 45 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r--  1 nag nag 3503 Sep 12 19:25 apiserver.go
+-rw-r--r--  1 nag nag 4481 Sep 12 19:25 apiserver_test.go
+-rw-r--r--  1 nag nag  898 Sep 12 19:25 README.md
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 rest
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 server
+
+downloads/kubernetes/examples/apiserver/rest:
+total 12
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag 2633 Sep 12 19:25 reststorage.go
+
+downloads/kubernetes/examples/apiserver/server:
+total 12
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag 1028 Sep 12 19:25 main.go
+
+downloads/kubernetes/examples/aws_ebs:
+total 16
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 45 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r--  1 nag nag  432 Sep 12 19:25 aws-ebs-web.yaml
+-rw-r--r--  1 nag nag 1262 Sep 12 19:25 README.md
+
+downloads/kubernetes/examples/azure_file:
+total 20
+drwxr-xr-x  3 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 45 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r--  1 nag nag  318 Sep 12 19:25 azure.yaml
+-rw-r--r--  1 nag nag 1676 Sep 12 19:25 README.md
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 secret
+
+downloads/kubernetes/examples/azure_file/secret:
+total 12
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag  265 Sep 12 19:25 azure-secret.yaml
+
+downloads/kubernetes/examples/blog-logging:
+total 16
+drwxr-xr-x  3 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 45 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r--  1 nag nag  208 Sep 12 19:25 counter-pod.yaml
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 diagrams
+
+downloads/kubernetes/examples/blog-logging/diagrams:
+total 11052
+drwxr-xr-x 2 nag nag    4096 Sep 12 19:25 .
+drwxr-xr-x 3 nag nag    4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag 1671923 Sep 12 19:25 0f64.ai
+-rw-r--r-- 1 nag nag   33414 Sep 12 19:25 0f64.png
+-rw-r--r-- 1 nag nag   66065 Sep 12 19:25 0f64.svg
+-rw-r--r-- 1 nag nag 1661415 Sep 12 19:25 20ej.ai
+-rw-r--r-- 1 nag nag   38533 Sep 12 19:25 20ej.png
+-rw-r--r-- 1 nag nag   75502 Sep 12 19:25 20ej.svg
+-rw-r--r-- 1 nag nag 1673703 Sep 12 19:25 27gf.ai
+-rw-r--r-- 1 nag nag 1681216 Sep 12 19:25 27gf-counter.ai
+-rw-r--r-- 1 nag nag   41970 Sep 12 19:25 27gf-counter.png
+-rw-r--r-- 1 nag nag  103008 Sep 12 19:25 27gf-counter.svg
+-rw-r--r-- 1 nag nag   33205 Sep 12 19:25 27gf.png
+-rw-r--r-- 1 nag nag   66059 Sep 12 19:25 27gf.svg
+-rw-r--r-- 1 nag nag 1785934 Sep 12 19:25 cloud-logging.ai
+-rw-r--r-- 1 nag nag  144101 Sep 12 19:25 cloud-logging.png
+-rw-r--r-- 1 nag nag  337530 Sep 12 19:25 cloud-logging.svg
+-rw-r--r-- 1 nag nag 1686370 Sep 12 19:25 pk22.ai
+-rw-r--r-- 1 nag nag   51028 Sep 12 19:25 pk22.png
+-rw-r--r-- 1 nag nag  103742 Sep 12 19:25 pk22.svg
+-rw-r--r-- 1 nag nag     432 Sep 12 19:25 README.md
+
+downloads/kubernetes/examples/cassandra:
+total 48
+drwxr-xr-x  4 nag nag  4096 Sep 12 19:25 .
+drwxr-xr-x 45 nag nag  4096 Sep 12 19:25 ..
+-rw-r--r--  1 nag nag  1554 Sep 12 19:25 cassandra-controller.yaml
+-rw-r--r--  1 nag nag  1394 Sep 12 19:25 cassandra-daemonset.yaml
+-rw-r--r--  1 nag nag   149 Sep 12 19:25 cassandra-service.yaml
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:25 image
+drwxr-xr-x  3 nag nag  4096 Sep 12 19:25 java
+-rw-r--r--  1 nag nag 19854 Sep 12 19:25 README.md
+
+downloads/kubernetes/examples/cassandra/image:
+total 76
+drwxr-xr-x 2 nag nag  4096 Sep 12 19:25 .
+drwxr-xr-x 4 nag nag  4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag   186 Sep 12 19:25 cassandra.list
+-rw-r--r-- 1 nag nag 35876 Sep 12 19:25 cassandra.yaml
+-rw-r--r-- 1 nag nag  2171 Sep 12 19:25 Dockerfile
+-rw-r--r-- 1 nag nag  9823 Sep 12 19:25 kubernetes-cassandra.jar
+-rw-r--r-- 1 nag nag   385 Sep 12 19:25 logback.xml
+-rw-r--r-- 1 nag nag  1061 Sep 12 19:25 Makefile
+-rw-r--r-- 1 nag nag  2106 Sep 12 19:25 run.sh
+
+downloads/kubernetes/examples/cassandra/java:
+total 24
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag    7 Sep 12 19:25 .gitignore
+-rw-r--r-- 1 nag nag 2951 Sep 12 19:25 pom.xml
+-rw-r--r-- 1 nag nag 2355 Sep 12 19:25 README.md
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:25 src
+
+downloads/kubernetes/examples/cassandra/java/src:
+total 16
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 ..
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 main
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:25 test
+
+downloads/kubernetes/examples/cassandra/java/src/main:
+total 12
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:25 ..
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 java
+
+downloads/kubernetes/examples/cassandra/java/src/main/java:
+total 12
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 ..
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 io
+
+downloads/kubernetes/examples/cassandra/java/src/main/java/io:
+total 12
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 ..
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 k8s
+
+downloads/kubernetes/examples/cassandra/java/src/main/java/io/k8s:
+total 12
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 ..
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 cassandra
+
+downloads/kubernetes/examples/cassandra/java/src/main/java/io/k8s/cassandra:
+total 20
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag 9686 Sep 12 19:25 KubernetesSeedProvider.java
+
+downloads/kubernetes/examples/cassandra/java/src/test:
+total 16
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:25 ..
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 java
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 resources
+
+downloads/kubernetes/examples/cassandra/java/src/test/java:
+total 12
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:25 ..
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 io
+
+downloads/kubernetes/examples/cassandra/java/src/test/java/io:
+total 12
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 ..
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 k8s
+
+downloads/kubernetes/examples/cassandra/java/src/test/java/io/k8s:
+total 12
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 ..
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 cassandra
+
+downloads/kubernetes/examples/cassandra/java/src/test/java/io/k8s/cassandra:
+total 12
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag 2007 Sep 12 19:25 KubernetesSeedProviderTest.java
+
+downloads/kubernetes/examples/cassandra/java/src/test/resources:
+total 16
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag 2060 Sep 12 19:25 cassandra.yaml
+-rw-r--r-- 1 nag nag 1054 Sep 12 19:25 logback-test.xml
+
+downloads/kubernetes/examples/celery-rabbitmq:
+total 48
+drwxr-xr-x  4 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 45 nag nag 4096 Sep 12 19:25 ..
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 celery-app-add
+-rw-r--r--  1 nag nag  412 Sep 12 19:25 celery-controller.yaml
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 flower
+-rw-r--r--  1 nag nag  359 Sep 12 19:25 flower-controller.yaml
+-rw-r--r--  1 nag nag  198 Sep 12 19:25 flower-service.yaml
+-rw-r--r--  1 nag nag  405 Sep 12 19:25 rabbitmq-controller.yaml
+-rw-r--r--  1 nag nag  183 Sep 12 19:25 rabbitmq-service.yaml
+-rw-r--r--  1 nag nag 9603 Sep 12 19:25 README.md
+
+downloads/kubernetes/examples/celery-rabbitmq/celery-app-add:
+total 24
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag  928 Sep 12 19:25 celery_conf.py
+-rw-r--r-- 1 nag nag  802 Sep 12 19:25 Dockerfile
+-rw-r--r-- 1 nag nag  782 Sep 12 19:25 run.sh
+-rw-r--r-- 1 nag nag  855 Sep 12 19:25 run_tasks.py
+
+downloads/kubernetes/examples/celery-rabbitmq/flower:
+total 16
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag  980 Sep 12 19:25 Dockerfile
+-rw-r--r-- 1 nag nag  706 Sep 12 19:25 run_flower.sh
+
+downloads/kubernetes/examples/cephfs:
+total 24
+drwxr-xr-x  3 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 45 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r--  1 nag nag  403 Sep 12 19:25 cephfs-with-secret.yaml
+-rw-r--r--  1 nag nag  570 Sep 12 19:25 cephfs.yaml
+-rw-r--r--  1 nag nag 1875 Sep 12 19:25 README.md
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 secret
+
+downloads/kubernetes/examples/cephfs/secret:
+total 12
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag  128 Sep 12 19:25 ceph-secret.yaml
+
+downloads/kubernetes/examples/cluster-dns:
+total 40
+drwxr-xr-x  3 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 45 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r--  1 nag nag  430 Sep 12 19:25 dns-backend-rc.yaml
+-rw-r--r--  1 nag nag  125 Sep 12 19:25 dns-backend-service.yaml
+-rw-r--r--  1 nag nag  361 Sep 12 19:25 dns-frontend-pod.yaml
+drwxr-xr-x  4 nag nag 4096 Sep 12 19:25 images
+-rw-r--r--  1 nag nag   97 Sep 12 19:25 namespace-dev.yaml
+-rw-r--r--  1 nag nag   95 Sep 12 19:25 namespace-prod.yaml
+-rw-r--r--  1 nag nag 6941 Sep 12 19:25 README.md
+
+downloads/kubernetes/examples/cluster-dns/images:
+total 16
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 ..
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 backend
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 frontend
+
+downloads/kubernetes/examples/cluster-dns/images/backend:
+total 20
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag  700 Sep 12 19:25 Dockerfile
+-rw-r--r-- 1 nag nag  803 Sep 12 19:25 Makefile
+-rw-r--r-- 1 nag nag 1313 Sep 12 19:25 server.py
+
+downloads/kubernetes/examples/cluster-dns/images/frontend:
+total 20
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag 1227 Sep 12 19:25 client.py
+-rw-r--r-- 1 nag nag  728 Sep 12 19:25 Dockerfile
+-rw-r--r-- 1 nag nag  804 Sep 12 19:25 Makefile
+
+downloads/kubernetes/examples/elasticsearch:
+total 36
+drwxr-xr-x  3 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 45 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r--  1 nag nag 1261 Sep 12 19:25 es-rc.yaml
+-rw-r--r--  1 nag nag  278 Sep 12 19:25 es-svc.yaml
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 production_cluster
+-rw-r--r--  1 nag nag 8339 Sep 12 19:25 README.md
+-rw-r--r--  1 nag nag   68 Sep 12 19:25 service-account.yaml
+
+downloads/kubernetes/examples/elasticsearch/production_cluster:
+total 44
+drwxr-xr-x 2 nag nag  4096 Sep 12 19:25 .
+drwxr-xr-x 3 nag nag  4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag  1264 Sep 12 19:25 es-client-rc.yaml
+-rw-r--r-- 1 nag nag  1131 Sep 12 19:25 es-data-rc.yaml
+-rw-r--r-- 1 nag nag   253 Sep 12 19:25 es-discovery-svc.yaml
+-rw-r--r-- 1 nag nag  1189 Sep 12 19:25 es-master-rc.yaml
+-rw-r--r-- 1 nag nag   259 Sep 12 19:25 es-svc.yaml
+-rw-r--r-- 1 nag nag 10881 Sep 12 19:25 README.md
+-rw-r--r-- 1 nag nag    68 Sep 12 19:25 service-account.yaml
+
+downloads/kubernetes/examples/experimental:
+total 12
+drwxr-xr-x  3 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 45 nag nag 4096 Sep 12 19:25 ..
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 persistent-volume-provisioning
+
+downloads/kubernetes/examples/experimental/persistent-volume-provisioning:
+total 20
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag  331 Sep 12 19:25 claim1.json
+-rw-r--r-- 1 nag nag  331 Sep 12 19:25 claim2.json
+-rw-r--r-- 1 nag nag 3433 Sep 12 19:25 README.md
+
+downloads/kubernetes/examples/explorer:
+total 32
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 45 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r--  1 nag nag  749 Sep 12 19:25 Dockerfile
+-rw-r--r--  1 nag nag 3325 Sep 12 19:25 explorer.go
+-rw-r--r--  1 nag nag 1015 Sep 12 19:25 Makefile
+-rw-r--r--  1 nag nag  382 Sep 12 19:25 pod.yaml
+-rw-r--r--  1 nag nag 5020 Sep 12 19:25 README.md
+
+downloads/kubernetes/examples/fibre_channel:
+total 16
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 45 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r--  1 nag nag  330 Sep 12 19:25 fc.yaml
+-rw-r--r--  1 nag nag 2607 Sep 12 19:25 README.md
+
+downloads/kubernetes/examples/flexvolume:
+total 20
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 45 nag nag 4096 Sep 12 19:25 ..
+-rwxr-xr-x  1 nag nag 3091 Sep 12 19:25 lvm
+-rw-r--r--  1 nag nag  386 Sep 12 19:25 nginx.yaml
+-rw-r--r--  1 nag nag 2491 Sep 12 19:25 README.md
+
+downloads/kubernetes/examples/flocker:
+total 24
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 45 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r--  1 nag nag  998 Sep 12 19:25 flocker-pod-with-rc.yml
+-rw-r--r--  1 nag nag  398 Sep 12 19:25 flocker-pod.yml
+-rw-r--r--  1 nag nag 6578 Sep 12 19:25 README.md
+
+downloads/kubernetes/examples/glusterfs:
+total 24
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 45 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r--  1 nag nag  441 Sep 12 19:25 glusterfs-endpoints.json
+-rw-r--r--  1 nag nag  765 Sep 12 19:25 glusterfs-pod.json
+-rw-r--r--  1 nag nag  155 Sep 12 19:25 glusterfs-service.json
+-rw-r--r--  1 nag nag 3649 Sep 12 19:25 README.md
+
+downloads/kubernetes/examples/guestbook:
+total 80
+drwxr-xr-x  6 nag nag  4096 Sep 12 19:25 .
+drwxr-xr-x 45 nag nag  4096 Sep 12 19:25 ..
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:25 all-in-one
+-rw-r--r--  1 nag nag  1144 Sep 12 19:25 frontend-deployment.yaml
+-rw-r--r--  1 nag nag   394 Sep 12 19:25 frontend-service.yaml
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:25 legacy
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:25 php-redis
+-rw-r--r--  1 nag nag 29776 Sep 12 19:25 README.md
+-rw-r--r--  1 nag nag   887 Sep 12 19:25 redis-master-deployment.yaml
+-rw-r--r--  1 nag nag   282 Sep 12 19:25 redis-master-service.yaml
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:25 redis-slave
+-rw-r--r--  1 nag nag  1204 Sep 12 19:25 redis-slave-deployment.yaml
+-rw-r--r--  1 nag nag   258 Sep 12 19:25 redis-slave-service.yaml
+
+downloads/kubernetes/examples/guestbook/all-in-one:
+total 24
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 6 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag 1542 Sep 12 19:25 frontend.yaml
+-rw-r--r-- 1 nag nag 4187 Sep 12 19:25 guestbook-all-in-one.yaml
+-rw-r--r-- 1 nag nag 1466 Sep 12 19:25 redis-slave.yaml
+
+downloads/kubernetes/examples/guestbook/legacy:
+total 20
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 6 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag 1116 Sep 12 19:25 frontend-controller.yaml
+-rw-r--r-- 1 nag nag  849 Sep 12 19:25 redis-master-controller.yaml
+-rw-r--r-- 1 nag nag 1166 Sep 12 19:25 redis-slave-controller.yaml
+
+downloads/kubernetes/examples/guestbook/php-redis:
+total 24
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 6 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag  966 Sep 12 19:25 controllers.js
+-rw-r--r-- 1 nag nag 1313 Sep 12 19:25 Dockerfile
+-rw-r--r-- 1 nag nag  932 Sep 12 19:25 guestbook.php
+-rw-r--r-- 1 nag nag  921 Sep 12 19:25 index.html
+
+downloads/kubernetes/examples/guestbook/redis-slave:
+total 16
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 6 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag  675 Sep 12 19:25 Dockerfile
+-rwxr-xr-x 1 nag nag  778 Sep 12 19:25 run.sh
+
+downloads/kubernetes/examples/guestbook-go:
+total 92
+drwxr-xr-x  3 nag nag  4096 Sep 12 19:25 .
+drwxr-xr-x 45 nag nag  4096 Sep 12 19:25 ..
+-rw-r--r--  1 nag nag   778 Sep 12 19:25 guestbook-controller.json
+-rw-r--r--  1 nag nag 40028 Sep 12 19:25 guestbook-page.png
+-rw-r--r--  1 nag nag   358 Sep 12 19:25 guestbook-service.json
+-rw-r--r--  1 nag nag 14746 Sep 12 19:25 README.md
+-rw-r--r--  1 nag nag   832 Sep 12 19:25 redis-master-controller.json
+-rw-r--r--  1 nag nag   372 Sep 12 19:25 redis-master-service.json
+-rw-r--r--  1 nag nag   840 Sep 12 19:25 redis-slave-controller.json
+-rw-r--r--  1 nag nag   369 Sep 12 19:25 redis-slave-service.json
+drwxr-xr-x  4 nag nag  4096 Sep 12 19:25 _src
+
+downloads/kubernetes/examples/guestbook-go/_src:
+total 32
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag  900 Sep 12 19:25 Dockerfile
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 guestbook
+-rw-r--r-- 1 nag nag 2539 Sep 12 19:25 main.go
+-rw-r--r-- 1 nag nag 1412 Sep 12 19:25 Makefile
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 public
+-rw-r--r-- 1 nag nag 1104 Sep 12 19:25 README.md
+
+downloads/kubernetes/examples/guestbook-go/_src/guestbook:
+total 12
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag  868 Sep 12 19:25 Dockerfile
+
+downloads/kubernetes/examples/guestbook-go/_src/public:
+total 20
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag  922 Sep 12 19:25 index.html
+-rw-r--r-- 1 nag nag 1515 Sep 12 19:25 script.js
+-rw-r--r-- 1 nag nag  833 Sep 12 19:25 style.css
+
+downloads/kubernetes/examples/hazelcast:
+total 36
+drwxr-xr-x  3 nag nag  4096 Sep 12 19:25 .
+drwxr-xr-x 45 nag nag  4096 Sep 12 19:25 ..
+-rw-r--r--  1 nag nag   688 Sep 12 19:25 hazelcast-controller.yaml
+-rw-r--r--  1 nag nag   152 Sep 12 19:25 hazelcast-service.yaml
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:25 image
+-rw-r--r--  1 nag nag 12918 Sep 12 19:25 README.md
+
+downloads/kubernetes/examples/hazelcast/image:
+total 12
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag  903 Sep 12 19:25 Dockerfile
+
+downloads/kubernetes/examples/https-nginx:
+total 32
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 45 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r--  1 nag nag  405 Sep 12 19:25 default.conf
+-rw-r--r--  1 nag nag  745 Sep 12 19:25 Dockerfile
+-rw-r--r--  1 nag nag 1118 Sep 12 19:25 Makefile
+-rw-r--r--  1 nag nag 2012 Sep 12 19:25 make_secret.go
+-rw-r--r--  1 nag nag  734 Sep 12 19:25 nginx-app.yaml
+-rw-r--r--  1 nag nag 2440 Sep 12 19:25 README.md
+
+downloads/kubernetes/examples/iscsi:
+total 20
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 45 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r--  1 nag nag  685 Sep 12 19:25 iscsi.yaml
+-rw-r--r--  1 nag nag 5602 Sep 12 19:25 README.md
+
+downloads/kubernetes/examples/javaee:
+total 28
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 45 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r--  1 nag nag  534 Sep 12 19:25 mysql-pod.yaml
+-rw-r--r--  1 nag nag  351 Sep 12 19:25 mysql-service.yaml
+-rw-r--r--  1 nag nag 5797 Sep 12 19:25 README.md
+-rw-r--r--  1 nag nag  362 Sep 12 19:25 wildfly-rc.yaml
+
+downloads/kubernetes/examples/javaweb-tomcat-sidecar:
+total 72
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:25 .
+drwxr-xr-x 45 nag nag  4096 Sep 12 19:25 ..
+-rw-r--r--  1 nag nag   636 Sep 12 19:25 javaweb-2.yaml
+-rw-r--r--  1 nag nag   500 Sep 12 19:25 javaweb.yaml
+-rw-r--r--  1 nag nag  5834 Sep 12 19:25 README.md
+-rw-r--r--  1 nag nag 46353 Sep 12 19:25 workflow.png
+
+downloads/kubernetes/examples/job:
+total 20
+drwxr-xr-x  5 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 45 nag nag 4096 Sep 12 19:25 ..
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 expansions
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 work-queue-1
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 work-queue-2
+
+downloads/kubernetes/examples/job/expansions:
+total 24
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 5 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag  711 Sep 12 19:25 job.yaml.jinja2
+-rw-r--r-- 1 nag nag  366 Sep 12 19:25 job.yaml.txt
+-rw-r--r-- 1 nag nag 7360 Sep 12 19:25 README.md
+
+downloads/kubernetes/examples/job/work-queue-1:
+total 32
+drwxr-xr-x 2 nag nag  4096 Sep 12 19:25 .
+drwxr-xr-x 5 nag nag  4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag   927 Sep 12 19:25 Dockerfile
+-rw-r--r-- 1 nag nag   261 Sep 12 19:25 job.yaml
+-rw-r--r-- 1 nag nag 11560 Sep 12 19:25 README.md
+-rwxr-xr-x 1 nag nag   764 Sep 12 19:25 worker.py
+
+downloads/kubernetes/examples/job/work-queue-2:
+total 48
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 5 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag  723 Sep 12 19:25 Dockerfile
+-rw-r--r-- 1 nag nag  244 Sep 12 19:25 job.yaml
+-rw-r--r-- 1 nag nag 8718 Sep 12 19:25 README.md
+-rw-r--r-- 1 nag nag  240 Sep 12 19:25 redis-pod.yaml
+-rw-r--r-- 1 nag nag  135 Sep 12 19:25 redis-service.yaml
+-rw-r--r-- 1 nag nag 6169 Sep 12 19:25 rediswq.py
+-rwxr-xr-x 1 nag nag 1265 Sep 12 19:25 worker.py
+
+downloads/kubernetes/examples/k8petstore:
+total 76
+drwxr-xr-x  7 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 45 nag nag 4096 Sep 12 19:25 ..
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 bps-data-generator
+-rwxr-xr-x  1 nag nag 1459 Sep 12 19:25 build-push-containers.sh
+-rwxr-xr-x  1 nag nag 2408 Sep 12 19:25 docker-machine-dev.sh
+-rw-r--r--  1 nag nag  532 Sep 12 19:25 k8petstore.dot
+-rwxr-xr-x  1 nag nag 7500 Sep 12 19:25 k8petstore-loadbalancer.sh
+-rwxr-xr-x  1 nag nag 8508 Sep 12 19:25 k8petstore-nodeport.sh
+-rwxr-xr-x  1 nag nag 7049 Sep 12 19:25 k8petstore.sh
+-rw-r--r--  1 nag nag 7405 Sep 12 19:25 README.md
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 redis
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 redis-master
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 redis-slave
+drwxr-xr-x  4 nag nag 4096 Sep 12 19:25 web-server
+
+downloads/kubernetes/examples/k8petstore/bps-data-generator:
+total 12
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 7 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag  876 Sep 12 19:25 README.md
+
+downloads/kubernetes/examples/k8petstore/redis:
+total 16
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 7 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag  949 Sep 12 19:25 Dockerfile
+-rw-r--r-- 1 nag nag 1052 Sep 12 19:25 etc_redis_redis.conf
+
+downloads/kubernetes/examples/k8petstore/redis-master:
+total 16
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 7 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag  844 Sep 12 19:25 Dockerfile
+-rw-r--r-- 1 nag nag 1052 Sep 12 19:25 etc_redis_redis.conf
+
+downloads/kubernetes/examples/k8petstore/redis-slave:
+total 20
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 7 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag  754 Sep 12 19:25 Dockerfile
+-rw-r--r-- 1 nag nag 1052 Sep 12 19:25 etc_redis_redis.conf
+-rwxr-xr-x 1 nag nag 1106 Sep 12 19:25 run.sh
+
+downloads/kubernetes/examples/k8petstore/web-server:
+total 28
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 7 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag 1198 Sep 12 19:25 Dockerfile
+-rw-r--r-- 1 nag nag   88 Sep 12 19:25 dump.rdb
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 src
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 static
+-rw-r--r-- 1 nag nag  871 Sep 12 19:25 test.sh
+
+downloads/kubernetes/examples/k8petstore/web-server/src:
+total 16
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag 5815 Sep 12 19:25 main.go
+
+downloads/kubernetes/examples/k8petstore/web-server/static:
+total 24
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag 1049 Sep 12 19:25 histogram.js
+-rw-r--r-- 1 nag nag 1429 Sep 12 19:25 index.html
+-rw-r--r-- 1 nag nag 2328 Sep 12 19:25 script.js
+-rw-r--r-- 1 nag nag  984 Sep 12 19:25 style.css
+
+downloads/kubernetes/examples/kubectl-container:
+total 28
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 45 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r--  1 nag nag  710 Sep 12 19:25 Dockerfile
+-rw-r--r--  1 nag nag   13 Sep 12 19:25 .gitignore
+-rw-r--r--  1 nag nag 1605 Sep 12 19:25 Makefile
+-rw-r--r--  1 nag nag 1176 Sep 12 19:25 pod.json
+-rw-r--r--  1 nag nag 2184 Sep 12 19:25 README.md
+
+downloads/kubernetes/examples/meteor:
+total 36
+drwxr-xr-x  3 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 45 nag nag 4096 Sep 12 19:25 ..
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 dockerbase
+-rw-r--r--  1 nag nag  619 Sep 12 19:25 meteor-controller.json
+-rw-r--r--  1 nag nag  309 Sep 12 19:25 meteor-service.json
+-rw-r--r--  1 nag nag  688 Sep 12 19:25 mongo-pod.json
+-rw-r--r--  1 nag nag  309 Sep 12 19:25 mongo-service.json
+-rw-r--r--  1 nag nag 7042 Sep 12 19:25 README.md
+
+downloads/kubernetes/examples/meteor/dockerbase:
+total 16
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag 1131 Sep 12 19:25 Dockerfile
+-rw-r--r-- 1 nag nag  835 Sep 12 19:25 README.md
+
+downloads/kubernetes/examples/mysql-cinder-pd:
+total 20
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 45 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r--  1 nag nag  274 Sep 12 19:25 mysql-service.yaml
+-rw-r--r--  1 nag nag  743 Sep 12 19:25 mysql.yaml
+-rw-r--r--  1 nag nag 1973 Sep 12 19:25 README.md
+
+downloads/kubernetes/examples/mysql-galera:
+total 40
+drwxr-xr-x  3 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 45 nag nag 4096 Sep 12 19:25 ..
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 image
+-rw-r--r--  1 nag nag  174 Sep 12 19:25 pxc-cluster-service.yaml
+-rw-r--r--  1 nag nag 1310 Sep 12 19:25 pxc-node1.yaml
+-rw-r--r--  1 nag nag 1312 Sep 12 19:25 pxc-node2.yaml
+-rw-r--r--  1 nag nag 1312 Sep 12 19:25 pxc-node3.yaml
+-rw-r--r--  1 nag nag 8364 Sep 12 19:25 README.md
+
+downloads/kubernetes/examples/mysql-galera/image:
+total 28
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag  289 Sep 12 19:25 cluster.cnf
+-rwxr-xr-x 1 nag nag 6396 Sep 12 19:25 docker-entrypoint.sh
+-rw-r--r-- 1 nag nag 2401 Sep 12 19:25 Dockerfile
+-rw-r--r-- 1 nag nag  994 Sep 12 19:25 my.cnf
+
+downloads/kubernetes/examples/mysql-wordpress-pd:
+total 76
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:25 .
+drwxr-xr-x 45 nag nag  4096 Sep 12 19:25 ..
+-rw-r--r--  1 nag nag   412 Sep 12 19:25 gce-volumes.yaml
+-rw-r--r--  1 nag nag   396 Sep 12 19:25 local-volumes.yaml
+-rw-r--r--  1 nag nag  1288 Sep 12 19:25 mysql-deployment.yaml
+-rw-r--r--  1 nag nag    27 Sep 12 19:25 OWNERS
+-rw-r--r--  1 nag nag 12525 Sep 12 19:25 README.md
+-rw-r--r--  1 nag nag  1222 Sep 12 19:25 wordpress-deployment.yaml
+-rw-r--r--  1 nag nag 28948 Sep 12 19:25 WordPress.png
+
+downloads/kubernetes/examples/newrelic:
+total 36
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 45 nag nag 4096 Sep 12 19:25 ..
+-rwxr-xr-x  1 nag nag  835 Sep 12 19:25 config-to-secret.sh
+-rw-r--r--  1 nag nag  107 Sep 12 19:25 newrelic-config-template.yaml
+-rw-r--r--  1 nag nag  252 Sep 12 19:25 newrelic-config.yaml
+-rw-r--r--  1 nag nag 1529 Sep 12 19:25 newrelic-daemonset.yaml
+-rw-r--r--  1 nag nag   86 Sep 12 19:25 nrconfig.env
+-rw-r--r--  1 nag nag 5160 Sep 12 19:25 README.md
+
+downloads/kubernetes/examples/nfs:
+total 64
+drwxr-xr-x  4 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 45 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r--  1 nag nag  810 Sep 12 19:25 nfs-busybox-rc.yaml
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 nfs-data
+-rw-r--r--  1 nag nag  152 Sep 12 19:25 nfs-pvc.yaml
+-rw-r--r--  1 nag nag 9379 Sep 12 19:25 nfs-pv.png
+-rw-r--r--  1 nag nag  211 Sep 12 19:25 nfs-pv.yaml
+-rw-r--r--  1 nag nag  727 Sep 12 19:25 nfs-server-rc.yaml
+-rw-r--r--  1 nag nag  212 Sep 12 19:25 nfs-server-service.yaml
+-rw-r--r--  1 nag nag  660 Sep 12 19:25 nfs-web-rc.yaml
+-rw-r--r--  1 nag nag  120 Sep 12 19:25 nfs-web-service.yaml
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 provisioner
+-rw-r--r--  1 nag nag 5914 Sep 12 19:25 README.md
+
+downloads/kubernetes/examples/nfs/nfs-data:
+total 24
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag 1029 Sep 12 19:25 Dockerfile
+-rw-r--r-- 1 nag nag   13 Sep 12 19:25 index.html
+-rw-r--r-- 1 nag nag  667 Sep 12 19:25 README.md
+-rwxr-xr-x 1 nag nag 1796 Sep 12 19:25 run_nfs.sh
+
+downloads/kubernetes/examples/nfs/provisioner:
+total 12
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag  280 Sep 12 19:25 nfs-server-gce-pv.yaml
+
+downloads/kubernetes/examples/nodesjs-mongodb:
+total 40
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 45 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r--  1 nag nag  588 Sep 12 19:25 mongo-controller.yaml
+-rw-r--r--  1 nag nag  163 Sep 12 19:25 mongo-service.yaml
+-rw-r--r--  1 nag nag 9747 Sep 12 19:25 README.md
+-rw-r--r--  1 nag nag  575 Sep 12 19:25 web-controller-demo.yaml
+-rw-r--r--  1 nag nag  354 Sep 12 19:25 web-controller.yaml
+-rw-r--r--  1 nag nag  194 Sep 12 19:25 web-service.yaml
+
+downloads/kubernetes/examples/openshift-origin:
+total 64
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:25 .
+drwxr-xr-x 45 nag nag  4096 Sep 12 19:25 ..
+-rwxr-xr-x  1 nag nag  1429 Sep 12 19:25 cleanup.sh
+-rwxr-xr-x  1 nag nag  5764 Sep 12 19:25 create.sh
+-rw-r--r--  1 nag nag  1825 Sep 12 19:25 etcd-controller.yaml
+-rw-r--r--  1 nag nag   852 Sep 12 19:25 etcd-discovery-controller.yaml
+-rw-r--r--  1 nag nag   310 Sep 12 19:25 etcd-discovery-service.yaml
+-rw-r--r--  1 nag nag   384 Sep 12 19:25 etcd-service.yaml
+-rw-r--r--  1 nag nag     8 Sep 12 19:25 .gitignore
+-rw-r--r--  1 nag nag   714 Sep 12 19:25 openshift-controller.yaml
+-rw-r--r--  1 nag nag   106 Sep 12 19:25 openshift-origin-namespace.yaml
+-rw-r--r--  1 nag nag   187 Sep 12 19:25 openshift-service.yaml
+-rw-r--r--  1 nag nag 11509 Sep 12 19:25 README.md
+-rw-r--r--  1 nag nag     0 Sep 12 19:25 secret.json
+
+downloads/kubernetes/examples/phabricator:
+total 36
+drwxr-xr-x  3 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 45 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r--  1 nag nag 1060 Sep 12 19:25 phabricator-controller.json
+-rw-r--r--  1 nag nag  284 Sep 12 19:25 phabricator-service.json
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 php-phabricator
+-rw-r--r--  1 nag nag 7600 Sep 12 19:25 README.md
+-rwxr-xr-x  1 nag nag  935 Sep 12 19:25 setup.sh
+-rwxr-xr-x  1 nag nag  890 Sep 12 19:25 teardown.sh
+
+downloads/kubernetes/examples/phabricator/php-phabricator:
+total 20
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag  372 Sep 12 19:25 000-default.conf
+-rw-r--r-- 1 nag nag 1483 Sep 12 19:25 Dockerfile
+-rwxr-xr-x 1 nag nag 1076 Sep 12 19:25 run.sh
+
+downloads/kubernetes/examples/rbd:
+total 24
+drwxr-xr-x  3 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 45 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r--  1 nag nag  981 Sep 12 19:25 rbd.json
+-rw-r--r--  1 nag nag 1005 Sep 12 19:25 rbd-with-secret.json
+-rw-r--r--  1 nag nag 2787 Sep 12 19:25 README.md
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 secret
+
+downloads/kubernetes/examples/rbd/secret:
+total 12
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag  128 Sep 12 19:25 ceph-secret.yaml
+
+downloads/kubernetes/examples/redis:
+total 40
+drwxr-xr-x  3 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 45 nag nag 4096 Sep 12 19:25 ..
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 image
+-rw-r--r--  1 nag nag 7411 Sep 12 19:25 README.md
+-rw-r--r--  1 nag nag  506 Sep 12 19:25 redis-controller.yaml
+-rw-r--r--  1 nag nag  639 Sep 12 19:25 redis-master.yaml
+-rw-r--r--  1 nag nag  229 Sep 12 19:25 redis-proxy.yaml
+-rw-r--r--  1 nag nag  458 Sep 12 19:25 redis-sentinel-controller.yaml
+-rw-r--r--  1 nag nag  205 Sep 12 19:25 redis-sentinel-service.yaml
+
+downloads/kubernetes/examples/redis/image:
+total 88
+drwxr-xr-x 2 nag nag  4096 Sep 12 19:25 .
+drwxr-xr-x 3 nag nag  4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag   845 Sep 12 19:25 Dockerfile
+-rw-r--r-- 1 nag nag 36156 Sep 12 19:25 redis-master.conf
+-rw-r--r-- 1 nag nag 36143 Sep 12 19:25 redis-slave.conf
+-rwxr-xr-x 1 nag nag  2556 Sep 12 19:25 run.sh
+
+downloads/kubernetes/examples/rethinkdb:
+total 36
+drwxr-xr-x  3 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 45 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r--  1 nag nag  613 Sep 12 19:25 admin-pod.yaml
+-rw-r--r--  1 nag nag  211 Sep 12 19:25 admin-service.yaml
+-rw-r--r--  1 nag nag  179 Sep 12 19:25 driver-service.yaml
+-rwxr-xr-x  1 nag nag 1721 Sep 12 19:25 gen-pod.sh
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 image
+-rw-r--r--  1 nag nag  854 Sep 12 19:25 rc.yaml
+-rw-r--r--  1 nag nag 3993 Sep 12 19:25 README.md
+
+downloads/kubernetes/examples/rethinkdb/image:
+total 16
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag  977 Sep 12 19:25 Dockerfile
+-rw-r--r-- 1 nag nag 1671 Sep 12 19:25 run.sh
+
+downloads/kubernetes/examples/runtime-constraints:
+total 24
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:25 .
+drwxr-xr-x 45 nag nag  4096 Sep 12 19:25 ..
+-rw-r--r--  1 nag nag 12963 Sep 12 19:25 README.md
+
+downloads/kubernetes/examples/selenium:
+total 36
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 45 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r--  1 nag nag 6887 Sep 12 19:25 README.md
+-rw-r--r--  1 nag nag  773 Sep 12 19:25 selenium-hub-rc.yaml
+-rw-r--r--  1 nag nag  236 Sep 12 19:25 selenium-hub-svc.yaml
+-rw-r--r--  1 nag nag  664 Sep 12 19:25 selenium-node-chrome-rc.yaml
+-rw-r--r--  1 nag nag  670 Sep 12 19:25 selenium-node-firefox-rc.yaml
+-rw-r--r--  1 nag nag 1109 Sep 12 19:25 selenium-test.py
+
+downloads/kubernetes/examples/sharing-clusters:
+total 20
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 45 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r--  1 nag nag 1676 Sep 12 19:25 make_secret.go
+-rw-r--r--  1 nag nag 5610 Sep 12 19:25 README.md
+
+downloads/kubernetes/examples/spark:
+total 52
+drwxr-xr-x  3 nag nag  4096 Sep 12 19:25 .
+drwxr-xr-x 45 nag nag  4096 Sep 12 19:25 ..
+-rw-r--r--  1 nag nag   101 Sep 12 19:25 namespace-spark-cluster.yaml
+-rw-r--r--  1 nag nag 12020 Sep 12 19:25 README.md
+drwxr-xr-x  2 nag nag  4096 Sep 12 19:25 spark-gluster
+-rw-r--r--  1 nag nag   520 Sep 12 19:25 spark-master-controller.yaml
+-rw-r--r--  1 nag nag   155 Sep 12 19:25 spark-master-service.yaml
+-rw-r--r--  1 nag nag   181 Sep 12 19:25 spark-webui.yaml
+-rw-r--r--  1 nag nag   487 Sep 12 19:25 spark-worker-controller.yaml
+-rw-r--r--  1 nag nag   464 Sep 12 19:25 zeppelin-controller.yaml
+-rw-r--r--  1 nag nag   174 Sep 12 19:25 zeppelin-service.yaml
+
+downloads/kubernetes/examples/spark/spark-gluster:
+total 32
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag  241 Sep 12 19:25 glusterfs-endpoints.yaml
+-rw-r--r-- 1 nag nag 6615 Sep 12 19:25 README.md
+-rw-r--r-- 1 nag nag  809 Sep 12 19:25 spark-master-controller.yaml
+-rw-r--r-- 1 nag nag  228 Sep 12 19:25 spark-master-service.yaml
+-rw-r--r-- 1 nag nag  844 Sep 12 19:25 spark-worker-controller.yaml
+
+downloads/kubernetes/examples/storm:
+total 36
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 45 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r--  1 nag nag 5688 Sep 12 19:25 README.md
+-rw-r--r--  1 nag nag  435 Sep 12 19:25 storm-nimbus.json
+-rw-r--r--  1 nag nag  257 Sep 12 19:25 storm-nimbus-service.json
+-rw-r--r--  1 nag nag 1136 Sep 12 19:25 storm-worker-controller.json
+-rw-r--r--  1 nag nag  441 Sep 12 19:25 zookeeper.json
+-rw-r--r--  1 nag nag  266 Sep 12 19:25 zookeeper-service.json
+
+downloads/kubernetes/examples/vitess:
+total 116
+drwxr-xr-x  2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 45 nag nag 4096 Sep 12 19:25 ..
+-rwxr-xr-x  1 nag nag 2471 Sep 12 19:25 configure.sh
+-rw-r--r--  1 nag nag  207 Sep 12 19:25 create_test_table.sql
+-rw-r--r--  1 nag nag 2184 Sep 12 19:25 env.sh
+-rw-r--r--  1 nag nag 1630 Sep 12 19:25 etcd-controller-template.yaml
+-rwxr-xr-x  1 nag nag 1112 Sep 12 19:25 etcd-down.sh
+-rw-r--r--  1 nag nag  226 Sep 12 19:25 etcd-service-template.yaml
+-rwxr-xr-x  1 nag nag 2038 Sep 12 19:25 etcd-up.sh
+-rw-r--r--  1 nag nag  463 Sep 12 19:25 guestbook-controller.yaml
+-rwxr-xr-x  1 nag nag  918 Sep 12 19:25 guestbook-down.sh
+-rw-r--r--  1 nag nag  243 Sep 12 19:25 guestbook-service.yaml
+-rwxr-xr-x  1 nag nag  948 Sep 12 19:25 guestbook-up.sh
+-rw-r--r--  1 nag nag 4561 Sep 12 19:25 README.md
+-rwxr-xr-x  1 nag nag  821 Sep 12 19:25 vitess-down.sh
+-rwxr-xr-x  1 nag nag 5134 Sep 12 19:25 vitess-up.sh
+-rw-r--r--  1 nag nag 1533 Sep 12 19:25 vtctld-controller-template.yaml
+-rwxr-xr-x  1 nag nag  903 Sep 12 19:25 vtctld-down.sh
+-rw-r--r--  1 nag nag  346 Sep 12 19:25 vtctld-service.yaml
+-rwxr-xr-x  1 nag nag 1178 Sep 12 19:25 vtctld-up.sh
+-rw-r--r--  1 nag nag 1199 Sep 12 19:25 vtgate-controller-template.yaml
+-rwxr-xr-x  1 nag nag  903 Sep 12 19:25 vtgate-down.sh
+-rw-r--r--  1 nag nag  207 Sep 12 19:25 vtgate-service.yaml
+-rwxr-xr-x  1 nag nag 1176 Sep 12 19:25 vtgate-up.sh
+-rwxr-xr-x  1 nag nag 1482 Sep 12 19:25 vttablet-down.sh
+-rw-r--r--  1 nag nag 4072 Sep 12 19:25 vttablet-pod-template.yaml
+-rwxr-xr-x  1 nag nag 2270 Sep 12 19:25 vttablet-up.sh
+
+downloads/kubernetes/federation:
+total 16
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 9 nag nag 4096 Sep 12 19:25 ..
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 cluster
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 manifests
+
+downloads/kubernetes/federation/cluster:
+total 36
+drwxr-xr-x 2 nag nag  4096 Sep 12 19:25 .
+drwxr-xr-x 4 nag nag  4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag 12324 Sep 12 19:25 common.sh
+-rwxr-xr-x 1 nag nag   854 Sep 12 19:25 federation-down.sh
+-rwxr-xr-x 1 nag nag  1120 Sep 12 19:25 federation-up.sh
+-rw-r--r-- 1 nag nag  1911 Sep 12 19:25 template.go
+
+downloads/kubernetes/federation/manifests:
+total 44
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag  346 Sep 12 19:25 federation-apiserver-cluster-service.yaml
+-rw-r--r-- 1 nag nag 1650 Sep 12 19:25 federation-apiserver-deployment.yaml
+-rw-r--r-- 1 nag nag  349 Sep 12 19:25 federation-apiserver-lb-service.yaml
+-rw-r--r-- 1 nag nag  368 Sep 12 19:25 federation-apiserver-nodeport-service.yaml
+-rw-r--r-- 1 nag nag  191 Sep 12 19:25 federation-apiserver-secrets.yaml
+-rw-r--r-- 1 nag nag 1327 Sep 12 19:25 federation-controller-manager-deployment.yaml
+-rw-r--r-- 1 nag nag  345 Sep 12 19:25 federation-etcd-pvc.yaml
+-rw-r--r-- 1 nag nag   75 Sep 12 19:25 federation-ns.yaml
+-rw-r--r-- 1 nag nag   21 Sep 12 19:25 .gitignore
+
+downloads/kubernetes/platforms:
+total 20
+drwxr-xr-x 5 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 9 nag nag 4096 Sep 12 19:25 ..
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:24 darwin
+drwxr-xr-x 7 nag nag 4096 Sep 12 19:24 linux
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:24 windows
+
+downloads/kubernetes/platforms/darwin:
+total 16
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 5 nag nag 4096 Sep 12 19:24 ..
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 386
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 amd64
+
+downloads/kubernetes/platforms/darwin/386:
+total 45504
+drwxr-xr-x 2 nag nag     4096 Sep 12 19:24 .
+drwxr-xr-x 4 nag nag     4096 Sep 12 19:24 ..
+-rwxr-xr-x 1 nag nag 46585420 Sep 12 19:24 kubectl
+
+downloads/kubernetes/platforms/darwin/amd64:
+total 54556
+drwxr-xr-x 2 nag nag     4096 Sep 12 19:24 .
+drwxr-xr-x 4 nag nag     4096 Sep 12 19:24 ..
+-rwxr-xr-x 1 nag nag 55853472 Sep 12 19:24 kubectl
+
+downloads/kubernetes/platforms/linux:
+total 28
+drwxr-xr-x 7 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 5 nag nag 4096 Sep 12 19:24 ..
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 386
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 amd64
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 arm
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 arm64
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 ppc64le
+
+downloads/kubernetes/platforms/linux/386:
+total 46140
+drwxr-xr-x 2 nag nag     4096 Sep 12 19:24 .
+drwxr-xr-x 7 nag nag     4096 Sep 12 19:24 ..
+-rwxr-xr-x 1 nag nag 47237248 Sep 12 19:24 kubectl
+
+downloads/kubernetes/platforms/linux/amd64:
+total 55208
+drwxr-xr-x 2 nag nag     4096 Sep 12 19:24 .
+drwxr-xr-x 7 nag nag     4096 Sep 12 19:24 ..
+-rwxr-xr-x 1 nag nag 56521832 Sep 12 19:24 kubectl
+
+downloads/kubernetes/platforms/linux/arm:
+total 45416
+drwxr-xr-x 2 nag nag     4096 Sep 12 19:24 .
+drwxr-xr-x 7 nag nag     4096 Sep 12 19:24 ..
+-rwxr-xr-x 1 nag nag 46496024 Sep 12 19:24 kubectl
+
+downloads/kubernetes/platforms/linux/arm64:
+total 54420
+drwxr-xr-x 2 nag nag     4096 Sep 12 19:24 .
+drwxr-xr-x 7 nag nag     4096 Sep 12 19:24 ..
+-rwxr-xr-x 1 nag nag 55717000 Sep 12 19:24 kubectl
+
+downloads/kubernetes/platforms/linux/ppc64le:
+total 55008
+drwxr-xr-x 2 nag nag     4096 Sep 12 19:24 .
+drwxr-xr-x 7 nag nag     4096 Sep 12 19:24 ..
+-rwxr-xr-x 1 nag nag 56318192 Sep 12 19:24 kubectl
+
+downloads/kubernetes/platforms/windows:
+total 16
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:24 .
+drwxr-xr-x 5 nag nag 4096 Sep 12 19:24 ..
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 386
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:24 amd64
+
+downloads/kubernetes/platforms/windows/386:
+total 46140
+drwxr-xr-x 2 nag nag     4096 Sep 12 19:24 .
+drwxr-xr-x 4 nag nag     4096 Sep 12 19:24 ..
+-rwxr-xr-x 1 nag nag 47238144 Sep 12 19:24 kubectl.exe
+
+downloads/kubernetes/platforms/windows/amd64:
+total 55056
+drwxr-xr-x 2 nag nag     4096 Sep 12 19:24 .
+drwxr-xr-x 4 nag nag     4096 Sep 12 19:24 ..
+-rwxr-xr-x 1 nag nag 56367104 Sep 12 19:24 kubectl.exe
+
+downloads/kubernetes/server:
+total 1357232
+drwxr-xr-x 3 nag nag      4096 Sep 25 22:00 .
+drwxr-xr-x 9 nag nag      4096 Sep 12 19:25 ..
+drwxr-xr-x 4 nag nag      4096 Sep 12 19:21 kubernetes
+-rw-r--r-- 1 nag nag     40498 Sep 12 19:25 kubernetes-manifests.tar.gz
+-rw-r--r-- 1 nag nag     45626 Sep 12 19:24 kubernetes-salt.tar.gz
+-rw-r--r-- 1 nag nag 369022186 Sep 12 19:24 kubernetes-server-linux-amd64.tar.gz
+-rw-r--r-- 1 nag nag 351891863 Sep 12 19:24 kubernetes-server-linux-arm64.tar.gz
+-rw-r--r-- 1 nag nag 340822251 Sep 12 19:25 kubernetes-server-linux-arm.tar.gz
+-rw-r--r-- 1 nag nag 327941159 Sep 12 19:25 kubernetes-server-linux-ppc64le.tar.gz
+
+downloads/kubernetes/server/kubernetes:
+total 44444
+drwxr-xr-x 4 nag nag     4096 Sep 12 19:21 .
+drwxr-xr-x 3 nag nag     4096 Sep 25 22:00 ..
+drwxr-xr-x 2 nag nag     4096 Sep 12 19:21 addons
+-rw-r--r-- 1 nag nag 41955880 Sep 12 19:21 kubernetes-src.tar.gz
+-rw-r--r-- 1 nag nag  3533536 Sep 12 19:21 LICENSES
+drwxr-xr-x 3 nag nag     4096 Sep 12 19:21 server
+
+downloads/kubernetes/server/kubernetes/addons:
+total 8
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:21 .
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:21 ..
+
+downloads/kubernetes/server/kubernetes/server:
+total 12
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:21 .
+drwxr-xr-x 4 nag nag 4096 Sep 12 19:21 ..
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:21 bin
+
+downloads/kubernetes/server/kubernetes/server/bin:
+total 1529100
+drwxr-xr-x 2 nag nag      4096 Sep 12 19:21 .
+drwxr-xr-x 3 nag nag      4096 Sep 12 19:21 ..
+-rwxr-xr-x 1 nag nag 103645952 Sep 12 19:21 federation-apiserver
+-rw-r--r-- 1 nag nag        33 Sep 12 19:21 federation-apiserver.docker_tag
+-rw-r--r-- 1 nag nag 104956928 Sep 12 19:21 federation-apiserver.tar
+-rwxr-xr-x 1 nag nag  59307592 Sep 12 19:21 federation-controller-manager
+-rw-r--r-- 1 nag nag        33 Sep 12 19:21 federation-controller-manager.docker_tag
+-rw-r--r-- 1 nag nag  60618752 Sep 12 19:21 federation-controller-manager.tar
+-rwxr-xr-x 1 nag nag 138698680 Sep 12 19:21 hyperkube
+-rwxr-xr-x 1 nag nag 110024224 Sep 12 19:21 kube-apiserver
+-rw-r--r-- 1 nag nag        33 Sep 12 19:21 kube-apiserver.docker_tag
+-rw-r--r-- 1 nag nag 111335424 Sep 12 19:21 kube-apiserver.tar
+-rwxr-xr-x 1 nag nag  99978904 Sep 12 19:21 kube-controller-manager
+-rw-r--r-- 1 nag nag        33 Sep 12 19:21 kube-controller-manager.docker_tag
+-rw-r--r-- 1 nag nag 101289984 Sep 12 19:21 kube-controller-manager.tar
+-rwxr-xr-x 1 nag nag  56521832 Sep 12 19:21 kubectl
+-rwxr-xr-x 1 nag nag  49720600 Sep 12 19:21 kube-dns
+-rwxr-xr-x 1 nag nag 108097480 Sep 12 19:21 kubelet
+-rwxr-xr-x 1 nag nag 105407864 Sep 12 19:21 kubemark
+-rwxr-xr-x 1 nag nag  50708696 Sep 12 19:21 kube-proxy
+-rw-r--r-- 1 nag nag        33 Sep 12 19:21 kube-proxy.docker_tag
+-rw-r--r-- 1 nag nag 186166784 Sep 12 19:21 kube-proxy.tar
+-rwxr-xr-x 1 nag nag  58973288 Sep 12 19:21 kube-scheduler
+-rw-r--r-- 1 nag nag        33 Sep 12 19:21 kube-scheduler.docker_tag
+-rw-r--r-- 1 nag nag  60284416 Sep 12 19:21 kube-scheduler.tar
+
+downloads/kubernetes/third_party:
+total 12
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 9 nag nag 4096 Sep 12 19:25 ..
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 htpasswd
+
+downloads/kubernetes/third_party/htpasswd:
+total 20
+drwxr-xr-x 2 nag nag 4096 Sep 12 19:25 .
+drwxr-xr-x 3 nag nag 4096 Sep 12 19:25 ..
+-rw-r--r-- 1 nag nag 1417 Sep 12 19:25 COPYING
+-rw-r--r-- 1 nag nag 5219 Sep 12 19:25 htpasswd.py

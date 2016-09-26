@@ -1,4 +1,47 @@
-total 55208
--rwxr-xr-x 1 nag nag 56521832 Sep 25 20:34 kubectl
-drwxrwxr-x 3 nag nag     4096 Sep 25 20:34 master
-drwxrwxr-x 3 nag nag     4096 Sep 25 20:34 node
+binaries:
+total 55216
+drwxrwxr-x  4 nag nag     4096 Sep 25 22:00 .
+drwxrwxr-x 10 nag nag     4096 Sep 25 22:00 ..
+-rwxr-xr-x  1 nag nag 56521832 Sep 25 22:00 kubectl
+drwxrwxr-x  3 nag nag     4096 Sep 25 22:00 master
+drwxrwxr-x  3 nag nag     4096 Sep 25 22:00 node
+
+binaries/master:
+total 12
+drwxrwxr-x 3 nag nag 4096 Sep 25 22:00 .
+drwxrwxr-x 4 nag nag 4096 Sep 25 22:00 ..
+drwxrwxr-x 2 nag nag 4096 Sep 25 22:00 bin
+
+binaries/master/bin:
+total 321480
+drwxrwxr-x 2 nag nag      4096 Sep 25 22:00 .
+drwxrwxr-x 3 nag nag      4096 Sep 25 22:00 ..
+-rwxrwxr-x 1 nag nag  20169568 Sep 25 22:00 etcd
+-rwxrwxr-x 1 nag nag  18431680 Sep 25 22:00 etcdctl
+-rwxr-xr-x 1 nag nag  21599400 Sep 25 22:00 flanneld
+-rwxr-xr-x 1 nag nag 110024224 Sep 25 22:00 kube-apiserver
+-rwxr-xr-x 1 nag nag  99978904 Sep 25 22:00 kube-controller-manager
+-rwxr-xr-x 1 nag nag  58973288 Sep 25 22:00 kube-scheduler
+
+binaries/node:
+total 12
+drwxrwxr-x 3 nag nag 4096 Sep 25 22:00 .
+drwxrwxr-x 4 nag nag 4096 Sep 25 22:00 ..
+drwxrwxr-x 2 nag nag 4096 Sep 25 22:00 bin
+
+binaries/node/bin:
+total 309788
+drwxrwxr-x 2 nag nag      4096 Sep 25 22:00 .
+drwxrwxr-x 3 nag nag      4096 Sep 25 22:00 ..
+-rwxr-xr-x 1 nag nag  15675272 Sep 25 22:00 docker
+-rwxr-xr-x 1 nag nag  11240808 Sep 25 22:00 docker-containerd
+-rwxr-xr-x 1 nag nag  10535848 Sep 25 22:00 docker-containerd-ctr
+-rwxr-xr-x 1 nag nag   3721616 Sep 25 22:00 docker-containerd-shim
+-rwxr-xr-x 1 nag nag  45410064 Sep 25 22:00 dockerd
+-rwxr-xr-x 1 nag nag   2879456 Sep 25 22:00 docker-proxy
+-rwxr-xr-x 1 nag nag   8724000 Sep 25 22:00 docker-runc
+-rwxrwxr-x 1 nag nag  20169568 Sep 25 22:00 etcd
+-rwxrwxr-x 1 nag nag  18431680 Sep 25 22:00 etcdctl
+-rwxr-xr-x 1 nag nag  21599400 Sep 25 22:00 flanneld
+-rwxr-xr-x 1 nag nag 108097480 Sep 25 22:00 kubelet
+-rwxr-xr-x 1 nag nag  50708696 Sep 25 22:00 kube-proxy
