@@ -27,6 +27,8 @@ KUBE_LOGTOSTDERR="--logtostderr=true"
 # --v=0: log level for V logs
 KUBE_LOG_LEVEL="--v=4"
 
+KUBE_HTTPS="--kubelet-https=true"
+
 # --etcd-servers=[]: List of etcd servers to watch (http://ip:port), 
 # comma separated. Mutually exclusive with -etcd-config
 KUBE_ETCD_SERVERS="--etcd-servers=${ETCD_SERVERS}"
@@ -62,23 +64,24 @@ KUBE_ADMISSION_CONTROL="--admission-control=${ADMISSION_CONTROL}"
 # --client-ca-file="": If set, any request presenting a client certificate signed
 # by one of the authorities in the client-ca-file is authenticated with an identity
 # corresponding to the CommonName of the client certificate.
-#KUBE_API_CLIENT_CA_FILE="--client-ca-file=/srv/kubernetes/ca.crt"
-KUBE_API_CLIENT_CA_FILE=""
+KUBE_API_CLIENT_CA_FILE="--client-ca-file=/srv/kubernetes/ca.crt"
+#KUBE_API_CLIENT_CA_FILE=""
 
 # --tls-cert-file="": File containing x509 Certificate for HTTPS.  (CA cert, if any,
 # concatenated after server cert). If HTTPS serving is enabled, and --tls-cert-file
 # and --tls-private-key-file are not provided, a self-signed certificate and key are
 # generated for the public address and saved to /var/run/kubernetes.
-#KUBE_API_TLS_CERT_FILE="--tls-cert-file=/srv/kubernetes/server.cert"
-KUBE_API_TLS_CERT_FILE=""
+KUBE_API_TLS_CERT_FILE="--tls-cert-file=/srv/kubernetes/server.crt"
+#KUBE_API_TLS_CERT_FILE=""
 
 # --tls-private-key-file="": File containing x509 private key matching --tls-cert-file.
-#KUBE_API_TLS_PRIVATE_KEY_FILE="--tls-private-key-file=/srv/kubernetes/server.key"
-KUBE_API_TLS_PRIVATE_KEY_FILE=""
+KUBE_API_TLS_PRIVATE_KEY_FILE="--tls-private-key-file=/srv/kubernetes/server.key"
+#KUBE_API_TLS_PRIVATE_KEY_FILE=""
 EOF
 
 KUBE_APISERVER_OPTS="   \${KUBE_LOGTOSTDERR}         \\
                         \${KUBE_LOG_LEVEL}           \\
+                        \${KUBE_HTTPS}           \\
                         \${KUBE_ETCD_SERVERS}        \\
                         \${KUBE_API_ADDRESS}         \\
                         \${KUBE_API_PORT}            \\
