@@ -15,7 +15,7 @@ FLANNEL_VERSION=${FLANNEL_VERSION:-"0.6.2"}
 ETCD_VERSION=${ETCD_VERSION:-"3.0.10"}
 
 # Define k8s version to use.
-K8S_VERSION=${K8S_VERSION:-"1.3.7"}
+K8S_VERSION=${K8S_VERSION:-"1.4.0"}
 
 DOCKER_DOWNLOAD_URL=\
 "https://get.docker.com/builds/Linux/x86_64/docker-${DOCKER_VERSION}.tgz"
