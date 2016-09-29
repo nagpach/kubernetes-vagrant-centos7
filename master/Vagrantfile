@@ -22,7 +22,7 @@ Vagrant.configure(2) do |config|
     sudo yum -y update
     sudo systemctl stop firewalld
     sudo systemctl disable firewalld
-    sudo yum -y install ntp
+    sudo yum -y install ntp net-tools
     sudo systemctl start ntpd
     sudo systemctl enable ntpd
 
@@ -36,6 +36,10 @@ Vagrant.configure(2) do |config|
     mkdir /opt/kubernetes
     mkdir /opt/kubernetes/bin
     mkdir /opt/kubernetes/cfg
+
+    mkdir -p /srv/kubernetes
+    cp /vagrant/keys/master/* /srv/kubernetes
+
     cp /kube/binaries/master/bin/* /opt/kubernetes/bin 
     /vagrant/scripts/etcd.sh
     /vagrant/scripts/apiserver.sh "192.168.20.2" "http://192.168.20.2:2379" "10.10.10.0/24" "" 
